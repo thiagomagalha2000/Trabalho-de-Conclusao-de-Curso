@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  21 MAY 2021 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  28 MAY 2021 21:26
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -269,23 +269,39 @@ Overfull \hbox (2.55211pt too wide) in paragraph at lines 64--65
 ncado
  []
 
-[1] [2] [3] [4] [5] (TCC.aux) ) 
+[1] [2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[5]
+Overfull \hbox (0.36003pt too wide) in paragraph at lines 135--140
+[]  $[]$ 
+ []
+
+
+Overfull \hbox (3.22418pt too wide) in paragraph at lines 135--140
+\OT1/cmr/m/n/12 Method to Eva-lu-ate Web Ac-ces-si-bi-lity for Users With Low V
+i-sion"em
+ []
+
+[6] [7] (TCC.aux) ) 
 Here is how much of TeX's memory you used:
- 3352 strings out of 479334
- 46837 string characters out of 2857559
- 356498 words of memory out of 3000000
- 20749 multiletter control sequences out of 15000+200000
+ 3365 strings out of 479334
+ 47021 string characters out of 2857559
+ 357500 words of memory out of 3000000
+ 20762 multiletter control sequences out of 15000+200000
  412619 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,1595b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on TCC.pdf (8 pages, 113325 bytes).
+ 68i,7n,74p,1718b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on TCC.pdf (10 pages, 123027 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
