@@ -5,6 +5,7 @@
 \contentsline {subsection}{\numberline {2.2}Avaliação de Acessibilidade de Sites}{4}{}%
 \contentsline {section}{\numberline {3}TIPOS DE DEFICIÊNCIA}{6}{}%
 \contentsline {section}{\numberline {4}ANÁLISE DA DIRETRIZ WCAG}{6}{}%
-\contentsline {section}{\numberline {5}ANÁLISE DOS SITES DE NOTÍCIA}{6}{}%
-\contentsline {section}{\numberline {6}CONCLUSÃO}{6}{}%
+\contentsline {section}{\numberline {5}METODOLOGIA}{6}{}%
+\contentsline {section}{\numberline {6}ANÁLISE DOS SITES DE NOTÍCIA}{6}{}%
+\contentsline {section}{\numberline {7}CONCLUSÃO}{6}{}%
 \contentsline {section}{Referência}{6}{}%
