@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  31 MAY 2021 10:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  4 JUN 2021 19:25
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -181,6 +181,9 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
@@ -189,20 +192,20 @@ File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 ) (TCC.aux)
 \openout1 = `TCC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
@@ -228,25 +231,25 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 <logo.png, id=1, 770.88pt x 767.86874pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 15.
+Package pdftex.def Info: logo.png  used on input line 16.
 (pdftex.def)             Requested size: 154.17326pt x 153.57103pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
 .
 
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 15
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 16
 .
 
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
@@ -255,7 +258,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [1
 
 {C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./logo.png>]
-Underfull \hbox (badness 2600) in paragraph at lines 45--47
+Underfull \hbox (badness 2600) in paragraph at lines 46--48
 \OT1/cmr/m/n/12 (IFCE) - Cam-pus Ma-ra-canau,
  []
 
@@ -263,45 +266,28 @@ Underfull \hbox (badness 2600) in paragraph at lines 45--47
 \tf@toc=\write3
 \openout3 = `TCC.toc'.
 
- [1]
-Overfull \hbox (2.55211pt too wide) in paragraph at lines 64--65
-[]\OT1/cmr/m/n/12 Estamos vi-vendo em uma epoca em que a tec-no-lo-gia tem ava
-ncado
- []
-
-[1] [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+ [1] [1] [2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-[5]
-Overfull \hbox (0.36003pt too wide) in paragraph at lines 136--141
-[]  $[]$ 
- []
-
-
-Overfull \hbox (3.22418pt too wide) in paragraph at lines 136--141
-\OT1/cmr/m/n/12 Method to Eva-lu-ate Web Ac-ces-si-bi-lity for Users With Low V
-i-sion"em
- []
-
-[6] [7] (TCC.aux) ) 
+[5] [6] [7] [8] (TCC.aux) ) 
 Here is how much of TeX's memory you used:
- 3365 strings out of 479334
- 47021 string characters out of 2857559
- 357500 words of memory out of 3000000
- 20762 multiletter control sequences out of 15000+200000
+ 3402 strings out of 479334
+ 47719 string characters out of 2857559
+ 355843 words of memory out of 3000000
+ 20795 multiletter control sequences out of 15000+200000
  412619 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,1718b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on TCC.pdf (10 pages, 123533 bytes).
+ 68i,7n,74p,1718b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on TCC.pdf (11 pages, 126676 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

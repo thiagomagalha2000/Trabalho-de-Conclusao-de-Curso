@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}REVISÃO BIBLIOGRÁFICA}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Diretrizes}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Avaliação de Acessibilidade de Sites}{4}{}%
-\contentsline {section}{\numberline {3}TIPOS DE DEFICIÊNCIA}{6}{}%
-\contentsline {section}{\numberline {4}ANÁLISE DA DIRETRIZ WCAG}{6}{}%
-\contentsline {section}{\numberline {5}METODOLOGIA}{6}{}%
-\contentsline {section}{\numberline {6}ANÁLISE DOS SITES DE NOTÍCIA}{6}{}%
-\contentsline {section}{\numberline {7}CONCLUSÃO}{6}{}%
-\contentsline {section}{Referência}{6}{}%
+\contentsline {section}{\numberline {3}TIPOS DE DEFICIÊNCIA}{7}{}%
+\contentsline {section}{\numberline {4}ANÁLISE DA DIRETRIZ WCAG}{7}{}%
+\contentsline {section}{\numberline {5}METODOLOGIA}{7}{}%
+\contentsline {section}{\numberline {6}ANÁLISE DOS SITES DE NOTÍCIA}{7}{}%
+\contentsline {section}{\numberline {7}CONCLUSÃO}{7}{}%
+\contentsline {section}{Referência}{7}{}%
