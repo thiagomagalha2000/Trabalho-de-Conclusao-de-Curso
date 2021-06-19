@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  7 JUN 2021 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  18 JUN 2021 21:39
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -266,28 +266,110 @@ Underfull \hbox (badness 2600) in paragraph at lines 46--48
 \tf@toc=\write3
 \openout3 = `TCC.toc'.
 
- [1] [1] [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+ [1] [1]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-[5] [6] [7] [8] (TCC.aux) ) 
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+<Fluxograma - Metodologia TCC.png, id=24, 672.26157pt x 435.12563pt>
+File: Fluxograma - Metodologia TCC.png Graphic file (type png)
+<use Fluxograma - Metodologia TCC.png>
+Package pdftex.def Info: Fluxograma - Metodologia TCC.png  used on input line 1
+01.
+(pdftex.def)             Requested size: 268.89986pt x 174.04716pt.
+[3 <./Fluxograma - Metodologia TCC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+<Perceptível.png, id=33, 332.74312pt x 328.22626pt>
+File: Perceptível.png Graphic file (type png)
+<use Perceptível.png>
+Package pdftex.def Info: Perceptível.png  used on input line 122.
+(pdftex.def)             Requested size: 299.46603pt x 295.4009pt.
+[5 <./Perceptível.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+<Operável.png, id=38, 331.99031pt x 330.48468pt>
+File: Operável.png Graphic file (type png)
+<use Operável.png>
+Package pdftex.def Info: Operável.png  used on input line 131.
+(pdftex.def)             Requested size: 298.7885pt x 297.43346pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+[6 <./Operável.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+<Compreensível.png, id=43, 376.40625pt x 320.69812pt>
+File: Compreensível.png Graphic file (type png)
+<use Compreensível.png>
+Package pdftex.def Info: Compreensível.png  used on input line 140.
+(pdftex.def)             Requested size: 301.1254pt x 256.55884pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+<Robusto.png, id=44, 330.48468pt x 71.51718pt>
+File: Robusto.png Graphic file (type png)
+<use Robusto.png>
+Package pdftex.def Info: Robusto.png  used on input line 147.
+(pdftex.def)             Requested size: 297.43346pt x 64.36485pt.
+[7 <./Compreensível.png>] [8 <./Robusto.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+[9]
+Overfull \hbox (5.63957pt too wide) in paragraph at lines 185--190
+\OT1/cmr/m/n/10 https://www.w3.org/Translations/WCAG20-pt-PT/WCAG20-pt-PT-20141
+024/ 
+ []
+
+[10] [11] (TCC.aux) ) 
 Here is how much of TeX's memory you used:
- 3402 strings out of 479334
- 47719 string characters out of 2857559
+ 3434 strings out of 479334
+ 48388 string characters out of 2857559
  355843 words of memory out of 3000000
- 20795 multiletter control sequences out of 15000+200000
+ 20822 multiletter control sequences out of 15000+200000
  412619 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,1718b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on TCC.pdf (11 pages, 126750 bytes).
+ 68i,7n,74p,2234b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on TCC.pdf (14 pages, 203652 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
