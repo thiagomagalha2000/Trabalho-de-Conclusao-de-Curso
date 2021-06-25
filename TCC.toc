@@ -1,11 +1,12 @@
 \babel@toc {brazil}{}
 \contentsline {section}{\numberline {1}INTRODUÇÃO}{1}{}%
 \contentsline {section}{\numberline {2}METODOLOGIA}{2}{}%
-\contentsline {section}{\numberline {3}TRABALHOS RELACIONADOS}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Diretrizes}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Avaliação de Acessibilidade de Sites}{8}{}%
-\contentsline {section}{\numberline {4}TIPOS DE DEFICIÊNCIA}{10}{}%
-\contentsline {section}{\numberline {5}ANÁLISE DA DIRETRIZ WCAG}{10}{}%
-\contentsline {section}{\numberline {6}ANÁLISE DOS SITES DE NOTÍCIA}{10}{}%
-\contentsline {section}{\numberline {7}CONCLUSÃO}{10}{}%
-\contentsline {section}{Referência}{10}{}%
+\contentsline {section}{\numberline {3}CRONOGRAMA}{3}{}%
+\contentsline {section}{\numberline {4}TRABALHOS RELACIONADOS}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Diretrizes}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Avaliação de Acessibilidade de Sites}{9}{}%
+\contentsline {section}{\numberline {5}TIPOS DE DEFICIÊNCIA}{11}{}%
+\contentsline {section}{\numberline {6}ANÁLISE DA DIRETRIZ WCAG}{11}{}%
+\contentsline {section}{\numberline {7}ANÁLISE DOS SITES DE NOTÍCIA}{11}{}%
+\contentsline {section}{\numberline {8}CONCLUSÃO}{11}{}%
+\contentsline {section}{Referência}{11}{}%
