@@ -4,9 +4,11 @@
 \contentsline {section}{\numberline {3}CRONOGRAMA}{3}{}%
 \contentsline {section}{\numberline {4}TRABALHOS RELACIONADOS}{4}{}%
 \contentsline {subsection}{\numberline {4.1}Diretrizes}{4}{}%
-\contentsline {subsection}{\numberline {4.2}Avaliação de Acessibilidade de Sites}{9}{}%
-\contentsline {section}{\numberline {5}TIPOS DE DEFICIÊNCIA}{11}{}%
-\contentsline {section}{\numberline {6}ANÁLISE DA DIRETRIZ WCAG}{11}{}%
-\contentsline {section}{\numberline {7}ANÁLISE DOS SITES DE NOTÍCIA}{11}{}%
-\contentsline {section}{\numberline {8}CONCLUSÃO}{11}{}%
-\contentsline {section}{Referência}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Avaliação de Acessibilidade de Sites}{8}{}%
+\contentsline {section}{\numberline {5}TIPOS DE DEFICIÊNCIA}{10}{}%
+\contentsline {subsection}{\numberline {5.1}Formas de deficiência visual}{10}{}%
+\contentsline {subsection}{\numberline {5.2}Formas de deficiência auditiva}{11}{}%
+\contentsline {section}{\numberline {6}ANÁLISE DA DIRETRIZ WCAG}{12}{}%
+\contentsline {section}{\numberline {7}ANÁLISE DOS SITES DE NOTÍCIA}{12}{}%
+\contentsline {section}{\numberline {8}CONCLUSÃO}{12}{}%
+\contentsline {section}{Referência}{12}{}%
