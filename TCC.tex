@@ -6,6 +6,9 @@
 \usepackage{graphicx}
 \usepackage{indentfirst}
 \usepackage{setspace}
+\usepackage{longtable}
+\usepackage{tikz}
+\usetikzlibrary{shapes,backgrounds}
 
 \begin{document}
 \thispagestyle{empty}
@@ -69,103 +72,37 @@ Dentre a diversidade de conteúdo da Internet, pode-se destacar os portais de no
 
 Outra diretriz usada atualmente é a WCAG (Web Content Accessibility Guidelines), que já está na sua segunda versão, isto é, a WCAG 2.0. A WCAG possuí doze diretrizes organizadas em quatro princípios diferentes, possuindo algumas recomendações para cada princípio [3], que são indispensáveis em qualquer plataforma digital, inclusive nos sites de notícia.
 
-O WCAG é um padrão adotado em diversos trabalhos de avaliação de acessibilidade, em [4], foi avaliado a acessibilidade dos vídeos na plataforma online de curso MOOC. Foram analisados os vídeos através da verificação do uso de uma alternativa à informação visual, de audiodescrição, transcrições, de uma fonte boa, com um tamanho de letra razoável e de alto-contraste. Em o [5] e em [6] foi analisado a existência de acessibilidade dos sites de ensino do nível superior da Índia utilizando o WCAG e uma ferramenta de avaliação, chamada de TAW. Em 2016, foi feito um acompanhamento, por meio do WCAG, dos serviços de governo eletrônico da Arábia Saudita, com o objetivo de analisar o nível de conscientização e as políticas do próprio governo [7]. Por fim, em [8], foi feito uma analise de um método heurístico existente para investigar o nível de acessibilidade de 40 sites em relação aos usuários com baixa visão juntamente com a diretriz WCAG 2.1, o método utilizado foi proposto por Brajnik.
+O WCAG é um padrão adotado em diversos trabalhos de avaliação de acessibilidade, em [4], foi avaliado a acessibilidade dos vídeos na plataforma online de curso MOOC. Foram analisados os vídeos através da verificação do uso de uma alternativa à informação visual, de audiodescrição, transcrições, de uma fonte boa, com um tamanho de letra razoável e de alto-contraste. Em o [5] e em [6] foi analisado a existência de acessibilidade dos sites de ensino do nível superior da Índia utilizando o WCAG e uma ferramenta de avaliação, chamada de TAW. Em 2016, foi feito um acompanhamento, por meio do WCAG, dos serviços de governo eletrônico da Arábia Saudita, com o objetivo de analisar o nível de conscientização e as políticas do próprio governo [7]. Por fim, em [8], foi feito uma análise de um método heurístico existente para investigar o nível de acessibilidade de 40 sites em relação aos usuários com baixa visão juntamente com a diretriz WCAG 2.1, o método utilizado foi proposto por Brajnik.
 
-Este artigo propõe a avaliação de acessibilidade de dez dos principais portais de notícias brasileiros, que tem um papel importantíssimo em relação ao repasse de informação para o público em geral, inclusive para os usuários PCDs, supondo que eles não atendem de forma plena os requisitos desse público. Para isso será proposto uma avaliação da acessibilidade de dez sites de notícia para pessoas que possuem algum grau de deficiência visual ou auditiva. A pesquisa tem o intuito de analisar os sites, de forma plena, para quantificar o grau de acessibilidade de cada um. Assim, o objetivo geral do trabalho é avaliar sites de notícias que possuem formas de acessibilidade digital, sejam completamente, parcialmente ou não acessíveis para a deficiência visual e para a deficiência auditiva. A metodologia empregada consiste em caracterizar a definição de acessibilidade digital, verificar as formas de deficiência existentes que afetam a usabilidade dos sites, apresentando a diretriz WCAG, escolhendo os princípios destinados aos deficientes visuais e auditivos para mensurar os sites de notícias em relação a acessibilidade.
+Este artigo propõe a avaliação de acessibilidade de 10 dos principais portais de notícias brasileiros, que tem um papel importantíssimo em relação ao repasse de informação para o público em geral, inclusive para os usuários PCDs, supondo que eles não atendem de forma plena os requisitos desse público. Para isso será proposto uma avaliação da acessibilidade de 10 sites de notícia para pessoas que possuem algum grau de deficiência visual ou auditiva. A pesquisa tem o intuito de analisar os sites, de forma plena, para quantificar o grau de acessibilidade de cada um. Assim, o objetivo geral do trabalho é avaliar sites de notícias que possuem formas de acessibilidade digital, sejam completamente, parcialmente ou não acessíveis para a deficiência visual e para a deficiência auditiva. A metodologia empregada consiste em caracterizar a definição de acessibilidade digital, verificar as formas de deficiência existentes que afetam a usabilidade dos sites, apresentando a diretriz WCAG, escolhendo os princípios destinados aos deficientes visuais e auditivos para mensurar os sites de notícias em relação a acessibilidade.
 
-O restante do artigo está organizado da seguinte forma. Na seção 2 será mostrado a metodologia que será aplicada para fazer a analise dos sites. Na seção 3 será apresentado o estado da arte de avaliação de acessibilidade em sites usando as diretrizes, mostrando quais diretrizes usaram e em quais plataformas aconteceram as suas pesquisas. Na seção 4 serão explicadas as formas de deficiência existentes que afetam a usabilidade dos sites. Na seção 5 será analisado a diretriz WCAG. Na seção 6 será apresentado os pontos fortes e fracos dos sites de notícias relacionado com a acessibilidade web através da análise da diretriz com o propósito de fazer sugestões de melhorias. Por fim, na seção 7 será apresentada uma discussão sobre os resultados da avaliação de acessibilidade e a conclusão do trabalho.
-
-\section{METODOLOGIA}
-Essa pesquisa escolheu os sites de notícia pelo fato deles terem um papel bastante importante para a sociedade atual, já que eles tem o compromisso de informar para cada pessoa, que as acessa, o que está acontecendo no Brasil e no mundo.
-
-Sendo assim, será primeiro explicado as formas de deficiências existentes que afetam a visão e audição. Após isso será apresentado a diretriz WCAG mostrando cada um dos seus princípios. Assim, apontando cada um dos seus princípios, será feito uma analise dos dez sites notícia para averiguar a acessibilidade de cada um deles. Tudo isso para computar o grau de acessibilidade de cada um desses sites. Então, a metodologia, que será aplicada para que os objetivos sejam alcançados, será:
-
-1 - Mostrar e explicar as formas de deficiência visual e auditiva;
-
-2 - Analisar a WCAG;
-
-3 - Pontuar os princípios e as especificações da diretriz WCAG;
-
-4 - Apontar as principais formas de acessibilidade, usando a diretriz WCAG;
-
-5 - Escolher dez sites de notícias do Brasil;
-
-6 - Fazer um levantamento da acessibilidade de cada site de acordo com as especificações;
-
-7 - Fazer uma pesquisa para saber como computar os sites;
-
-8 - Fazer um comparativo do resultado da computação entre os sites;
-
-9 - Apresentar a conclusão tirada dos dez sites escolhidos, propondo melhorias em cada um deles.
-
-Todos os passos da metodologia que será aplicada estão descritos na Figura 1.\\
-
-Figura 1 - Fluxograma das etapas da metodologia\\[-0.7cm]
-\begin{center}
-	\parbox{10cm}{\includegraphics[scale=0.6]{Fluxograma - Metodologia TCC.png}}
-\end{center}
-
-Portanto, esse será o caminho percorrido por esse artigo. A seguir, será mostrado todo o cronograma para se cumprir cada ponto listado acima.
-
-\section{CRONOGRAMA}
-Sobre o cronograma do artigo, foram propostos os seguintes passos, baseado na metodologia, com suas respectivas datas como visto na tabela abaixo.
-
-Tabela 1 - Cronograma da pesquisa\\
-\begin{center}
-	\fontsize{8pt}{8pt}\selectfont
-	\begin{tabular}{|cccccccc|}
-		\hline
-		Atividades & 05 à & 08/21 & 09/21 & 10/21 & 11 à & 01 à & 03 à\\
-		 & 07/21 & & & & 12/21 & 02/22 & 04/22\\
-		\hline
-		Bibliografia & X & & & & & & \\
-		e apresentação & & & & & & & \\
-		da WCAG & & & & & & & \\
-		\hline
-		Explicar as formas & & X & & & & & \\
-		de deficiência & & & & & & & \\
-		\hline
-		Mostrar princípios e & & & X & & & & \\
-		especificações da WCAG & & & & & & & \\
-		\hline
-		Apontar as & & & & X & & & \\
-		principais formas & & & & & & & \\
-		de acessibilidade & & & & & & & \\
-		\hline
-		Analisar os & & & & & X & & \\
-		sites conforme & & & & & & & \\
-		a WCAG & & & & & & & \\
-		\hline
-		Computar a & & & & & & X & \\
-		acessibilidade & & & & & & & \\
-		de cada site & & & & & & & \\
-		\hline
-		Divulgação dos & & & & & & & X \\
-		resultados e & & & & & & & \\
-		conclusão & & & & & & & \\
-		do artigo & & & & & & & \\
-		\hline
-	\end{tabular}
-\end{center}
-
-Assim, esse será o cronograma estimado para esse artigo. A seguir, será apresentado os trabalhos relacionados sobre acessibilidade digital e sobre as diretrizes.
+O restante do artigo está organizado da seguinte forma.
+Na seção 2 será apresentado o estado da arte de avaliação de acessibilidade em sites usando as diretrizes, mostrando quais diretrizes usaram e em quais plataformas aconteceram as suas pesquisas.
+Na seção 3 serão explicadas as formas de deficiência existentes que afetam a usabilidade dos sites.
+Na seção 4 será mostrado a metodologia que será aplicada para fazer a análise dos sites.
+Na seção 5 será mostrado o cronograma a ser seguido para cumprir os passos ditos na metodologia.
+Na seção 6 será mostrado os pontos da diretriz WCAG que serão usados na análise dos sites.
+Na seção 7 será apresentado os pontos fortes e fracos dos sites de notícias relacionado com a acessibilidade web através da análise da diretriz com o propósito de fazer sugestões de melhorias.
+Por fim, na seção 8 será apresentada uma discussão sobre os resultados da avaliação de acessibilidade e a conclusão do trabalho.
 
 \section{TRABALHOS RELACIONADOS}
 Há uma grande produção nessa área, contudo serão concentrados os artigos publicados em revistas. Será mostrado os artigos que tratam sobre as diretrizes utilizadas nos respectivos estudos e sobre as propostas de avaliação em diversas áreas, sejam elas em portais de notícia ou não.
 
 \subsection{Diretrizes}
-Sobre as diretrizes, serão apresentados alguns trabalhos que focaram em duas diretrizes, que são a eMAG e a WCAG. 
+Sobre as diretrizes, serão apresentados alguns trabalhos que focaram em duas diretrizes, que são a WCAG e a eMAG.
 
-A WCAG, publicada pela World Wide Web (W3C) no dia primeiro de outubro de 1994, através da organização chamada World Wide Consortium, que é um consórcio com 450 membros, empresas, organizações independentes e ONGs, tem como objetivo formular padrões para os desenvolvedores criarem seus sites. Segundo o artigo [3] a WCAG 2.0, tem como objetivo eliminar erros de acessibilidade através dos web designers e dos desenvolvedores. Assim, ela serve de apoio para os desenvolvedores a boa prática da acessibilidade web, garantindo um acesso à internet satisfatório, atingindo o maior número de pessoas possível, independente da existência de uma comorbidade física.
+\subsubsection{WCAG}
 
-Segundo a documentação da WCAG [10], onde a ultima versão foi publicada em 11 de dezembro de 2008, é mostrada as recomendações, explicando, sucintamente, os seus quatro princípios. O primeiro princípio é o perceptível, no qual informação e os componentes da interface de utilizador têm que ser apresentados de forma a que os utilizadores as possam entender. Nesse princípio existem quatro diretrizes com suas especificações. As diretrizes determinam que os sites precisam ter alternativas em texto, ter uma mídia dinâmica e contínua, ser adaptável e ser distinguível.
+A WCAG, publicada pela World Wide Web (W3C) através da organização chamada World Wide Consortium, que é um consórcio com 450 membros, empresas, organizações independentes e ONGs, tem como objetivo formular padrões para os desenvolvedores criarem seus sites. A WCAG 2.0, tem a finalidade de eliminar erros de acessibilidade através dos web designers e dos desenvolvedores, por meio de recomendações e princípios [3]. Todas as recomendações e todos os princípios estão detalhados na sua documentação [10]. Assim, ela serve de apoio para os desenvolvedores a boa prática da acessibilidade web, garantindo um acesso à internet satisfatório, atingindo o maior número de pessoas possível, independente da existência de uma comorbidade física.
 
-O site ter alternativas em texto significa que ele deve fornecer alternativas em texto para todo o conteúdo não textual de modo que possa ser apresentado de outras formas, de acordo com as necessidades dos utilizadores. Alguns exemplos são caracteres ampliados, braille, fala, símbolos ou uma linguagem mais simples. Ja o site ter um mídia dinâmica ou contínua remete que ele deve fornecer alternativas para conteúdo em multimédia dinâmica ou temporal. A diretriz adaptável diz que deve ser criado um conteúdo que possa ser apresentado de diferentes formas, por exemplo, um esquema de página mais simples, sem perder informação ou estrutura. Por fim, a diretriz distinguível expressa que deve haver uma facilitação dos utilizadores à audição e à visão dos conteúdos nomeadamente através da separação do primeiro plano do plano de fundo. Todas as diretrizes do princípio perceptível estão especificadas e descritas, logo abaixo, na figura 2.\\
+\paragraph{1 - Princípio perceptível:}
 
-Tabela 2 - Diretrizes do princípio perceptível\\
+O primeiro princípio da WCAG é o perceptível, no qual a informação e os componentes da interface de utilizador têm que ser apresentados de forma para que os utilizadores as possam entender. Nesse princípio existem quatro diretrizes. A primeira é que o site precisa ter alternativas em texto, isto é, ele deve fornecer as alternativas para todo o conteúdo não textual de modo que possa ser apresentado de outras formas, segundo as necessidades dos utilizadores. Alguns exemplos são caracteres ampliados, braille, fala, símbolos ou uma linguagem mais simples. O segundo é o site ter um mídia dinâmica ou contínua remete que ele deve fornecer alternativas para conteúdo em multimídia dinâmica ou temporal. A terceira diretriz é o adaptável, que diz que deve ser criado um conteúdo que possa ser apresentado de diferentes formas, por exemplo, um esquema de página mais simples, sem perder informação ou estrutura. Por fim, a diretriz distinguível expressa que deve haver uma facilitação dos utilizadores à audição e à visão dos conteúdos nomeadamente através da separação do primeiro plano do plano de fundo. Todas as diretrizes do princípio perceptível estão especificadas e descritas, logo abaixo, no quadro 1.
+
+Quadro 1 - Diretrizes do princípio perceptível\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont
-	\begin{tabular}{|cc|}
+	\begin{longtable}{|c|c|}
 		\hline
 		Diretrizes & Especificações \\
 		\hline
@@ -199,17 +136,17 @@ Tabela 2 - Diretrizes do princípio perceptível\\
 		& 1.4.8 Apresentação Visual\\
 		& 1.4.9 Imagens de Texto (sem exceção)\\
 		\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
-Já o segundo princípio é o operável, onde é definido os métodos, que possibilitam, para os usuários, uma interação e uma boa navegação pelo conteúdo de forma confortável. O princípio diz que os sites devem usar interfaces apropriadas para os deficientes, isto é, os componentes da interface de utilizador e a navegação têm de ser operáveis. Nesse princípio existem quatro diretrizes com suas especificações. As diretrizes determinam que o site deve ser acessível por teclado, deve ter um tempo suficiente, não deve causar convulsões e ele deve ser navegável.
+\paragraph{2 - Princípio operável: }
 
-Dizer que a plataforma digital deve ser acessível por teclado exprime que ela deve ter uma funcionalidade que fique disponível a partir do teclado. Já o site ter um tempo suficiente revela que ele deve proporcionar aos utilizadores um tempo suficiente para lerem e utilizarem o conteúdo. Sobre o site não causar convulsões, pressupõe-se que ele não deve criar conteúdos de uma forma que se sabe que pode causar convulsões em alguns usuários. E, por último, dizer que a página da Internet deve ser navegável, representa que ela deve fornecer formas de ajudar os utilizadores a navegar, localizar conteúdos e determinar o local onde estão. Todas as diretrizes do princípio operável estão especificadas e descritas, logo abaixo, na figura 3.\\
+O segundo princípio é o operável, no qual é definido os métodos, que possibilitam, para os usuários, uma interação e uma boa navegação pelo conteúdo de forma confortável. O princípio diz que os sites devem usar interfaces apropriadas para os deficientes, isto é, os componentes da interface de utilizador e a navegação têm de ser operáveis. Nesse princípio existem quatro diretrizes com suas especificações. As diretrizes determinam, primeiramente, que o site deve ser acessível por teclado, isto é, ele deve ter uma funcionalidade que fique disponível a partir do teclado. Além disso, ele deve ter um tempo suficiente, revelando que ele deve proporcionar aos utilizadores um tempo suficiente para lerem e utilizarem o conteúdo. A terceira determinação é que o site não deve causar convulsões, pressupondo-se que ele não deve criar conteúdos de uma forma que se sabe que pode causar convulsões em alguns usuários. E, por fim, o site deve ser navegável, representando que ele deve fornecer formas de ajudar os utilizadores a navegar, localizar conteúdos e determinar o local onde estão. Todas as diretrizes do princípio operável estão especificadas e descritas, logo abaixo, no quadro 2.
 
-Tabela 3 - Diretrizes do princípio operável\\
+Quadro 2 - Diretrizes do princípio operável\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont
-	\begin{tabular}{|cc|}
+	\begin{longtable}{|c|c|}
 		\hline
 		Diretrizes & Especificações \\
 		\hline
@@ -230,7 +167,7 @@ Tabela 3 - Diretrizes do princípio operável\\
 		& 2.4.2 Página com Título\\
 		& 2.4.3 Ordem do Foco\\
 		& 2.4.4 Finalidade da\\
-		& 2.4.4 Hiperligação (Em Contexto)\\
+		& Hiperligação (Em Contexto)\\
 		& 2.4.5 Várias Formas\\
 		& 2.4.6 Cabeçalhos e Etiquetas\\
 		& 2.4.7 Foco Visível\\
@@ -239,17 +176,17 @@ Tabela 3 - Diretrizes do princípio operável\\
 		& 2.4.9 (Apenas a Hiperligação)\\
 		& 2.4.10 Cabeçalhos da Secção\\
 		\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
-O terceiro princípio é o compreensível, que diz que os usuários devem ser capazes de compreender as informações e o funcionamento da interface, com o objetivo do usuário interpretar corretamente o conteúdo da plataforma digital, isto é, a informação e a utilização da interface de utilizador têm de ser compreensíveis. Nesse princípio existem três diretrizes com suas especificações. As diretrizes determinam que o site deve ser legível, deve ser previsível e deve existir assistência na Inserção de Dados.
+\paragraph{3 - Princípio compreensível: }
 
-Dizer que o sítio da Internet deve ser legível simboliza que ele é capaz de tornar o conteúdo textual legível e compreensível. Já falar que o sítio eletrônico tem que ser previsível reflete a ideia de fazer com que as páginas Web apareçam e funcionem de forma previsível. E existir na página Web uma assistência na inserção de dados, retrata que ela deve ajudar os utilizadores a evitar e a corrigir os erros. Todas as diretrizes do princípio compreensível estão especificadas e descritas, logo abaixo, na figura 4.\\
+O terceiro princípio é o compreensível, que diz que os usuários devem ser capazes de compreender as informações e o funcionamento da interface, com o objetivo do usuário interpretar corretamente o conteúdo da plataforma digital, isto é, a informação e a utilização da interface de utilizador têm de ser compreensíveis. Nesse princípio existem três diretrizes com suas especificações. As diretrizes determinam que o site deve ser legível, simbolizando que ele é capaz de tornar o conteúdo textual legível e compreensível. Ele deve ser previsível, refletindo a ideia de fazer com que as páginas Web apareçam e funcionem de forma previsível e deve existir assistência na inserção de dados, retratando que ela deve ajudar os utilizadores a evitar e a corrigir os erros. Todas as diretrizes do princípio compreensível estão especificadas e descritas no quadro 3.
 
-Tabela 4 - Diretrizes do princípio compreensível\\
+Quadro 3 - Diretrizes do princípio compreensível\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont
-	\begin{tabular}{|cc|}
+	\begin{longtable}{|c|c|}
 		\hline
 		Diretrizes & Especificações \\
 		\hline
@@ -273,47 +210,132 @@ Tabela 4 - Diretrizes do princípio compreensível\\
 		& 3.3.6 Prevenção de Erros\\
 		& (de qualquer tipo)\\
 		\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
-Por fim, o quarto e último princípio é o robusto, que foca na grande variedade dos usuários poderem interpretar o conteúdo da maneira mais confiável possível, além de levar, em consideração, a compatibilidade com as tecnologias atuais e futuras. Isso tem a finalidade de maximizar a harmonização das páginas da web com os seus usuários e com essas tais tecnologias, isto é, o conteúdo deve ser suficientemente robusto para ser interpretado de forma fiável por uma ampla variedade de agentes utilizadores da plataforma em questão, incluindo as tecnologias de apoio. Nesse princípio existe apenas uma diretriz com suas especificações, A diretriz determina que o site deve ser compatível, isto é, ele deve maximizar a compatibilidade com os agentes de utilizador atuais e futuros, incluindo as tecnologias de apoio. Essa única diretriz do princípio compreensível está especificada e descrita, logo abaixo, na figura 5.\\
 
-Tabela 5 - Diretrizes do princípio robusto\\[-0.7cm]
+\paragraph{4 - Princípio robusto: }
+
+O quarto princípio é o robusto, que foca na grande variedade dos usuários poderem interpretar o conteúdo da maneira mais confiável possível, além de levar, em consideração, a compatibilidade com as tecnologias atuais e futuras. Isso tem a finalidade de maximizar a harmonização das páginas da web com os seus usuários e com essas tais tecnologias, isto é, o conteúdo deve ser suficientemente robusto para ser interpretado de forma fiável por uma ampla variedade de agentes utilizadores da plataforma em questão, incluindo as tecnologias de apoio. Nesse princípio existe apenas uma diretriz com suas especificações, A diretriz determina que o site deve ser compatível, isto é, ele deve maximizar a compatibilidade com os agentes de utilizador atuais e futuros, incluindo as tecnologias de apoio. Essa única diretriz do princípio compreensível está especificada e descrita, logo abaixo, no quadro 4.
+
+Quadro 4 - Diretrizes do princípio robusto\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont
-	\begin{tabular}{|cc|}
+	\begin{longtable}{|c|c|}
 		\hline
 		Diretrizes & Especificações \\
 		\hline
 		Diretriz 4.1 Compatível& 4.1.1 Análise sintática (parsing)\\
 		& 4.1.2 Nome, Função, Valor\\
 		\hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
-Mas na frente na seção 5, serão detalhadas as especificações, porém, com o que já foi apresentado, é visto que as diretrizes são bem extensa e abrange quase todas as formas de acessibilidade existentes. Agora é preciso só que os programadores se propõem a seguir os quatro princípios básicos ditos anteriormente, com a meta de fazer tal atividade em seus trechos de códigos, fazendo com que todas as pessoas consigam manipular os seus sites, sem haver nenhum tipo de discriminação por partes dos programadores e dos produtores de conteúdos.
+\subsubsection{eMAG}
+
+Já em 2004, no Brasil, foi publicado e disponibilizado, pelo governo, o Modelo de Acessibilidade em Governo Eletrônico (eMAG), principal documento de recomendações a serem seguidas para o desenvolvimento de sítios eletrônicos acessíveis a todos os usuários. O objetivo da padronização dos portais públicos federais, é minimizar os problemas de geração de conteúdo e utilização de páginas Web, tornando-os mais acessíveis e facilitando o acesso à informação para todos os usuários, independente de possuírem ou não alguma deficiência [2].
+
+Existe um documentação da eMAG [13], na qual são mostrados as padronizações e recomendações, possibilitando melhores práticas no desenvolvimento de páginas da Web. A eMAG foi feita com base na WCAG, que foi mostrado anteriormente. Nela exitem seis pontos de recomendações, que são marcação, comportamento, conteúdo, apresentação, multimídia e formulário.
+
+\paragraph{1 - Ponto 1(Marcação): }
+
+O primeiro ponto, chamado de marcação, tem nove recomendações, que são, respeitar os padrões da Web, organizar o código HTML de forma lógica e semântica, utilizar corretamente os níveis de cabeçalho, ordenar de forma lógica e intuitiva a leitura e tabulação, fornecer âncoras para ir direto a um bloco de conteúdo, não utilizar tabelas para diagramação, separar links adjacentes, dividir as áreas de informação e não abrir novas instâncias sem a solicitação do usuário.
+
+\paragraph{2 - Ponto 2(Comportamento): }
+
+O segundo ponto, chamado de comportamento, tem sete recomendações, que são disponibilizar todas as funções da página via teclado, garantir que os objetos programáveis sejam acessíveis, não criar páginas com atualização automática periódica, não utilizar redirecionamento automático de páginas, fornecer alternativa para modificar limite de tempo, não incluir situações com intermitência de tela e assegurar o controle do usuário sobre as alterações temporais do conteúdo.
+
+\paragraph{3 - Ponto 3(Conteúdo): }
+
+O terceiro ponto, chamado de conteúdo, tem doze recomendações, que são identificar o idioma principal da página, informar mudança de idioma no conteúdo, oferecer um título descritivo e informativo à página, informar o usuário sobre sua localização na página, descrever links clara e sucintamente, fornecer alternativa em texto para as imagens do sítio, utilizar mapas de imagem de forma acessível, disponibilizar documentos em formatos acessíveis, em tabelas, utilizar títulos e resumos de forma apropriada, associar células de dados às células de cabeçalho, garantir a leitura e compreensão das informações e disponibilizar uma explicação para siglas, abreviaturas e palavras incomuns.
+
+\paragraph{4 - Ponto 4(Apresentação): }
+
+No quarto ponto, chamado de apresentação ou design, tem quatro recomendações, que são oferecer contraste mínimo entre plano de fundo e primeiro plano, não utilizar apenas cor ou outras características sensoriais para diferenciar elementos, permitir redimensionamento sem perda de funcionalidade e possibilitar que o elemento com foco seja visualmente evidente.
+
+\paragraph{5 - Ponto 5(Multimídia): }
+
+No quinto ponto, chamado de multimídia, tem cinco recomendações, que são fornecer alternativa para vídeo, fornecer alternativa para áudio, oferecer audiodescrição para vídeo pré-gravado, fornecer controle de áudio para som e fornecer controle de animação.
+
+\paragraph{6 - Ponto 6(Formulários): }
+
+No sexto e ultimo ponto, chamado de formulários, tem oito recomendações, fornecer alternativa em texto para os botões de imagem de formulários, associar etiquetas aos seus campos, estabelecer uma ordem lógica de navegação, não provocar automaticamente alteração no contexto, fornecer instruções para entrada de dados, identificar e descrever erros de entrada de dados e confirmar o envio das informações, agrupar campos de formulário e fornecer estratégias de segurança específicas ao invés de CAPTCHA.
+
+Além desses seis pontos com suas recomendações, a diretriz disponibilizou mais cinco elementos padronizados de acessibilidade digital ditos pelo Governo Federal, que são atalhos de teclado, primeira folha de contraste, barra de acessibilidade, apresentação do mapa do sítio e página de descrição com os recursos de acessibilidade.
+
+Portanto, percebe-se que as diretrizes são bem extensa e abrange quase todas as formas de acessibilidade existentes. Agora é preciso só que os programadores se propõem a seguir os quatro princípios básicos ditos anteriormente, com a meta de fazer tal atividade em seus trechos de códigos, fazendo com que todas as pessoas consigam manipular os seus sites, sem haver nenhum tipo de discriminação por partes dos programadores e dos produtores de conteúdos. A seguir, será mostrado trabalhos relacionados a acessibilidade de algumas plataformas.
 
 \subsection{Avaliação de Acessibilidade de Sites}
-Nesta subseção são apresentados artigos sobre avaliação de acessibilidade de sites de diferentes campos.  No artigo [1] os autores avaliaram 107 sites educacionais no Brasil, através da existência dos seguintes pontos, atalhos de teclado, alto contraste, barra de acessibilidade, mapa de sitio e paginas com descrições, chegando a conclusão que há um elevado descaso com a inclusão digital em relação às pessoas com deficiência. Já em [7], foi feito uma analise da acessibilidade dos sites governamentais da Arábia Saudita, analisando a existência de uma boa informação de conteúdo não textual e seus relacionamentos, de contraste, de imagens de texto e vídeos de libras, de atalhos de teclado, de interrupções e de uma boa sequência significativa. Segundo eles, os resultados da avaliação são promissores e indicam um aumento da conscientização para acessibilidade da web.
+Nesta subseção são apresentados artigos sobre avaliação de acessibilidade de sites em diferentes campos.
 
-Já o artigo [9] tinha como objetivo investigar os sites de governo eletrônico móvel. Chegaram a conclusão que há problemas de usabilidade e acessibilidade que afetam o desempenho de sites governamentais. Dentre os pontos analisados, estão a existência de texto alternativo as imagens, alto contraste no texto, descrição dos link, formulários de fácil compreensão e textos, em gerais, que favoreçam o uso dos leitores de tela, que são usados caso tenham uma boa sequência significativa. O artigo [11] tinha como objetivo deste avaliar a acessibilidade de 91421 vídeos de 113 universidades do mundo. Os resultados deste estudo mostram que embora apenas 17\% do total de vídeos publicados tenham legendas associadas, mas o cumprimento deste critério de sucesso tem melhorado ao longo dos anos. Porém, não existe acessibilidade em relação à linguagem de sinais, à descrição de áudio ou à descrição de áudio estendida com vídeos, a acessibilidade é zero.
+\subsubsection{Sites educacionais}
 
-A seguir, na tabela 1, vemos a comparação dos artigos citados nessa seção com as características da diretriz WCAG.\\
+No artigo [1] os autores avaliaram 107 sites educacionais brasileiros, através da existência de atalhos no teclado, de alto contraste, de barra de acessibilidade, de mapa de sitio e de paginas com descrições. Após a análise, concluíram um elevado descaso com a inclusão digital. O artigo [11] tinha como objetivo avaliar a acessibilidade de 91421 vídeos de 113 universidades do mundo. Os resultados mostram, que embora apenas 17\% do total de vídeos tenham legendas associadas, o cumprimento deste critério de sucesso tem melhorado ao longo dos anos. Porém, não existe acessibilidade em relação à linguagem de sinais, à descrição de áudio ou à descrição de áudio estendida com vídeos.
 
-Tabela 1 - Análise características das diretrizes com os artigos.
+No artigo [8], foi feita uma análise para usuários de baixa visão de 40 sites, sendo sites de 30 universidades da América Latina e 10 sites dos mais visitados da região. O método utilizado foi o "Testes de Triagem de Barreiras", proposto pelo Brajnik e pela WCAG, e a técnica consiste em priorizar os impactos das barreiras de acordo com o contexto aplicado, identificando muitas páginas web que violaram princípios da diretriz WCAG, totalizando 241 barreiras.
+
+Além disso, no artigo [12] tinha como objetivo avaliar a acessibilidade de uma plataforma de aprendizagem, interrogando seus participantes. A análise foi feita através de alunos cegos, surdos e surdos-cegos, que utilizaram um protótipo de plataforma de aprendizagem acessível. Os pontos avaliados são texto alternativo, descrição de áudio, legendas, alto contraste, descrição longa e linguagem de sinais e transcrição, além da existência do perigo de convulsões. 
+
+Por fim, no artigo [14] foi feito uma avaliação da acessibilidade de 110 sites de universidades estaduais e 69 sites de universidades privadas. Apenas 10 sites de universidades estaduais e 4 de universidades privadas alcançaram bons níveis de acessibilidade, indicando baixa usabilidade. Os critérios avaliados foram conteúdo não textual, informações e relacionamentos, uso de cor, teclado, tempo ajustável, pausar, parar, ocultar, bloqueios de desvio, página intitulada, finalidade do link (no contexto), idioma da página, na entrada, etiquetas ou instruções, análise, nome, função, valor, contraste (mínimo), redimensionar texto, títulos e rótulos, contraste (aprimorado), teclado (sem exceção), finalidade do link (apenas link) e títulos de seção.
+
+\subsubsection{Sites governamentais}
+
+Agora será dito alguns artigos que avaliaram sites governamentais. Em [7], foi feito uma análise da acessibilidade dos sites governamentais da Arábia Saudita, investigando a existência dos seguintes pontos, boa informação de conteúdo não textual e seus relacionamentos, contraste, imagens de texto e vídeos de libras, atalhos de teclado, interrupções e uma boa sequência significativa. Segundo eles, os resultados da avaliação são promissores e indicam um aumento da conscientização para acessibilidade da web. Já o artigo [9] investigou 22 sites de governo eletrônico móvel da Arábia Saudita analisando a existência de texto alternativo as imagens, alto contraste no texto, descrição dos link, formulários de fácil compreensão e textos que favoreçam o uso dos leitores de tela, e que tenham uma boa sequência significativa. O artigo concluiu que há problemas de usabilidade e acessibilidade que afetam o desempenho de sites governamentais.
+
+Além desses, em [15], em que foi feita uma análise de 63 sites pertencentes a ministérios, departamentos e agências governamentais do Governo de Uganda, e em [17], que foram avaliados 10 sites do governo líbio, seus respectivos autores usaram todas as diretrizes da WCAG e duas ferramentas de avaliação automática, a TAW e a AChecker. Seus autores chegaram a conclusão de que nem todos os sites atendem às diretrizes, com problemas de usabilidade e que há uma grande necessidade de melhorar a acessibilidade em sites de governo eletrônico.
+
+A seguir, na tabela 1, vemos a comparação dos artigos citados nessa seção com as características da diretriz WCAG.
+
+Tabela 1 - Análise características das diretrizes com os artigos\\[-1cm]
 \begin{center}
-	\begin{tabular}{cc}
+	\fontsize{8pt}{8pt}\selectfont
+	\begin{longtable}{|c|c|c|c|}
 		\hline
-		Artigos & Diretrizes cumpridas\\
+		Artigos & Autores & Ano & Diretrizes cumpridas\\
 		\hline
-		Artigo [1] & 1.2.3/1.2.5/1.2.7/1.4.3/1.4.5/1.4.6/1.4.9/2.1.1/2.1.2/2.1.3\\
-		Artigo [7] & 1.2.6/1.3.2/1.4.3/1.4.5/1.4.6/1.4.9/2.1.1/2.1.2/2.1.3/2.2.4\\
-		Artigo [9] & 1.2.8/1.2.9/1.3.2/1.4.3/1.4.5/1.4.6/1.4.9/4.1.2\\
-		Artigo [11] & 1.1.1/1.2.1/1.2.2/1.2.3/1.2.4/1.2.5/1.2.6\\
+		Artigo [1] & M. Campoverde-Molina,& 2020 & 1.2.3/1.2.5/1.2.7/1.4.3\\
+				   & S. Lujan-Mora e & & 1.4.5/1.4.6/1.4.9/2.1.1/\\
+				   & L. Valverde Gracia & & 2.1.2/2.1.3\\
 		\hline
-	\end{tabular}
+		Artigo [7] & H. S. Al-Khalifa, & 2016 & 1.2.6/1.3.2/1.4.3/1.4.5/\\
+				   & I. Baazeem e & & 1.4.6/1.4.9/2.1.1/2.1.2/\\
+				   & R. Alamer1 & & 2.1.3/2.2.4\\
+		\hline
+		Artigo [8] & P. Acosta-Vargas, & 2018 & TODAS\\
+				   & T. Acosta e & & \\
+				   & S. Luján-Mora & & \\
+		\hline
+		Artigo [9] & H. O. Al-Sakran e & 2021 & 1.2.8/1.2.9/1.3.2/1.4.3/\\
+				   & M. A, Alsudairi & & 1.4.5/1.4.6/1.4.9/4.1.2\\
+		\hline
+		Artigo [11] & T. Acosta, & 2020 & 1.1.1/1.2.1/1.2.2/1.2.3/\\
+					& P. Acosta Vargas, & & 1.2.4/1.2.5/1.2.6\\
+					& J. Zambrano Miranda e & & \\
+					& S. Luján Mora & & \\
+		\hline
+		Artigo [12] & C. Batanero-Ochaíta1, & 2017 & 1.2.2/1.2.3/1.2.4/\\
+					& L. De-Marcos, & & 1.2.6/1.2.8/1.4.3/\\
+					& L. Felipe Rivera, & & 2.3.1/2.3.2\\
+					& J. Ramón Hilera e & & \\
+					& S. Otón & & \\
+		\hline
+		Artigo [14] & Y. Akgül1n & 2020 & 1.1.1/1.3.1/1.4.1/1.4.3/\\
+					& & & 1.4.4/1.4.6/2.1.1/2.1.3/\\
+					& & & 2.2.1/2.2.2/2.4.1/2.4.2/\\
+					& & & 2.4.4/2.4.6/2.4.9/\\
+					& & & 2.4.10/3.1.1/3.2.2/3.3.2/\\
+					& & & 4.1.1/4.1.2\\
+		\hline
+		Artigo [15] & J. Nakatumba Nabende, & 2019 & TODAS\\
+					& B. Kanagwa, & &\\
+					& F. Nameere Kivunike e & &\\
+					& M. Tuape & &\\
+		\hline
+		Artigo [17] & N. A. Karaim e Y. Inal & 2017 & TODAS\\
+		\hline
+	\end{longtable}
 \end{center}
 
-Já o artigo [8] foi analisado um método heurístico existente para investigar o nível de acessibilidade de 40 sites, incluindo os de 30 universidades da América Latina e 10 sites entre os mais visitados. Foram analisados em relação aos usuários com baixa visão, o método utilizado foi proposto por Brajnik e WCAG 2.1 chamado de Testes de Triagem de Barreiras. Esta técnica consiste em priorizar os impactos das barreiras de acordo com o contexto aplicado. O método permite a identificação da gravidade de cada barreira buscando identificar problemas de acessibilidade. Assim, o artigo concluiu, que muitas nas páginas web analisadas foi violado alguns princípios da diretriz WCAG, totalizando 241 barreiras.
+Portanto, podemos ver que existe uma grande variedade de trabalhos sobre acessibilidade digital em todo o mundo, mostrando que as pesquisas estão bastante avançadas nesse ponto. A seguir, serão descritos as formas de deficiência visual e as formas de deficiência auditiva que prejudicam a usabilidade dos sites de noticias.
 
 \section{TIPOS DE DEFICIÊNCIA}
 Nesta seção será detalhado, de forma sucinta, as mais variadas formas de deficiência visual e auditiva.
@@ -321,42 +343,1017 @@ Nesta seção será detalhado, de forma sucinta, as mais variadas formas de defi
 \subsection{Formas de deficiência visual}
 Sobre a deficiência visual se divide em dois grupos com características e necessidades diferentes. Os dois grupos de pessoas são aqueles que apresentam baixa visão e aqueles com cegueira.
 
-Cegueira é usado para identificar a condição de pessoas que apresentam total incapacidade de enxergar e também para aquelas com uma visão residual que, apesar de não ser a perda total da visão, dificulta-as de realizar suas atividades diárias normalmente.
+Cegueira é usado para identificar a condição de pessoas que apresentam total incapacidade de enxergar e também para aquelas com uma visão residual que, apesar de não ser a perda total da visão, dificulta-as de realizar suas atividades diárias normalmente [20].
 
-Assim, o cego é aquele que não utiliza a visão para a aprendizagem e que necessita de sistemas Braille ou de sistemas que verbalizam textos em computadores. Baixa visão ou visão subnormal é o termo usado para a pessoa que tem sua função visual comprometida, mas que usa ou é potencialmente capaz de usar a visão para executar tarefas.
+Assim, o cego é aquele que não utiliza a visão para a aprendizagem e que necessita de sistemas Braille ou de sistemas que verbalizam textos em computadores. Baixa visão ou visão subnormal é o termo usado para a pessoa que tem sua função visual comprometida, mas que usa ou é potencialmente capaz de usar a visão para executar tarefas. Portanto, o termo cegueira não é absoluto, pois reúne indivíduos com vários graus de visão residual. Ela não significa, necessariamente, total incapacidade para ver, mas prejuízo dessa aptidão a níveis incapacitantes para o exercício de tarefas rotineiras [19].
 
-Já a pessoa que possui baixa visão tem uma condição na qual a sua não pode ser totalmente corrigida por óculos, interferindo em suas atividades diárias, assim como a leitura e a locomoção. A baixa visão é pode ser causado pela degeneração macular, glaucoma, retinopatia diabética, ou catarata. As pessoas com baixa visão necessitam do uso de óculos, lentes corretivas, lupas simples e/ou eletrônicas, além de caracteres ampliados e de uso de tecnologias assistivas como alto contraste e leitores de tela.
+Já a pessoa que possui baixa visão tem uma condição na qual a sua não pode ser totalmente corrigida por óculos, interferindo em suas atividades diárias, assim como a leitura e a locomoção. A baixa visão é pode ser causado pela degeneração macular, glaucoma, retinopatia diabética, ou catarata. As pessoas com baixa visão necessitam do uso de óculos, lentes corretivas, lupas simples e/ou eletrônicas, além de caracteres ampliados e de uso de tecnologias assistivas como alto contraste e leitores de tela. Segundo a Organização Mundial da Saúde (OMS), em 1992, uma pessoa com baixa visão é aquela que tem comprometimento do funcionamento visual, mesmo após o tratamento e/ou correção refrativa padrão, e tem a acuidade visual de menos de 6/18 para percepção de luz, ou um campo visual de menos de 10
+graus do ponto de fixação, mas quem usa, ou é potencialmente capaz de usar, visão para o planejamento e / ou execução de uma tarefa [18].
 
-Portanto, os usuários que possuem alguma deficiência visual são altamente prejudicados quando precisam acessar uma plataforma digital, pois eles ficam impossibilitados de usá-la pelo o fato delas não terem determinadas funcionalidades. Por exemplo, a falta de alto contraste afeta pessoas que possuem o daltonismo, elas necessitam de sites que são completamente pretos e brancos. Além disso, as pessoas que não conseguem ler determinadas palavras pelo tamanho da letra, isto é, pessoas que possuem baixa visão, elas precisam da funcionalidade de aumentar a fonte, com o objetivo de enxergarem tudo que o site propõe mostrar aos seus usuários, por fim existem aquelas pessoas que possuem a cegueira total, isto é, são aqueles que tem a total incapacidade para ver o mundo exterior. Portanto, esses são os exemplos das deficiências visuais que afetam a usabilidade dos usuários ao estarem acessando as plataformas digitais, a seguir iremos falar sobre a diversidade da deficiência auditiva.
+A cegueira adquirida causa uma ruptura nos padrões já constituídos de comunicação, mobilidade, trabalho, recreação e sentimentos, acerca de si próprio, tornando-se uma experiência inevitavelmente traumática. Existem dois tipos de cegueira adquirida: a cegueira súbita e a progressiva. A primeira pode ser divida em dois estágios: o choque imediato e a recuperação subsequente, esse estágio consiste em despersonalização seguida de depressão, parece ser uma defesa emergente contra a ameaça de dissolução do ego, os afetos são afastados para emergir, passo a passo, por um ego em pedaços. Nos casos de cegueira progressiva, o processo de despersonalização pode não ocorrer e a depressão não é severa, pois a fase de lamentação acontece antes da cegueira, onde a pessoa tem um tempo para digerir suas perdas. Por um lado esse tipo de cegueira pode facilitar o acesso e apoio antes de a pessoa se tornar cega, contudo pode causar um estado de contínua ansiedade pela ameaça de perder a visão [21].
+
+Portanto, os usuários que possuem alguma deficiência visual são altamente prejudicados quando precisam acessar uma plataforma digital, pois eles ficam impossibilitados de usá-la pelo o fato delas não terem determinadas funcionalidades. Por exemplo, a falta de alto contraste afeta pessoas que possuem o daltonismo, elas necessitam de sites que são completamente pretos e brancos. Além disso, as pessoas que não conseguem ler determinadas palavras pelo tamanho da letra, isto é, pessoas que possuem baixa visão, elas precisam da funcionalidade de aumentar a fonte, com o objetivo de enxergarem tudo que o site propõe mostrar aos seus usuários, por fim existem aquelas pessoas que possuem a cegueira total, isto é, são aqueles que tem a total incapacidade para ver o mundo exterior. Portanto, esses são os exemplos das deficiências visuais que afetam a usabilidade dos usuários ao estarem acessando as plataformas digitais, a seguir será falado sobre a diversidade da deficiência auditiva.
 
 \subsection{Formas de deficiência auditiva}
-Sobre a deficiência auditiva é considerada como a diferença existente entre o desempenho do indivíduo e a habilidade normal para a detecção sonora. Considera-se, em geral, que a audição normal corresponde à habilidade para detecção de sons até 20 dB N.A (decibéis, nível de audição). A audição serve para o desenvolvimento e na manutenção da comunicação por meio da linguagem falada.
+Sobre a deficiência auditiva, ela é considerada como a diferença existente entre o desempenho do indivíduo e a habilidade normal para a detecção sonora. Considera-se, em geral, que a audição normal corresponde à habilidade para detecção de sons até 20 dB N.A (decibéis, nível de audição). A audição serve para o desenvolvimento e na manutenção da comunicação por meio da linguagem falada [22]. Dentre os exemplos de deficiência auditiva está a condutiva, a sensório neural e a mista.
 
-Dentre os exemplos de deficiência auditiva está a condutiva, que ocorre quando qualquer interferência na transmissão do som desde o conduto auditivo externo até a orelha interna. A grande maioria das deficiências auditivas condutivas pode ser corrigida através de tratamento clínico ou cirúrgico. Esta deficiência pode ter várias causa, entre elas pode-se citar, os corpos estranhos no conduto auditivo externo, tampões de cera , otite externa e média, mal formação congênita do conduto auditivo, inflamação da membrana timpânica, perfuração do tímpano, obstrução da tuba auditiva, etc.
+A condutiva é causada por um problema localizado no ouvido externo e/ou médio, que tem por função "conduzir" o som até o ouvido interno. Esta deficiência, em muitos casos, é reversível e geralmente não precisa de tratamento com aparelho auditivo, apenas cuidados médicos [23]. Ela ocorre quando há uma interferência na transmissão do som desde o conduto auditivo externo até a orelha interna [22]. A grande maioria das deficiências auditivas condutivas pode ser corrigida através de tratamento cirúrgico e/ou medicamentoso [24]. Esta deficiência pode ter várias causa, entre elas pode-se citar, os corpos estranhos no conduto auditivo externo, tampões de cera , otite externa e média, mal formação congênita do conduto auditivo, inflamação da membrana timpânica, perfuração do tímpano, obstrução da tuba auditiva, etc [22].
 
-Já a sensório-neural é quando há uma impossibilidade de recepção do som por lesão das células ciliadas da orelha interna ou do nervo auditivo. Este tipo de deficiência auditiva é irreversível. A deficiência auditiva sensório-neural pode ser de origem hereditária como problemas da mãe no pré-natal tais como a rubéola, sífilis, herpes, toxoplasmose, alcoolismo, toxemia, diabetes etc. Também podem ser causadas por traumas físicos, prematuridade, baixo peso ao nascimento, trauma de parto, meningite, encefalite, caxumba, sarampo etc.
+Já a sensório-neural é quando há uma impossibilidade de recepção do som por lesão das células ciliadas da orelha interna ou do nervo auditivo. Este tipo de deficiência auditiva é irreversível. A deficiência auditiva sensório-neural pode ser de origem hereditária como problemas da mãe no pré-natal tais como a rubéola, sífilis, herpes, toxoplasmose, alcoolismo, toxemia, diabetes etc. Também podem ser causadas por traumas físicos, prematuridade, baixo peso ao nascimento, trauma de parto, meningite, encefalite, caxumba, sarampo, entre outros [22]. Assim acontece uma diminuição na capacidade de receber os sons que passam pelo ouvido externo e ouvido médio. A deficiência sensório-neural faz com que as pessoas escutem menos e também tenham maior dificuldade de perceber as diferenças entre os sons [23].
 
-A mista é quando há uma alteração na condução do som até o órgão terminal sensorial associada à lesão do órgão sensorial ou do nervo auditivo. O audiograma mostra geralmente limiares de condução óssea abaixo dos níveis normais, embora com comprometimento menos intenso do que nos limiares de condução aérea.
+A mista é quando há uma alteração na condução do som até o órgão terminal sensorial associada à lesão do órgão sensorial ou do nervo auditivo. O audiograma mostra geralmente limiares de condução óssea abaixo dos níveis normais, embora com comprometimento menos intenso do que nos limiares de condução aérea [22]. Sendo assim, a mista apresenta características condutiva e sensório-neural por a lesão envolver duas ou as três partes da orelha [24].
 
-Por fim, a central ou surdez central não é, necessariamente, acompanhado de diminuição da sensitividade auditiva, mas manifesta-se por diferentes graus de dificuldade na compreensão das informações sonoras. Decorre de alterações nos mecanismos de processamento da informação sonora no tronco cerebral.
+Por fim, em [22], a central ou surdez central não é, necessariamente, acompanhado de diminuição da sensitividade auditiva, mas manifesta-se por diferentes graus de dificuldade na compreensão das informações sonoras. Decorre de alterações nos mecanismos de processamento da informação sonora no tronco cerebral [24].
 
-Os níveis de limiares utilizados para caracterizar os graus de severidade da deficiência auditiva são, audição normal, limiares entre 0 a 24 dB nível de audição. Deficiência auditiva leve, limiares entre 25 a 40 dB nível de audição. Deficiência auditiva moderna, limiares entre 41 e 70 dB nível de audição. Deficiência auditiva severa, limiares entre 71 e 90 dB nível de audição. Deficiência auditiva profunda, limiares acima de 90 dB.
+Os níveis de limiares utilizados para caracterizar os graus de severidade da deficiência auditiva são, audição normal, limiares entre 0 a 24 dB nível de audição. Deficiência auditiva leve, limiares entre 25 a 40 dB nível de audição. Deficiência auditiva moderna, limiares entre 41 e 70 dB nível de audição. Deficiência auditiva severa, limiares entre 71 e 90 dB nível de audição. Deficiência auditiva profunda, limiares acima de 90 dB [22].
 
-Entre os muitos instrumentos usados para comunicação não oral, figura a linguagem dos sinais, criada por um monge beneditino francês, morador de um mosteiro onde imperava a lei do silêncio. Adotada há mais de cem anos, no Brasil é chamada de Libras. Assim esses são os exemplos das deficiências auditivas que afetam o acesso de forma tranquila dos sites, inclusive os jornalísticos, a seguir iremos analisar a diretriz WCAG.
+Entre os muitos instrumentos usados para comunicação não oral, figura a linguagem dos sinais, criada por um monge beneditino francês, morador de um mosteiro onde imperava a lei do silêncio. Adotada há mais de cem anos, no Brasil é chamada de Libras. Assim esses são os exemplos das deficiências auditivas que afetam o acesso de forma tranquila dos sites, inclusive os jornalísticos. A seguir, será mostrado a metodologia que será aplicada nesse artigo.
+
+\section{METODOLOGIA}
+Essa pesquisa escolheu os sites de notícia pelo fato deles terem um papel bastante importante para a sociedade atual, já que eles tem o compromisso de informar para cada pessoa, que as acessa, o que está acontecendo no Brasil e no mundo.
+
+Sendo assim, será primeiro detalhado os princípios e as especificações da WCAG usadas para avaliar as plataformas.
+A seguir, será mostrado a forma usada para quantificar a acessibilidade de cada site, através da atribuição de pesos.
+Depois, será escolhido 10 sites de notícias.
+Assim, apontando cada um dos seus princípios, será feito uma avaliação manual de 10 sites para averiguar a acessibilidade de cada um deles.
+Após isso, será feito uma coleção dos dados a partir da analise feita.
+Tudo isso para fazer um comparativo da computação do grau de acessibilidade de cada um dos sites.
+Por fim, será tirado as conclusões da pesquisa e do comparativo feito.
+Então, a metodologia, que será aplicada para que os objetivos sejam alcançados, será:
+
+1 - Escolher os princípios e as especificações da diretriz WCAG que serão usadas nas análises dos sites;
+
+2 - Mostrar a forma de computar os sites;
+
+3 - Escolher 10 sites de notícias do Brasil;
+
+4 - Fazer um levantamento da acessibilidade de cada site de acordo com as especificações;
+
+5 - Coletar dados do levantamento;
+
+6 - Fazer um comparativo do resultado da computação entre os sites;
+
+7 - Apresentar a conclusão tirada dos 10 sites escolhidos.
+
+Todos os passos da metodologia que será aplicada estão descritos na Figura 1.
+
+Figura 1 - Fluxograma das etapas da metodologia\\[-0.7cm]
+\begin{figure}[!ht]
+	\centering
+	% Define block styles
+	\tikzstyle{block} = [rectangle, draw, fill=white, text width=6em, text centered, node distance=1.6cm]
+	\tikzstyle{line} = [draw, -latex]
+	\begin{tikzpicture}[node distance = 3cm, auto]
+		% Place nodes
+		\node [block]                         (WCAG) {Escolher princípios da WCAG};
+		\node [block, below of = WCAG] (computar) {Mostrar a forma de computar};
+		\node [block, below of = computar]   (sites) {Escolher 10 sites};
+		\node [block, below of = sites]   (levantamento) {Realizar levantamento};
+		\node [block, below of = levantamento]      (coletar) {Coletar dados};
+		\node [block, below of = coletar]   (comparativo)  {Fazer um comparativo};
+		\node [block, below of = comparativo]     (conclusao) {Apresentar a conclusão};
+		% Draw edges
+		\path [line] (WCAG) -- (computar);
+		\path [line] (computar)   -- (sites);
+		\path [line] (sites)   -- (levantamento);
+		\path [line] (levantamento)   -- (coletar);
+		\path [line] (coletar)      -- (comparativo);
+		\path [line] (comparativo)     -- (conclusao);
+	\end{tikzpicture}
+\end{figure}
+
+Portanto, esse será o caminho percorrido por esse artigo. A seguir, será mostrado todo o cronograma para se cumprir cada ponto listado acima.
+
+\section{CRONOGRAMA}
+Sobre o cronograma do artigo, foram propostos os seguintes passos, baseado na metodologia, com suas respectivas datas como visto na tabela 2 logo abaixo.
+
+Tabela 2 - Cronograma da pesquisa\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont
+	\begin{longtable}{|c|c|c|c|c|c|c|}
+		\hline
+		Atividades & 05 à & 08/21 & 09 à & 01 à & 03/22 & 04/22\\
+		& 07/21 & & 11/21 & 02/22 & & \\
+		\hline
+		Mostrar princípios e & X & & & & & \\
+		especificações da WCAG & & & & & & \\
+		\hline
+		Explicar as formas & & X & & & & \\
+		de deficiência & & & & & & \\
+		\hline
+		Escolher os princípios & & X & & & & \\
+		da WCAG & & & & & & \\
+		\hline
+		Mostrar a forma de & & X & & & & \\
+		computar os sites & & & & & & \\
+		\hline
+		Fazer a análise dos sites & & & X & & & \\
+		\hline
+		Realizar levantamento & & & & X & & \\
+		e coletar os dodos & & & & & & \\
+		\hline
+		Fazer comparativo & & & & & X & \\
+		\hline
+		Apresentar conclusões & & & & & & X \\
+		\hline
+	\end{longtable}
+\end{center}
+
+Assim, esse será o cronograma estimado para esse artigo. A seguir, será mostrado os pontos da diretriz WCAG que serão usados nas análises dos sites.  
 
 \section{ANÁLISE DA DIRETRIZ WCAG}
 
+Nessa seção será mostrado as diretrizes que serão usadas na análise de cada um dos 10 sites de noticias que serão escolhidos no próximo capítulo. Primeiro será falado as especificações relacionadas com as pessoas que tem deficiência visual e depois as especificações ligadas com as pessoas que possuem deficiência auditiva. Por fim, será falado como serão quantificados cada site usando as diretrizes escolhidas.
+
+\subsection{Especificações da WCAG e a deficiência visual}
+
+Existem algumas especificações que estão ligadas diretamente com a deficiência visual. As especificações escolhidas estão descritas nessa subseção e todas as foram tiradas diretamente da documentação da WCAG [10].
+
+\subsubsection{1.1.1 Conteúdo não textual}
+
+Todo o conteúdo não textual que é exibido ao usuário tem uma alternativa textual que serve a um propósito equivalente, exceto para as situações indicadas abaixo (Nível A).\\
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	1) Controles, Entrada: Se o conteúdo não textual for um controle ou aceitar a entrada de dados por parte do usuário, então esse conteúdo não textual possui um nome que descreve a sua finalidade. (Consultar a Diretriz 4.1 para requisitos adicionais de controles e conteúdo que aceitam entrada de dados por parte do usuário);\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	2) Mídias com base no tempo: Se o conteúdo não textual consiste em mídia baseada em tempo, então as alternativas textuais fornecem, no mínimo, uma identificação descritiva do conteúdo não textual (Consulte a Diretriz 1.2 para obter os requisitos adicionais para mídia);\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	3) Teste: Se o conteúdo não textual for um teste ou um exercício, que ficaria inválido se fosse apresentado em texto, então as alternativas textuais fornecem, no mínimo, uma identificação descritiva do conteúdo não textual;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	4) Sensorial: Se a finalidade do conteúdo não textual for, essencialmente, criar uma experiência sensorial específica, então as alternativas textuais fornecem, no mínimo, uma identificação descritiva do conteúdo não textual;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	5) CAPTCHA: Se a finalidade do conteúdo não textual for confirmar que o conteúdo está sendo acessado por uma pessoa e não por um computador, então devem ser fornecidas alternativas textuais que identificam e descrevem a finalidade do conteúdo não textual. Formas alternativas de CAPTCHA, que utilizam modos de saída para diferentes tipos de percepção sensorial, devem ser apresentadas para atender diferentes deficiências;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	6) Decoração, Formatação, Invisível: Se o conteúdo não textual for meramente decorativo, se for utilizado apenas para formatação visual, ou se não for exibido aos usuários, então esse conteúdo não textual deve ser implementado de uma forma que possa ser ignorado pelas tecnologias assistivas.\\
+\end{minipage}
+
+\subsubsection{1.2.1 Conteúdo só de áudio e só de vídeo (pré-gravado)}
+
+Para as mídias de apenas áudio pré-gravados e mídias de vídeo (sem áudio) pré-gravados as regras seguintes são verdadeiras, exceto quando o áudio ou o vídeo é uma mídia alternativa para o texto e está claramente identificado como tal: (Nível A).\\
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	1) Apenas áudio pré-gravado: É fornecida uma alternativa para mídia com base em tempo, que apresenta informação equivalente para o conteúdo composto por apenas áudio pré-gravado;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	2) Apenas vídeo pré-gravado: É fornecida uma alternativa em mídia com base em tempo ou uma faixa de áudio que apresenta informação equivalente para o conteúdo apenas de vídeo pré-gravado.
+\end{minipage}
+\subsubsection{1.2.3 Audiodescrição ou alternativa em mídia (pré-gravada)}
+
+Uma alternativa para mídia com base em tempo ou uma audiodescrição do conteúdo em vídeo pré-gravado é fornecida para mídia sincronizada, exceto quando a mídia é uma alternativa ao texto e for claramente identificada como tal. (Nível A)
+
+\subsubsection{1.2.5 Audiodescrição (pré-gravada)}
+
+É fornecida audiodescrição para todo o conteúdo de vídeo pré-gravado existente em mídia sincronizada. (Nível AA)
+
+\subsubsection{1.2.7 Audiodescrição Alargada (pré-gravada)}
+
+Quando as pausas no áudio de primeiro plano forem insuficientes para permitir que as audiodescrições transmitam o sentido do vídeo, é fornecida uma audiodescrição estendida para todo o vídeo pré-gravado existente no conteúdo em mídia sincronizada. (Nível AAA)
+
+\subsubsection{1.3.2 Sequência com Significado}
+
+Quando a sequência na qual o conteúdo é apresentado afeta o seu significado, uma sequência de leitura correta pode ser determinada por meio de código de programação. (Nível A)
+
+\subsubsection{1.4.1 Utilização da Cor}
+
+A cor não é utilizada como o único meio visual de transmitir informações, indicar uma ação, pedir uma resposta ou distinguir um elemento visual. (Nível A). 
+
+Este critério de sucesso aborda especificamente a percepção de cores. Outras formas de percepção são abordadas na Diretriz 1.3, incluindo o acesso às cores por meio de código de programação e a outra codificação da apresentação visual.
+
+\subsubsection{2.1.1 Teclado}
+
+Toda a funcionalidade do conteúdo é operável através de uma interface de teclado sem requerer temporizações específicas para digitação individual, exceto quando a função subjacente requer entrada de dados que dependa da cadeia de movimento do usuário e não apenas dos pontos finais. (Nível A)
+
+Esta exceção diz respeito à função subjacente, não à técnica de entrada de dados. Por exemplo, se utilizar escrita manual para introduzir texto, a técnica de entrada de dados (escrita manual) requer entrada de dados dependente de caminho, mas a função subjacente (entrada de texto) não.
+
+Isto não proíbe, e não deve desencorajar, a entrada de dados através do mouse ou outros métodos de entrada de dados em conjunto à operação com o teclado.
+
+\subsubsection{2.1.2 Sem Bloqueio do Teclado}
+
+Se o foco do teclado puder ser movido para um componente da página utilizando uma interface de teclado, então o foco pode ser retirado desse componente utilizando apenas uma interface de teclado e, se for necessário mais do que as setas do cursor ou tabulação ou outros métodos de saída normalmente utilizados, o usuário deve ser informado sobre o método para retirar o foco. (Nível A)
+
+Uma vez que qualquer conteúdo que não cumpra este critério de sucesso pode interferir com a capacidade de um usuário usar toda a página, todo o conteúdo da página web (quer seja utilizado para cumprir outros critérios de sucesso ou não) tem que cumprir este critério de sucesso.
+
+\subsubsection{2.1.3 Teclado (Sem Exceção)}
+
+Toda a funcionalidade do conteúdo é operável através de uma interface de teclado sem requerer temporizações específicas para digitação individual. (Nível AAA)
+
+\subsubsection{2.4.3 Ordem do Foco}
+
+Se uma página web puder ser navegada de forma sequencial e as sequências de navegação afetarem o significado ou a operação, os componentes que podem ser focados recebem o foco em uma ordem que preserva o significado e a operabilidade. (Nível A)
+
+Esses são as 11 diretrizes escolhidas relacionadas com a deficiência visual que será usado na análise dos sites de notícia. A seguir, será falado as diretrizes relacionadas com a deficiência auditiva.
+
+\subsection{Especificações da WCAG e a deficiência auditiva}
+
+Existem algumas especificações que estão ligadas diretamente com a deficiência auditiva. As especificações escolhidas estão descritas nessa subseção e todas as foram tiradas diretamente da documentação da WCAG [10].
+
+\subsubsection{1.2.2 Legendas (pré-gravadas)}
+
+São fornecidas legendas para todo conteúdo de áudio pré-gravado em mídia sincronizada, exceto quando a mídia for uma alternativa para texto e for claramente identificada como tal. (Nível A)
+
+\subsubsection{1.2.4 Legendas (em direto)}
+
+São fornecidas legendas para todo o conteúdo do áudio ao vivo existente em mídia sincronizada. (Nível AA)
+
+\subsubsection{1.2.6 Língua Gestual (pré-gravada)}
+
+É fornecida interpretação em língua de sinais para todo o conteúdo de áudio pré-gravado existente em um conteúdo em mídia sincronizada. (Nível AAA)
+
+\subsubsection{1.2.8 Alternativa em Multimídia (pré-gravada)}
+
+É fornecida uma alternativa para mídia com base em tempo para a todo o conteúdo existente em mídia sincronizada pré-gravada e para a todo o conteúdo multimídia composto por apenas vídeo pré-gravado. (Nível AAA)
+
+\subsubsection{1.4.3 Contraste}
+
+A apresentação visual de texto e imagens de texto tem uma relação de contraste de, no mínimo, 4.5:1, exceto para o seguinte: (Nível AA)\\
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	1) Texto Ampliado: Texto em tamanho grande e as imagens compostas por texto em tamanho grande têm uma relação de contraste de, no mínimo, 3:1;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	2) Texto em plano Secundário: O texto ou imagens de texto que fazem parte de um componente de interface de usuário inativo, que são meramente decorativos, que não estão visíveis para ninguém, ou que são parte de uma imagem que inclui outro conteúdo visual significativo, não têm requisito de contraste;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	3) Logotipos: O texto que faz parte de um logotipo ou marca comercial não tem requisito de contraste.\\
+\end{minipage}
+
+\subsubsection{1.4.4 Redimensionar texto}
+
+Exceto para legendas e imagens de texto, o texto pode ser redimensionado sem tecnologia assistiva até 200 por cento sem perder conteúdo ou funcionalidade. (Nível AA)
+
+\subsubsection{1.4.5 Imagens de Texto}
+
+Se as tecnologias que estiverem sendo utilizadas puderem proporcionar a apresentação visual, é utilizado texto para transmitir informações em vez de imagens de texto, exceto para o seguinte: (Nível AA)\\
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	1) Personalizável: A imagem de texto pode ser visualmente personalizada de acordo com os requisitos do usuário;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	2) Essencial: Uma determinada apresentação de texto é essencial para as informações que serão transmitidas.\\
+\end{minipage}
+
+Os logotipos (texto que faz parte de um logotipo ou marca comercial) são considerados essenciais.
+
+\subsubsection{1.4.6 Contraste (Melhorado)}
+
+A apresentação visual do texto e imagens de texto tem uma relação de contraste de, no mínimo, 7:1, exceto para as seguintes situações: (Nível AAA)\\
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	1) Texto Ampliado: Texto em tamanho grande e as imagens compostas por texto em tamanho grande têm uma relação de contraste de, no mínimo, 4.5:1;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	2) Texto em plano Secundário: O texto ou as imagens de texto que fazem parte de um componente de interface de usuário inativo, que são meramente decorativos, que não estão visíveis para ninguém, ou que fazem parte de uma imagem que inclui outro conteúdo visual significativo, não têm requisito de contraste;\\
+\end{minipage}
+
+\hspace{.1\textwidth} %posiciona a minipage
+\begin{minipage}{.85\textwidth}
+	3) Logotipos: O texto que faz parte de um logotipo ou marca comercial não tem requisito de contraste mínimo.\\
+\end{minipage}
+
+Esses são as 8 diretrizes escolhidas relacionadas com a deficiência auditiva que será usado na análise dos sites de notícia. A seguir, será mostrado o método usado para mensurar a acessibilidade de cada site de notícia em relação à essas diretrizes escolhidas.
+
+\subsection{Método para quantificar os sites}
+
+Considerando as 19 diretrizes escolhidas na seção anterior, sendo onze ligadas com a deficiência visual e mais 8 ligadas com a deficiência auditiva, será mostrado agora a forma que esse artigo irá usar para quantificar a acessibilidade dos dez site de notícias que serão detalhados no próximo capítulo.
+
+Como foi visto, no começo do artigo, na seção 4, chamada de trabalho relacionados e, dentro dela, na subseção 4.2, chamada de avaliação de acessibilide de sites, existem algumas formas para quantificá-los. Porém, iremos usar o seguinte método, cada diretriz possui um quantificador de importância que pode ser "A", "AA" ou "AAA", sendo que, o "AAA" é o mais importante que o site tenha em relação a diretriz de valor "AA", que por sua vez é mais importante que a diretriz "A". Desse modo, será definido pesos, em que o "AAA" terá peso 3, o "AA" terá peso 2 e o "A" terá peso dois, como está sendo mostrado na tabela abaixo com as diretrizes, seus quantificadores e seus pesos.
+
+Tabela 3 - Diretrizes escolhidas e seus pesos\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont
+	\begin{longtable}{|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1\\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1\\
+		só de vídeo (pré-gravado) & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1\\
+		\hline
+		1.2.3 Audiodescrição ou alternativa & A & 1\\
+		em mídia (pré-gravada) & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2\\
+		\hline
+		1.2.5 Audiodescrição (pré-gravada) & AA & 2\\
+		\hline
+		1.2.6 Língua Gestual (pré-gravada) & AAA & 3\\
+		\hline
+		1.2.7 Audiodescrição Alargada (pré-gravada) & AAA & 3\\
+		\hline
+		1.2.8 Alternativa em Multimídia (pré-gravada) & AAA & 3\\
+		\hline
+		1.3.2 Sequência com Significado & A & 1\\
+		\hline
+		1.4.1 Utilização da Cor & A & 1\\
+		\hline
+		1.4.3 Contraste & AA & 2\\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2\\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2\\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3\\
+		\hline
+		2.1.1 Teclado & A & 1\\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1\\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3\\
+		\hline
+		2.4.3 Ordem do Foco & A & 1\\
+		\hline
+		TOTAL & - & 34\\
+		\hline
+	\end{longtable}
+\end{center}
+
+Portanto, no total de 19 diretrizes escolhidas se obtêm um total de 34 pontos. Então ao fazer o seguinte calculo 100/34=2.941176471..., se obtém aproximadamente 2.94\% para cada ponto cumprido. Dessa forma, as diretrizes com quantificadores "A" que forem cumpridas valerão 2.94\%, aquelas com quantificadores "AA" que forem seguidas valerão 5.88\%, e, por fim, as diretrizes com quantificadores "AAA" que forem executadas valerão 8.82\%. Sendo assim, caso os sites cumpram os 34 pontos, eles serão 100\% acessível para, em relação à essas 19 diretrizes, para os deficientes auditivos e visuais. Ponderando esse modo de quantificar os sites de notícias, na seção a seguir, irá começar a análise de cada site individualmente.
+
 \section{ANÁLISE DOS SITES DE NOTÍCIA}
+
+Nessa seção será analisado a acessibilidade de 10 sites de notícias existentes no Brasil para pessoas com deficiência visual e auditiva. Os sites foram escolhidos através do numero de visitas na compilação entre as ferramentas Alexa, SimilarWeb e SemRush [16], e todos os dados dos sites foram tiradas dessa compilação. Os sites a seguir estão listados na ordem descrente, eles são Clicrbs, Yahoo! Notícias, IG, MSN Brasil, Estadão, R7 Noticias, Folha De São Paulo, Terra Notícias, Uol Notícias e G1.
+
+\subsection{Clicrbs}
+
+Clicrbs é um portal de noticias que atende em especifico a região do Rio Grande do Sul e Santa Catariana. Ele recebe quase 20 milhões de visitas por mês, estando assim na décima posição. O site possui parceria com Globo devido a sua filiação da RBS TV com 18 emissoras de TV e 8 emissoras de rádio cobrindo a região sul do pais. O grupo também é dono do jornal impresso e site Zero hora. Além de mais 300 blogs em sua plataforma [16].
+
+O clicRBS é um portal do Grupo RBS que oferece conteúdo online para o estado do Rio Grande do Sul. Integram o clicRBS os sites dos veículos de mídia impressa e eletrônica do Grupo RBS e canais próprios de notícias e serviços, conteúdo produzido por jornalistas e webdesigners. É possível acessar o clicRBS através da Globo.com no qual está hospedado. No clicRBS, o usuário recebe notícias atualizadas durante todo o dia, tem acesso aos conteúdos dos jornais da RBS e à programação ao vivo de rádios. O portal concentra também a maior parte das ações de interatividade dos veículos e oferece canais para as manifestações de opinião dos usuários de todas as mídias do grupo [25].
+
+Tabela 4 - Diretrizes cumpridas no site Clicrbs\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{Yahoo! Notícias}
+
+Em nono lugar está o Yahoo! Notícias Brasil. Ele é um site informativo que mantem o seu corpo jornalísticos de noticias em dia, principalmente em relação a noticias do mundo, pois ele é alimentado pela rede internacional do Yahoo [16].
+
+O Yahoo! foi criado por Jerry Yang e David Filo em 1994, nos Estados Unidos. Estudantes da Universidade Stanford, os fundadores da companhia desenvolveram a plataforma para catalogar sites interessantes na internet. Apesar de ter nascido apenas para uso próprio, rapidamente o Yahoo! ganhou popularidade dentro e fora da universidade. Atualmente, o Yahoo! é mundialmente conhecido por seus produtos e serviços de internet para consumidores e empresas. O portal de comunicação conta com motor de busca, e-mail, messenger, grupos, notícias, entre outros. Além disso, a companhia atua com hospedagem de sites, serviços de gestão e publicidade online [26].
+
+Tabela 5 - Diretrizes cumpridas no site Yahoo! Notícias\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{IG}
+
+Já em oitavo lugar está o IG, que é um dos portais que mais se reinventa na internet brasileira. Mudanças constantes e parcerias de peso tem reerguido esse grande portal que antes provia acesso internet na era discada. Atualmente, eles esperam crescer muito mais, apostando no agregador de blogs “iGlr“. O Site receberá visitas de todos os blogs parceiros [16].
+
+Internet Group é um provedor de acesso à Internet brasileiro de banda larga e de acesso discado à Internet adquirido em 2004  pelos grupos GP Investimentos (Telemar) e Brasil Telecom e fundido aos portais iBest e BrTurbo, que já eram de propriedade da empresa de telefonia. Em 2010, o iG é adquirido pela Oi após a venda da Brasil Telecom. Em 18 de abril de 2012 a empresa portuguesa Ongoing anunciou a compra do portal. O abalo no mercado foi imediato, apesar de não ter sido o primeiro provedor gratuito brasileiro, atingindo grande popularidade num tempo em que a banda larga era pouco comum. O portal também estava bem posicionado, reunia um número crescente de sites competentes e criativos, liderados pelo Último Segundo, formando um conjunto de destaque quando a política de portais ainda buscava amadurecimento no Brasil [27].
+
+Tabela 6 - Diretrizes cumpridas no site IG\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{MSN Brasil}
+
+Em sétimo lugar temos o MSN Brasil, que é o site de noticias após fechar o hotmail. Isso foi o que impulsionou esse portal que mostra ser umas das fontes mais relevantes em noticias de última hora na internet [10].
+
+O portal MSN, originalmente conhecido como The Microsoft Network, foi fundado em 1995 pela Microsoft. Criado para os usuários do Windows 95, o site surgiu como uma rede de serviços online. A partir de 1997, os conteúdos do portal passaram a ser distribuídos para todos os assinantes. Por vários anos, o MSN foi conhecido pelo seu serviço de mensagens instantâneas, o MSN Messenger. Nascido em 1999, o programa foi fundido com o Windows Messenger, dando origem ao Windows Live Messenger. O serviço foi descontinuado em 2013, depois de ter marcado a vida dos usuários da internet dos anos 2000. Atualmente, o MSN oferece e-mail, pesquisa, grupos, fóruns de discussão, entre outros, inclusive notícias. A plataforma conta com cerca de 330 milhões de usuários e está presente em, aproximadamente, 100 países. Os principais mercados do portal são os Estados Unidos, México, Japão e  Brasil, onde está inserido o MSN Brasil [28].
+
+Tabela 7 - Diretrizes cumpridas no site MSN Brasil\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{Estadão}
+
+Na sexta posição está o portal de noticias do jornal O Estado de S. Paulo, que oferece noticias com imparcialidade e seriedade. Grandes colunistas renomados emitem sua opinião nas colunas e nos blogs do portal. É o lugar perfeito para quem esta habituado a ler jornais impressos, pois com advento da web e da leitura online, nascem todos os dias jornalistas preparados exclusivamente para esse meio. O portal recebe mais de 10 milhões de visitas por mês [10].
+
+No dia 20 de fevereiro de 1995, o Grupo Estado entrava na Internet. Até então, as BBSs, redes localizadas, eram o que mais próximo se tinha de internet no País. Por isso, junto com a notícia, um texto suplementar explicava o que era a internet e a sua história, de modo que os leitores pudessem entender do que se tratava. O serviço noticioso foi inicialmente hospedado no site WordNews, nos Estados Unidos, porque naqueles primeiros dias de 1995 ainda não havia como registrar os domínios, os endereços do site que são digitados nos navegadores, de sites brasileiros. No NetEstado os leitores passaram a ter os conteúdos da edição impressa do jornal acrescidos de conteúdos especiais que o novo formato comportava. No JTWeb ficava os conteúdos do outro periódico impresso do grupo. Em 1996, com a evolução das tecnologias, a Agência Estado implantaria um pioneiro sistema editorial que permitia a publicação de notícias com rapidez até então desconhecida. A estreia do publicador aconteceu na Olimpíada de Atlanta, permitindo a transmissão online inovadora dos acontecimentos esportivos [29].
+
+Em 1998, com a Copa do Mundo da França, pela primeira vez seria adotado o endereço estadao.com.br, que seria o embrião do modelo de portal de notícias que seria implementado somente dois anos depois. Assim, toda a cobertura do principal torneio de futebol do mundo estaria concentrado numa única página. No mesmo ano, as eleições presidenciais também contariam com o novo modelo de cobertura digital. No ano 2000, o portal Estadão.com.br estrearia o novo modelo que seria aprimorado até os dias atuais, com a incorporações das novas tecnologias, linguagem, ferramentas e outras inovações [29].
+
+Tabela 8 - Diretrizes cumpridas no site Estadão\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{R7 Noticias}
+
+Em quinto lugar temos 0 R7.com, que segue o padrão do estabelecido pelo G1. Ele teve sua estreia em 27 de setembro de 2009 com grande quantidade de jornalistas vindo do UOL, G1, Folha do Estado de SP, Terra, Abril, Reuters. Hoje, ele já é o 5° portal mais acessado do Brasil, porém esse numero só foi alcançado graças as ultimas parcerias feitas com outros sites e blogs, ao qual suas audiência são somadas. O R7 fechou parceria com 5 dos 10 blogs mais acessados do Brasil e ele pertence a Central Record de Comunicação [10].
+
+R7 ou R7.com é um portal de internet brasileiro criado em 2009 que atualmente pertence ao Grupo Record. Em 2017, o R7 anunciou que tornou-se o quinto maior da América Latina. Seu conteúdo é produzido com o apoio das estruturas da RecordTV, da Record News e também de suas filiadas e afiliadas, que produzem matérias através de páginas regionais. No R7 foi feito com investimento estimado em 300 milhões de reais, e na data de estreia contava com uma equipe de 300 profissionais [30].
+
+Tabela 9 - Diretrizes cumpridas no site R7 Noticias\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{Folha De São Paulo}
+
+Já na quarta colocação está a Folha de São Paulo, que é uma versão online do jornal impresso de maior credibilidade do Brasil. Ela está entre as melhores fontes de noticias da atualidade. Com furos jornalísticos, entrevistas e noticias bombásticas, ele se mantem na liderança impressa das principais cidades do Brasil, talvez por isso o grande market share conquistado no mundo online. Se você deseja noticia de verdade, sem ligações com o entretenimento empregada por outros portais, esse é o lugar certo [10].
+
+A história da Folha começa em 1921, com a criação do jornal "Folha da Noite". Em julho de 1925, é criado o jornal "Folha da Manhã", edição matutina da "Folha da Noite". A "Folha da Tarde" é fundada após 24 anos. Em 1º de janeiro de 1960, os três títulos da empresa se fundem e surge o jornal Folha de S.Paulo [31]. E em 1995 começa a funcionar o Centro Tecnológico Gráfico-Folha, em Tamboré. O jornal passa a circular com a maioria das páginas coloridas. Também nesse ano, a empresa lança a FolhaWeb, primeiro site de notícias em tempo real [32].
+
+Tabela 10 - Diretrizes cumpridas no site Folha De São Paulo\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{Terra Notícias}
+
+O terceiro site jornalístico mais acessado no Brasil é o portal Terra, criado em 1999, caiu muito em audiência nos últimos anos no Brasil, mas com a nova repaginação no layout espera crescer novamente oferecendo o melhor das noticiais, entretenimento e esportes, o tri-pé mais cobiçado da internet brasileira [10].
+
+Terra é uma empresa brasileira de internet pertencente ao grupo espanhol Telefónica, um dos maiores conglomerados de telecomunicações fixas e móveis do mundo. Lançado no Brasil após aquisição do até então portal gaúcho de conteúdo Zaz (ex-Nutecnet). Além de atuar como portal de notícias, atualmente a companhia também trabalha com aplicativos de celular, publicidade e outros serviços digitais. Em agosto de 2017, o portal Terra passou a funcionar somente no Brasil, encerrando suas atividades em parte da América Latina, Espanha e EUA [33].
+
+Tabela 11 - Diretrizes cumpridas no site Terra Notícias\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{Uol Notícias}
+
+Na vice colocação está o Uol Notícias. Ele é um portal conhecido por ter experiência e tamanho para oferecer noticias de qualidade e com credibilidade. Presume-se que o portal em conjunto com seus parceiros receba em torno de 57 milhões de visitas por mês. A Folha e a Band que estão nesse ranking também possui parcerias com eles [10].
+
+Universo Online vai ao ar em 1996, como o primeiro portal de notícias do Brasil, com serviço de Bate-papo, edição diária da Folha de S. Paulo, arquivos da Folha com cerca de 250 mil textos, reportagens do The New York Times, traduzidas para o português, folha da tarde e notícias populares, classificados, roteiros, saúde e a revista IstoÉ [34].
+
+Tabela 12 - Diretrizes cumpridas no site Uol Notícias\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
+
+\subsection{G1}
+
+E em primeiro lugar está o G1, que é disparado o maior site de notícias do Brasil, e vê de longe os concorrentes. Desde 2006 mantem o padrão Globo de jornalismo e com conteúdos multimídia vem tirando proveito da internet sobre os tradicionais meios de comunicação. Ele é um dos únicos portais que não necessita dos “números adicionais”, ou seja, aqueles sites parceiros que juntam sua audiência ao portal se tornando um só perante ao ibope e ao Comscore. Segundo dados do final de 2013, o portal da Globo recebe cerca de 49 milhões de acessos por mês [10].
+
+Tabela 13 - Diretrizes cumpridas no site G1\\[-1cm]
+\begin{center}
+	\fontsize{8pt}{8pt}\selectfont	
+	\begin{longtable}{|c|c|c|c|c|}
+		\hline
+		Diretriz & Quantificador & Peso & Pesos & Diretrizes\\
+		& & & cumpridos & cumpridas\\
+		\hline
+		1.1.1 Conteúdo não textual & A & 1 & & \\
+		\hline
+		1.2.1 Conteúdo só de áudio & A & 1 & & \\
+		só de vídeo (pré-gravado) & & & & \\
+		\hline
+		1.2.2 Legendas (pré-gravadas) & A & 1 & & \\
+		\hline
+		1.2.3 Audiodescrição & A & 1 & & \\
+		ou alternativa em & & & & \\
+		mídia (pré-gravada) & & & & \\
+		\hline
+		1.2.4 Legendas (em direto) & AA & 2 & & \\
+		\hline
+		1.2.5 Audiodescrição & AA & 2 & & \\
+		(pré-gravada) & & & & \\
+		\hline
+		1.2.6 Língua Gestual & AAA & 3 & & \\
+		(pré-gravada) & AAA & 3 & & \\
+		\hline
+		1.2.7 Audiodescrição & AAA & 3 & & \\
+		Alargada (pré-gravada) & & & & \\
+		\hline
+		1.2.8 Alternativa em & AAA & 3 & & \\
+		Multimídia (pré-gravada) & & & & \\
+		\hline
+		1.3.2 Sequência com Significado & A & 1 & & \\
+		\hline
+		1.4.1 Utilização da Cor & A & 1 & & \\
+		\hline
+		1.4.3 Contraste & AA & 2 & & \\
+		\hline
+		1.4.4 Redimensionar texto & AA & 2 & & \\
+		\hline
+		1.4.5 Imagens de Texto & AA & 2 & & \\
+		\hline
+		1.4.6 Contraste (Melhorado) & AAA & 3 & & \\
+		\hline
+		2.1.1 Teclado & A & 1 & & \\
+		\hline
+		2.1.2 Sem Bloqueio do Teclado & A & 1 & & \\
+		\hline
+		2.1.3 Teclado (Sem Exceção) & AAA & 3 & & \\
+		\hline
+		2.4.3 Ordem do Foco & A & 1 & & \\
+		\hline
+		TOTAL & - & 34 & - & \\
+		\hline
+	\end{longtable}
+\end{center}
 
 \section{CONCLUSÃO}
 
 \section*{REFERÊNCIAS}
-\addcontentsline{toc}{section}{Referência}
+\addcontentsline{toc}{section}{Referências}
 \hspace{-0.05\textwidth}
 \begin{minipage}{1\textwidth}
-[1] M. Campoverde-Molina, S. Lujan-Mora, e L. Valverde Gracia, "Empirical Studies on Web Accessibility of Educational Websites: A Systematic Literature Review" em IEEEAcess, Abril de 2020.
-\end{minipage}\\[0.5cm]
-[2] D. Luís Arenhardt, T. Stefanel Franchi, e S. Medianeira Flores Costa, M. Zampieri Grohmann, "Acessibilidade digital: Uma análise em portais de Instituições Federais de Educação do Brasil" em Education Policy Analysis Archives, Abril de 2017.\\[0.5cm] [3] P. Acosta-Vargas, T. Acosta, e S. Luján-Mora, "Challenges to Assess Accessibility in Higher A Comparative Study of Latin America Universities" em IEEEAcess, Março de 2018.\\[0.5cm] [4] E. M. Molanes-López, A. Rodriguez-Ascaso, E. Letón, E J. Pérez-Martín, "Assessment of Video Accessibility by Students of a MOOC on Digital Materials for All a MOOC on Digital Materials for All" em IEEEAcess, Maio de 2021.\\[0.5cm] [5] A. Ismail, K. S. Kuppusamy, "Web accessibility investigation and identification of major issues of higher education websites with statistical measures - A case study of college websites" em Journal of King Saud University – Computer and Information Sciences, Março de 2019.\\[0.5cm] [6] A. Ismail, K. S. Kuppusamy, "Accessibility of Indian universities homepages An exploratory study" em Journal of King Saud University – Computer and Information Sciences, Junho de 2016.\\[0.5cm] [7] H. S. Al-Khalifa, I. Baazeem e R. Alamer1, "Revisiting the accessibility of Saudi Arabia government websites" em Universal Access in the Information Society, Setembro de 2016.\\[0.5cm] [8] P. Acosta-Vargas, T. Acosta, e S. Luján-Mora, "A Heuristic Method to Evaluate Web Accessibility for Users With Low Vision" em IEEEAcess, Março de 2018.\\[0.5cm] [9] H. O. Al-Sakran, M. A, Alsudairi "Usability and Accessibility Assessment of Saudi Arabia Mobile E-Government Websites" em IEEEAcess, Março de 2021.\\[0.5cm] [10] B. Caldwell, M. Cooper, L. Guarino Reid, G. Vanderheiden, W. Chisholm, J. Slatin e J. White, Consórcio W3C(2008), "Diretrizes de Acessibilidade para Conteúdo Web (WCAG)2.0", Acesso em: 11 jun. 2021. [Online]. Disponível: https://www.w3.org/Translations/WCAG20-pt-PT/WCAG20-pt-PT-20141024/\\[0.5cm] [11] T. Acosta, P. Acosta Vargas, J. Zambrano Miranda e S. Luján Mora, "Web Accessibility Evaluation of Videos Published on YouTube by Worldwide Top-Ranking Universities" em IEEEAcess, Junho de 2020.
-
+[1] M. Campoverde-Molina, S. Lujan-Mora e L. Valverde Gracia, "Empirical Studies on Web Accessibility of Educational Websites: A Systematic Literature Review" em IEEEAcess, Abril de 2020.
+\end{minipage}\\[0.5cm] [2] D. Luís Arenhardt, T. Stefanel Franchi e S. Medianeira Flores Costa, M. Zampieri Grohmann, "Acessibilidade digital: Uma análise em portais de Instituições Federais de Educação do Brasil" em Education Policy Analysis Archives, Abril de 2017.\\[0.5cm] [3] P. Acosta-Vargas, T. Acosta e S. Luján-Mora, "Challenges to Assess Accessibility in Higher A Comparative Study of Latin America Universities" em IEEEAcess, Março de 2018.\\[0.5cm] [4] E. M. Molanes-López, A. Rodriguez-Ascaso, E. Letón e J. Pérez-Martín, "Assessment of Video Accessibility by Students of a MOOC on Digital Materials for All a MOOC on Digital Materials for All" em IEEEAcess, Maio de 2021.\\[0.5cm] [5] A. Ismail e K. S. Kuppusamy, "Web accessibility investigation and identification of major issues of higher education websites with statistical measures - A case study of college websites" em Journal of King Saud University – Computer and Information Sciences, Março de 2019.\\[0.5cm] [6] A. Ismail e K. S. Kuppusamy, "Accessibility of Indian universities homepages An exploratory study" em Journal of King Saud University – Computer and Information Sciences, Junho de 2016.\\[0.5cm] [7] H. S. Al-Khalifa, I. Baazeem e R. Alamer1, "Revisiting the accessibility of Saudi Arabia government websites" em Universal Access in the Information Society, Setembro de 2016.\\[0.5cm] [8] P. Acosta-Vargas, T. Acosta e S. Luján-Mora, "A Heuristic Method to Evaluate Web Accessibility for Users With Low Vision" em IEEEAcess, Março de 2018.\\[0.5cm] [9] H. O. Al-Sakran e M. A, Alsudairi "Usability and Accessibility Assessment of Saudi Arabia Mobile E-Government Websites" em IEEEAcess, Março de 2021.\\[0.5cm] [10] B. Caldwell, M. Cooper, L. Guarino Reid, G. Vanderheiden, W. Chisholm, J. Slatin e J. White, Consórcio W3C(2008), "Diretrizes de Acessibilidade para Conteúdo Web (WCAG)2.0", Acesso em: 11 jun. 2021. [Online]. Disponível: https://www.w3.org/Translations/WCAG20-pt-PT/WCAG20-pt-PT-20141024/\\[0.5cm] [11] T. Acosta, P. Acosta Vargas, J. Zambrano Miranda e S. Luján Mora, "Web Accessibility Evaluation of Videos Published on YouTube by Worldwide Top-Ranking Universities" em IEEEAcess, Junho de 2020.\\[0.5cm] [12] C. Batanero-Ochaíta1, L. De-Marcos, L. Felipe Rivera, J. Holvikivi, J. Ramón Hilera e S. Otón, "Improving Accessibility in Online Education Comparative Analysis of Attitudes of Blind and Deaf Students Towards an Adapted Learning Platform" em IEEEAcess, 2017.\\[0.5cm] [13] B. Poletto Salton, J. Poletto Almeida, A. Rocha Façanha, A. Luiz Rezende, A. Poletto Sonza, Â. Guimarães, F. Zap, G. Samuel do Nascimento, J. Fiore de Oliveira Junior, J. Marques Carvalho da Silva, M. Antônio de Queiroz, M. Vinícius Bennett Ferreira, M. Covolan Rosito, R. Ferraz, R. Busatto, R. Moro, U. Paterno e W. Fernandes, A. Luís Porto Costa, E. Carniel, L. Nervis, J. Pilotti e L. Siqueira Lima, A. Pimenta Freire, C. Scarton, D. Roger Ramos Freitas, E. Marques Bento, J. Fernandes, L. Dell Anhol Almeida, M. Cecília Calani Baranauskas, T. Prado de Campos, V. Figueredo de Santana, A. E. Dourado Salina Gabriel, C. Gonçalves do Bomfim, E. Santos Martins Leite, F. Hoffmann Lobato e H. Gomes Mesquita, "eMAG - Modelo de Acessibilidade em Governo Eletrônico", Acesso em: 29 jul. 2021. [Online]. Disponível: http://emag.governoeletronico.gov.br/\\[0.5cm] [14] Y. Akgül1n, "Accessibility, usability, quality performance, and readability evaluation of university websites of Turkey: a comparative study of state and private universities" em Springer, Abril de 2020.\\[0.5cm] [15] J. Nakatumba Nabende, B. Kanagwa, F. Nameere Kivunike e M. Tuape, "Evaluation of accessibility standards on Ugandan e-government websites" em Electronic Government an International Journal, Junho de 2019.\\[0.5cm] [16] A. S. Lucas, Top 10 maiores sites de notícias do Brasil", Acesso em: 03 ago. 2021. [Online]. Disponível: https://top10mais.org/sites-de-noticias/\\[0.5cm] [17] N. A. Karaim e Y. Inal, "Usability and accessibility evaluation of Libyan government websites" em Department of Information Systems Engineering, Graduate
+School of Natural and Applied Science, Atilim University, Ankara, Turkey e em Department of Information Systems Engineering, Faculty of Engineering, Atilim University, Ankara, Turkey, Outubro de 2017.\\[0.5cm] [18] S. Naipal1, N. Rampersad, " A review of visual impairment" em University of KwaZulu-Natal, South Africa, Jan de 2018.\\[0.5cm] [19] A. de Castro Roma, "Breve histórico do processo cultural e educativo dos deficientes visuais no Brasil" em Revista Ciência Contemporânea, Dez de 2018.\\[0.5cm] [20] Mundo Educação, "Cegueira", Acesso em: 03 ago, 2021. [Online]. Disponível: https://mundoeducacao.uol.com.br/doencas/cegueira.htm\\[0.5cm] [21] S. Tamires Almeida e V. Filipe Araújo, "Diferenças experienciais entre pessoas com cegueira congênita e adquirida: uma breve apreciação", em Revista Interfaces: Saúde, Humanas e Tecnologia, Ano 1, v. 1, n.3 e em Faculdade Leão Sampaio, Jun de 2013.\\[0.5cm] [22] Fio Cruz, "Deficiência Auditiva", Acesso em: 13 ago, 2021. [Online]. Disponível: http://www.fiocruz.br/biosseguranca/Bis/infantil/deficiencia-auditiva.htm\\[0.5cm] [23] A. L. Campos Barbosa, J. J. Ferreira Reis Sampaio e N. Alves Marques, "A educação do deficiente auditivo: um olhar sobre a diferença" em UNIT-SE, Maio de 2019\\[0.5cm] [24] F. V. Braga Junior e S. Andrade de Paula Bedaque, "Deficiência auditiva e o atendimento educacional especializado" em SECADI e em Universidade Federal Rural do Semi-ÁridoReitor, em 2015\\[0.5cm] [25] Wikipédia - A enciclopédia livre, "clicRBS", Acesso em: 19 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/ClicRBS\\[0.5cm] [26] Canaltech, "Yahoo", Acesso em: 19 ago, 2021. [Online]. Disponível: https://canaltech.com.br/empresa/yahoo/\\[0.5cm] [27] Canaltech, "Internet Group", Acesso em: 19 ago, 2021. [Online]. Disponível: https://canaltech.com.br/empresa/yahoo/\\[0.5cm] [28] Canaltech, "MSN", Acesso em: 19 ago, 2021. [Online]. Disponível: https:// canaltech.com.br/empresa/msn/\\[0.5cm] [29] Estadão, "Ha 20 anos grupo estado entrava na internet", Acesso em: 19 ago, 2021. [Online]. Disponível: http://m.acervo.estadao.com.br/noticias/acervo,ha-20-anos--grupo-estado-entrava-na-internet,10781,0.htm\\[0.5cm] [30] Wikipédia - A enciclopédia livre, "R7", Acesso em: 19 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/R7\\[0.5cm] [31] UOL, "História da Folha", Acesso em: 19 ago, 2021. [Online]. Disponível: https://www1.folha.uol.com.br/folha/circulo/historia\textunderscore folha.htm\\[0.5cm] [32] UOL, "História da Folha", Acesso em: 19 ago, 2021. [Online]. Disponível: https://www1.folha.uol.com.br/institucional/historia\textunderscore da\textunderscore folha.shtml?fill=4\\[0.5cm] [33] Wikipédia - A enciclopédia livre, "Terra (empresa)", Acesso em: 20 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/Terra\textunderscore (empresa)\\[0.5cm] [34] UOL, "História - Sobre UOL", Acesso em: 20 ago, 2021.[Online]. Disponível: https://sobreuol.noticias.uol.com.br/historia/
 \end{titlepage}
 \end{document}

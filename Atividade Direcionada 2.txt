@@ -1,0 +1,8 @@
+ATIVIDADE DIRECIONADA 2:
+
+1 - Analisar a diretriz WCAG.
+2 - Especificar a WCAG de acordo com a deficiência visual.
+3 - Especificar a WCAG de acordo com a deficiência auditiva.
+4 - Mostra a forma para quantificar a acessibilidade os sites de notícias.
+5 - Escolha dos sites que serão analisados.
+6 - Introdução histórica de cada site.
