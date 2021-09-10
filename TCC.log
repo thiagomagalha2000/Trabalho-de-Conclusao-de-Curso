@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  3 SEP 2021 09:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  7 SEP 2021 10:50
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -910,64 +910,64 @@ Underfull \vbox (badness 10000) detected at line 1008
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1072
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
+Underfull \vbox (badness 10000) detected at line 1074
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
  []
 
 [28]
-Underfull \vbox (badness 10000) detected at line 1136
+Underfull \vbox (badness 10000) detected at line 1138
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1165
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1167
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1200
+Underfull \vbox (badness 10000) detected at line 1202
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 1228--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1264
+Underfull \vbox (badness 10000) detected at line 1266
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
+Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1326
+Underfull \vbox (badness 10000) detected at line 1328
  []
 
 [31]
-Overfull \hbox (5.63957pt too wide) in paragraph at lines 1352--1357
+Overfull \hbox (5.63957pt too wide) in paragraph at lines 1354--1359
 \OT1/cmr/m/n/10 https://www.w3.org/Translations/WCAG20-pt-PT/WCAG20-pt-PT-20141
 024/ 
  []
 
 
-Overfull \hbox (19.27863pt too wide) in paragraph at lines 1352--1357
+Overfull \hbox (19.27863pt too wide) in paragraph at lines 1354--1359
 \OT1/cmr/m/n/10 ponvel: http://www.fiocruz.br/biosseguranca/Bis/infantil/defi
 ciencia-auditiva.htm 
  []
 
 
-Overfull \hbox (2.14896pt too wide) in paragraph at lines 1352--1357
+Overfull \hbox (2.14896pt too wide) in paragraph at lines 1354--1359
 \OT1/cmr/m/n/10 2021. [On-line]. Dis-ponvel: http://m.acervo.estadao.com.br/n
 oticias/acervo,ha-
  []
@@ -976,7 +976,7 @@ oticias/acervo,ha-
 Here is how much of TeX's memory you used:
  15876 strings out of 479334
  331278 string characters out of 2857559
- 680945 words of memory out of 3000000
+ 681945 words of memory out of 3000000
  33008 multiletter control sequences out of 15000+200000
  412954 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -988,7 +988,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DEL
 L/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on TCC.pdf (39 pages, 248659 bytes).
+Output written on TCC.pdf (39 pages, 249787 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
