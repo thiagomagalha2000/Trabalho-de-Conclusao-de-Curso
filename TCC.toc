@@ -2,59 +2,58 @@
 \contentsline {section}{\numberline {1}INTRODUÇÃO}{1}{}%
 \contentsline {section}{\numberline {2}TRABALHOS RELACIONADOS}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Diretrizes}{2}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}WCAG}{3}{}%
-\contentsline {paragraph}{1 - Princípio perceptível:}{3}{}%
-\contentsline {paragraph}{2 - Princípio operável: }{4}{}%
-\contentsline {paragraph}{3 - Princípio compreensível: }{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}WCAG}{2}{}%
+\contentsline {paragraph}{1 - Princípio perceptível:}{2}{}%
+\contentsline {paragraph}{2 - Princípio operável: }{3}{}%
+\contentsline {paragraph}{3 - Princípio compreensível: }{4}{}%
 \contentsline {paragraph}{4 - Princípio robusto: }{5}{}%
-\contentsline {subsubsection}{\numberline {2.1.2}eMAG}{6}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}eMAG}{5}{}%
 \contentsline {paragraph}{1 - Ponto 1(Marcação): }{6}{}%
 \contentsline {paragraph}{2 - Ponto 2(Comportamento): }{6}{}%
-\contentsline {paragraph}{3 - Ponto 3(Conteúdo): }{7}{}%
-\contentsline {paragraph}{4 - Ponto 4(Apresentação): }{7}{}%
-\contentsline {paragraph}{5 - Ponto 5(Multimídia): }{7}{}%
+\contentsline {paragraph}{3 - Ponto 3(Conteúdo): }{6}{}%
+\contentsline {paragraph}{4 - Ponto 4(Apresentação): }{6}{}%
+\contentsline {paragraph}{5 - Ponto 5(Multimídia): }{6}{}%
 \contentsline {paragraph}{6 - Ponto 6(Formulários): }{7}{}%
-\contentsline {subsection}{\numberline {2.2}Avaliação de Acessibilidade de Sites}{8}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}Sites educacionais}{8}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}Sites governamentais}{9}{}%
-\contentsline {section}{\numberline {3}TIPOS DE DEFICIÊNCIA}{10}{}%
-\contentsline {subsection}{\numberline {3.1}Formas de deficiência visual}{10}{}%
-\contentsline {subsection}{\numberline {3.2}Formas de deficiência auditiva}{12}{}%
-\contentsline {section}{\numberline {4}METODOLOGIA}{13}{}%
-\contentsline {section}{\numberline {5}CRONOGRAMA}{14}{}%
-\contentsline {section}{\numberline {6}ANÁLISE DA DIRETRIZ WCAG}{15}{}%
-\contentsline {subsection}{\numberline {6.1}Especificações da WCAG e a deficiência visual}{15}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}1.1.1 Conteúdo não textual}{15}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}1.2.1 Conteúdo só de áudio e só de vídeo (pré-gravado)}{16}{}%
-\contentsline {subsubsection}{\numberline {6.1.3}1.2.3 Audiodescrição ou alternativa em mídia (pré-gravada)}{16}{}%
-\contentsline {subsubsection}{\numberline {6.1.4}1.2.5 Audiodescrição (pré-gravada)}{17}{}%
-\contentsline {subsubsection}{\numberline {6.1.5}1.2.7 Audiodescrição Alargada (pré-gravada)}{17}{}%
-\contentsline {subsubsection}{\numberline {6.1.6}1.3.2 Sequência com Significado}{17}{}%
-\contentsline {subsubsection}{\numberline {6.1.7}1.4.1 Utilização da Cor}{17}{}%
-\contentsline {subsubsection}{\numberline {6.1.8}2.1.1 Teclado}{17}{}%
-\contentsline {subsubsection}{\numberline {6.1.9}2.1.2 Sem Bloqueio do Teclado}{18}{}%
-\contentsline {subsubsection}{\numberline {6.1.10}2.1.3 Teclado (Sem Exceção)}{18}{}%
-\contentsline {subsubsection}{\numberline {6.1.11}2.4.3 Ordem do Foco}{18}{}%
-\contentsline {subsection}{\numberline {6.2}Especificações da WCAG e a deficiência auditiva}{18}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}1.2.2 Legendas (pré-gravadas)}{18}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}1.2.4 Legendas (em direto)}{19}{}%
-\contentsline {subsubsection}{\numberline {6.2.3}1.2.6 Língua Gestual (pré-gravada)}{19}{}%
-\contentsline {subsubsection}{\numberline {6.2.4}1.2.8 Alternativa em Multimídia (pré-gravada)}{19}{}%
-\contentsline {subsubsection}{\numberline {6.2.5}1.4.3 Contraste}{19}{}%
-\contentsline {subsubsection}{\numberline {6.2.6}1.4.4 Redimensionar texto}{19}{}%
-\contentsline {subsubsection}{\numberline {6.2.7}1.4.5 Imagens de Texto}{19}{}%
-\contentsline {subsubsection}{\numberline {6.2.8}1.4.6 Contraste (Melhorado)}{20}{}%
-\contentsline {subsection}{\numberline {6.3}Método para quantificar os sites}{20}{}%
-\contentsline {section}{\numberline {7}ANÁLISE DOS SITES DE NOTÍCIA}{21}{}%
-\contentsline {subsection}{\numberline {7.1}Clicrbs}{22}{}%
-\contentsline {subsection}{\numberline {7.2}Yahoo! Notícias}{23}{}%
-\contentsline {subsection}{\numberline {7.3}IG}{24}{}%
-\contentsline {subsection}{\numberline {7.4}MSN Brasil}{25}{}%
-\contentsline {subsection}{\numberline {7.5}Estadão}{26}{}%
-\contentsline {subsection}{\numberline {7.6}R7 Noticias}{27}{}%
-\contentsline {subsection}{\numberline {7.7}Folha De São Paulo}{28}{}%
-\contentsline {subsection}{\numberline {7.8}Terra Notícias}{29}{}%
-\contentsline {subsection}{\numberline {7.9}Uol Notícias}{30}{}%
-\contentsline {subsection}{\numberline {7.10}G1}{31}{}%
-\contentsline {section}{\numberline {8}CONCLUSÃO}{32}{}%
-\contentsline {section}{Referências}{32}{}%
+\contentsline {subsection}{\numberline {2.2}Avaliação de Acessibilidade de Sites}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Sites educacionais}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Sites governamentais}{8}{}%
+\contentsline {section}{\numberline {3}TIPOS DE DEFICIÊNCIA}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Formas de deficiência visual}{9}{}%
+\contentsline {subsection}{\numberline {3.2}Formas de deficiência auditiva}{11}{}%
+\contentsline {section}{\numberline {4}METODOLOGIA}{12}{}%
+\contentsline {section}{\numberline {5}ANÁLISE DA DIRETRIZ WCAG}{13}{}%
+\contentsline {subsection}{\numberline {5.1}Especificações da WCAG e a deficiência visual}{13}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}1.1.1 Conteúdo não textual}{13}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}1.2.1 Conteúdo só de áudio e só de vídeo (pré-gravado)}{14}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}1.2.3 Audiodescrição ou alternativa em mídia (pré-gravada)}{14}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}1.2.5 Audiodescrição (pré-gravada)}{14}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}1.2.7 Audiodescrição Alargada (pré-gravada)}{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}1.3.2 Sequência com Significado}{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}1.4.1 Utilização da Cor}{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}2.1.1 Teclado}{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}2.1.2 Sem Bloqueio do Teclado}{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}2.1.3 Teclado (Sem Exceção)}{16}{}%
+\contentsline {subsubsection}{\numberline {5.1.11}2.4.3 Ordem do Foco}{16}{}%
+\contentsline {subsection}{\numberline {5.2}Especificações da WCAG e a deficiência auditiva}{16}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}1.2.2 Legendas (pré-gravadas)}{16}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}1.2.4 Legendas (em direto)}{16}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}1.2.6 Língua Gestual (pré-gravada)}{16}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}1.2.8 Alternativa em Multimídia (pré-gravada)}{16}{}%
+\contentsline {subsubsection}{\numberline {5.2.5}1.4.3 Contraste}{17}{}%
+\contentsline {subsubsection}{\numberline {5.2.6}1.4.4 Redimensionar texto}{17}{}%
+\contentsline {subsubsection}{\numberline {5.2.7}1.4.5 Imagens de Texto}{17}{}%
+\contentsline {subsubsection}{\numberline {5.2.8}1.4.6 Contraste (Melhorado)}{17}{}%
+\contentsline {subsection}{\numberline {5.3}Método para quantificar os sites}{18}{}%
+\contentsline {section}{\numberline {6}ANÁLISE DOS SITES DE NOTÍCIA}{19}{}%
+\contentsline {subsection}{\numberline {6.1}Clicrbs}{19}{}%
+\contentsline {subsection}{\numberline {6.2}Yahoo! Notícias}{20}{}%
+\contentsline {subsection}{\numberline {6.3}IG}{22}{}%
+\contentsline {subsection}{\numberline {6.4}MSN Brasil}{23}{}%
+\contentsline {subsection}{\numberline {6.5}Estadão}{24}{}%
+\contentsline {subsection}{\numberline {6.6}R7 Notícias}{25}{}%
+\contentsline {subsection}{\numberline {6.7}Folha De São Paulo}{26}{}%
+\contentsline {subsection}{\numberline {6.8}Terra Notícias}{27}{}%
+\contentsline {subsection}{\numberline {6.9}Uol Notícias}{28}{}%
+\contentsline {subsection}{\numberline {6.10}G1}{29}{}%
+\contentsline {section}{\numberline {7}CONCLUSÃO}{30}{}%
+\contentsline {section}{Referências}{30}{}%

@@ -8,6 +8,8 @@
 \usepackage{setspace}
 \usepackage{longtable}
 \usepackage{tikz}
+\usepackage{geometry}
+\usepackage{chngcntr}
 \usetikzlibrary{shapes,backgrounds}
 
 \begin{document}
@@ -16,6 +18,7 @@
 \begin{titlepage}
 	\vfill
 	\begin{center}
+		\onehalfspacing
 		\parbox{6cm}{\includegraphics[scale=0.2]{logo.png}}\\
 		\begingroup
 		\fontsize{12pt}{0pt}\selectfont
@@ -23,11 +26,11 @@
 		\fontsize{12pt}{0pt}\selectfont
 		{\large \textbf{IFCE CAMPUS MARACANAÚ}}\\[0.2cm]
 		\fontsize{12pt}{0pt}\selectfont	
-		{\large \textbf{BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO}}\\[4cm]
+		{\large \textbf{BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO}}\\[3.5cm]
 		\fontsize{12pt}{0pt}\selectfont
 		{\large \textbf{THIAGO MAGALHÃES FURTADO}}\\[3.5cm]
 		\fontsize{12pt}{0pt}\selectfont
-		{\large \textbf{Avaliação de Acessibilidade em Portais de Notícias}}\\[3.5cm]
+		{\large \textbf{AVALIAÇÃO DE ACESSIBILIDADE EM PORTAIS DE NOTÍCIAS}}\\[3.5cm]
 		\fontsize{12pt}{0pt}\selectfont
 		{\large \textbf{MARACANAÚ}}\\[0.2cm]
 		\fontsize{12pt}{0pt}\selectfont
@@ -39,10 +42,11 @@
 \begin{titlepage}
 	\vfill
 	\begin{center}
+		\onehalfspacing
 		\fontsize{12pt}{0pt}\selectfont
-		{\large \textbf{THIAGO MAGALHÃES FURTADO}} \\[2.5cm]
+		{\large \textbf{THIAGO MAGALHÃES FURTADO}} \\[1.5cm]
 		\fontsize{12pt}{0pt}\selectfont
-		{\large \textbf{Avaliação de Acessibilidade em Portais de Notícias}}\\[3cm]
+		{\large \textbf{AVALIAÇÃO DE ACESSIBILIDADE EM PORTAIS DE NOTÍCIAS}}\\[3cm]
 		
 		\hspace{.45\textwidth} %posiciona a minipage
 		\begin{minipage}{.5\textwidth}
@@ -58,6 +62,118 @@
 \end{titlepage}
 
 \begin{titlepage}
+	\vfill
+	\begin{center}
+		\onehalfspacing
+		\fontsize{12pt}{0pt}\selectfont
+		{\large \textbf{THIAGO MAGALHÃES FURTADO}} \\[1.5cm]
+		\fontsize{12pt}{0pt}\selectfont
+		{\large \textbf{AVALIAÇÃO DE ACESSIBILIDADE EM PORTAIS DE NOTÍCIAS}}\\[3cm]
+		
+		\hspace{.45\textwidth} %posiciona a minipage
+		\begin{minipage}{.5\textwidth}
+			\large Trabalho de Conclusão de Curso apresentado ao curso de Bacharelado em Ciência da Computação do Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE) - Campus Maracanaú, como requisito parcial para obtenção do Título de Bacharel em Ciência da Computação.\\[1cm]
+		\end{minipage}
+	\end{center}
+	
+	Aprovado em:  \rule{1cm}{0.01cm} /\rule{1cm}{0.01cm} /\rule{1cm}{0.01cm}.\\[0.5cm]
+	
+	\begin{center}
+		\onehalfspacing
+		\fontsize{12pt}{0pt}\selectfont
+		{\large{BANCA EXAMINADORA}}\\[1cm]
+		\rule{13cm}{0.01cm}\\[0.1cm]
+		Prof. Dr. Otávio Alcântara de Lima Junior (Orientador)\\[0.1cm]
+		Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)\\[1.5cm]
+		\rule{13cm}{0.01cm}\\[0.1cm]
+		Prof. \\[0.1cm]
+		Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)\\[1.5cm]
+		\rule{13cm}{0.01cm}\\[0.1cm]
+		Prof. \\[0.1cm]
+		Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)\\
+	\end{center}
+\end{titlepage}
+
+\newgeometry{top=22cm}
+\begin{titlepage}
+	
+	\hfill \parbox{7.5cm}{A Deus.}
+	
+	\hfill \parbox{7.5cm}{Ao Senhor Jesus Cristo.}
+	
+	\hfill \parbox{7.5cm}{A minha igreja.}
+	
+	\hfill \parbox{7.5cm}{Aos meus pais.}
+
+	\hfill \parbox{7.5cm}{Aos meus amigos.}
+	
+	\hfill \parbox{7.5cm}{Aos meus professores e mestres.}
+\end{titlepage}
+
+\restoregeometry
+\begin{titlepage}
+	\begin{center}
+		{\large \textbf{AGRADECIMENTOS}}\\[1cm]
+	\end{center}
+
+	A Deus, por tudo.
+	
+	À minha família, pelo incentivo.
+	
+	À minha igreja, pelas orações, pelo companheirismo e por estarem ao meu lado em toda a minha jornada da graduação.
+	
+	Aos amigos e colegas de estudo, que vivenciaram comigo os desafios e me ajudaram a vencê-los. Agradeço o carinho, o apoio, o acolhimento, a paciência, os conselhos, os ensinamentos e as palavras motivadoras.
+	
+	Aos professores, que muito contribuíram com minha formação acadêmica, agradeço os ensinamentos, as orientações, as lições de vida, os risos, a atenção. Vocês são verdadeiros mestres.
+	
+\end{titlepage}
+
+\begin{titlepage}
+	\begin{center}
+		{\large \textbf{RESUMO}}\\[1cm]
+	\end{center}
+	Nos dias atuais e na sociedade em que vivemos, existe uma necessidade muito grande da conscientização, de todas as pessoas do mundo, em relação com as diversas maneiras de acessibilidade, inclusive com a acessibilidade digital. Há um número bastante considerável de pessoas, em todo o planeta, que possuem as mais variadas formas de deficiências. Dentre essas deficiências, existem pessoas com idade avançada, com baixa visão, com daltonismo, com pouca audição, com surdez parcial ou total, com diminuição da capacidade motora ou, ainda, pessoas com deficiência mental, entre outras. Todos esses seres humanos possuem, em algum modo, problemas para acessar e para manusear os serviços oferecidos pela web. Essas pessoas que possuem algum tipo de deficiência física, são afetadas, de certa forma, no seu dia-a-dia, inclusive no acesso e no manuseio dos mais variados sites existentes, caso eles não possuem acessibilidade para todos. As plataformas digitais estão evoluindo, constantemente, em ralação ao repasse e visibilidade das informações, incluindo os sites de notícias. Porém a acessibilidade nesses sítios continua sendo um desafio para aqueles que trabalham nas suas criações, incluindo desenvolvedores, testadores, pesquisadores, entre outros. Portanto, este artigo abordará o estudo da acessibilidade web em uma área bastante importante para a sociedade brasileira, que são os sites de notícias do Brasil, levando, em consideração, outros artigos e outras pesquisas feitas, anteriormente, sobre a acessibilidade nas mais variadas plataformas digitais do país e do Mundo. A pesquisa, em questão, irá analisar e verificar e a acessibilidade de cada plataforma, com o objetivo de quantificá-los para concluir o grau de acessibilidade, individualmente, de cada um dos 10 site, que foram escolhidos através de um determinado critério. Toda essa análise e toda essa quantificação será feita através do uso de um conjunto de diretrizes que são usadas mundialmente, que serão escolhidas aquelas que tem alguma relação com a deficiência visual e auditiva. Esse conjunto de diretrizes é chamada de WCAG, isto é, web content accessibility guidelines, em português, visão geral das diretrizes de acessibilidade de conteúdo da web. Após toda a pesquisa e análise feita dos sites de notícias, foram gerados resultados, que indicam a porcentagem de acessibilidade de cada site, individualmente, chegando a conclusão que essas plataformas digitais não são acessíveis para pessoas com deficiência visual ou auditiva.\\[1cm]
+	{\large \textbf{Palavras-chave: }}Artigo. Pesquisa. Acessibilidade. Deficiência. Visual. Auditiva. WCAG. Sites. Notícias.\\[1cm]
+\end{titlepage}
+
+\begin{titlepage}
+	\begin{center}
+		{\large \textbf{ABSTRACT}}\\[1cm]
+	\end{center}
+	Nowadays and in the society in which we live, there is a great need for awareness, among all people in the world, in relation to the different ways of accessibility, including digital accessibility. There are a considerable number of people, across the planet, who have the most varied forms of disabilities. Among these disabilities, there are people with advanced age, with low vision, color blindness, with little hearing, with partial or total deafness, with reduced motor capacity, or even people with mental disabilities, among others. All these human beings have, in some way, problems accessing and handling the services offered by the web. Those people who have some kind of physical disability are affected, in a way, in their day-to-day, including access and handling of the most varied existing sites, if they are not accessible for everyone. Digital platforms are constantly evolving in terms of the transfer and visibility of information, including news sites. However, accessibility on these sites remains a challenge for those working on their creations, including developers, testers, researchers, among others. Therefore, this article will address the study of web accessibility in a very important area for Brazilian society, which are the news sites in Brazil, taking into account other articles and other research done previously on accessibility on the most varied platforms the country and the world. The research, in question, will analyze and verify the accessibility of each platform, in order to quantify them to conclude the degree of accessibility, individually, of each of the 10 sites, which were chosen using a certain criterion. All this analysis and all this quantification will be done through the use of a set of guidelines that are used worldwide, which will be chosen those that have some relationship with visual and hearing impairment. This set of guidelines is called WCAG, that is, web content accessibility guidelines, in Portuguese, overview of web content accessibility guidelines. After all the research and analysis carried out on the news sites, results were generated, which indicate the percentage of accessibility of each site, individually, reaching the conclusion that these digital platforms are not accessible for people with visual or hearing disabilities.\\[1cm]
+	{\large \textbf{Keywords: }}Article. Search. Accessibility. Deficiency. Visual. Auditory. WCAG. Websites. News.\\[1cm]
+\end{titlepage}
+
+\begin{titlepage}
+	\begin{center}
+		{\large \textbf{LISTA DE ILUSTRAÇÕES}}\\[1cm]
+		Quadro 1 — Diretrizes do princípio perceptível......................................................................... 3\\[0.5cm]
+		Quadro 2 — Diretrizes do princípio operável............................................................................. 4\\[0.5cm]
+		Quadro 3 — Diretrizes do princípio compreensível.................................................................... 5\\[0.5cm]
+		Quadro 4 — Diretrizes do princípio robusto.............................................................................. 5\\[0.5cm]
+		Figura 1 — Fluxograma das etapas da metodologia................................................................ 12\\[0.5cm]
+	\end{center}
+\end{titlepage}
+
+\begin{titlepage}
+	\begin{center}
+		{\large \textbf{LISTA DE TABELAS}}\\[1cm]
+		Tabela 1 — Análise das diretrizes da WCAG cumpridas pelos artigo........................................ 8\\[0.5cm]
+		Tabela 2 — Diretrizes escolhidas e seus pesos.......................................................................... 18\\[0.5cm]
+		Tabela 3 — Diretrizes cumpridas no site Clicrbs..................................................................... 20\\[0.5cm]
+		Tabela 4 — Diretrizes cumpridas no site Yahoo! Notícias........................................................ 21\\[0.5cm]
+		Tabela 5 — Diretrizes cumpridas no site IG............................................................................ 22\\[0.5cm]
+		Tabela 6 — Diretrizes cumpridas no site MSN Brasil............................................................... 23\\[0.5cm]
+		Tabela 7 — Diretrizes cumpridas no site Estadão.................................................................... 24\\[0.5cm]
+		Tabela 8 — Diretrizes cumpridas no site R7 Notícias.............................................................. 25\\[0.5cm]
+		Tabela 9 — Diretrizes cumpridas no site Folha De São Paulo.................................................. 26\\[0.5cm]
+		Tabela 10 — Diretrizes cumpridas no site Terra Notícias......................................................... 27\\[0.5cm]
+		Tabela 11 — Diretrizes cumpridas no site Uol Notícias........................................................... 28\\[0.5cm]
+		Tabela 12 — Diretrizes cumpridas no site G1.......................................................................... 29\\[0.5cm]
+	\end{center}
+\end{titlepage}
+
+\begin{titlepage}
 	\begin{center}
 		\tableofcontents
 	\end{center}
@@ -68,7 +184,7 @@
 \onehalfspacing
 Estamos vivendo em uma época em que a tecnologia tem avançado bastante, isso é notório se nós analisarmos as três últimas décadas, durante as quais o mundo entrou na chamada era da informação. Assim, os computadores, a Internet, os acessos aos sites e o número de usuários, em todo o mundo, têm tido avanços significativos. Esse aumento possibilita, para a nossa sociedade, uma prestação de serviço e uma obtenção de informação rápida. Porém, muitos sites não possibilitam uma navegação agradável e tranquila à todos, já que alguns usuários tem dificuldade para acessá-los, por possuírem alguma deficiência, visto que, segundo a OMS, 15\% da população mundial tem alguma deficiência [1].
 
-Dentre a diversidade de conteúdo da Internet, pode-se destacar os portais de noticiais como ferramentas importantes para divulgação de informação de qualidade para a sociedade. Porém essas plataformas digitais precisam alcançar todos os usuários, inclusive os PCDs(pessoas com deficiência). Para avaliar a acessibilidade desses sites, é necessário a aplicação de diretrizes de acessibilidade que são propostas por instituições e governos. Por exemplo, a eMAG é uma diretriz proposta pelo governo brasileiro em 2004, utilizada por algumas plataformas digitais nacionais [2].
+Dentre a diversidade de conteúdo da Internet, pode-se destacar os portais de notícias como ferramentas importantes para divulgação de informação de qualidade para a sociedade. Porém essas plataformas digitais precisam alcançar todos os usuários, inclusive os PCDs(pessoas com deficiência). Para avaliar a acessibilidade desses sites, é necessário a aplicação de diretrizes de acessibilidade que são propostas por instituições e governos. Por exemplo, a eMAG é uma diretriz proposta pelo governo brasileiro em 2004, utilizada por algumas plataformas digitais nacionais [2].
 
 Outra diretriz usada atualmente é a WCAG (Web Content Accessibility Guidelines), que já está na sua segunda versão, isto é, a WCAG 2.0. A WCAG possuí doze diretrizes organizadas em quatro princípios diferentes, possuindo algumas recomendações para cada princípio [3], que são indispensáveis em qualquer plataforma digital, inclusive nos sites de notícia.
 
@@ -80,10 +196,9 @@ O restante do artigo está organizado da seguinte forma.
 Na seção 2 será apresentado o estado da arte de avaliação de acessibilidade em sites usando as diretrizes, mostrando quais diretrizes usaram e em quais plataformas aconteceram as suas pesquisas.
 Na seção 3 serão explicadas as formas de deficiência existentes que afetam a usabilidade dos sites.
 Na seção 4 será mostrado a metodologia que será aplicada para fazer a análise dos sites.
-Na seção 5 será mostrado o cronograma a ser seguido para cumprir os passos ditos na metodologia.
-Na seção 6 será mostrado os pontos da diretriz WCAG que serão usados na análise dos sites.
-Na seção 7 será apresentado os pontos fortes e fracos dos sites de notícias relacionado com a acessibilidade web através da análise da diretriz com o propósito de fazer sugestões de melhorias.
-Por fim, na seção 8 será apresentada uma discussão sobre os resultados da avaliação de acessibilidade e a conclusão do trabalho.
+Na seção 5 será mostrado os pontos da diretriz WCAG que serão usados na análise dos sites.
+Na seção 6 será apresentado os pontos fortes e fracos dos sites de notícias relacionado com a acessibilidade web através da análise da diretriz com o propósito de fazer sugestões de melhorias.
+Por fim, na seção 7 será apresentada uma discussão sobre os resultados da avaliação de acessibilidade e a conclusão do trabalho.
 
 \section{TRABALHOS RELACIONADOS}
 Existe uma grande produção de trabalhos relacionados com acessibilidade web, contudo serão concentrados os artigos publicados apenas em revistas. Será mostrado os artigos que tratam sobre as diretrizes utilizadas nos respectivos estudos e sobre as propostas de avaliação em diversas áreas.
@@ -97,7 +212,9 @@ A WCAG, publicada pela World Wide Web (W3C) através da organização chamada Wo
 
 \paragraph{1 - Princípio perceptível:}
 
-O primeiro princípio da WCAG é o perceptível, no qual a informação e os componentes da interface de utilizador precisam ser apresentados de forma para que os usuários possam entender. Nesse princípio existem quatro diretrizes. A primeira é que o site tem que ter alternativas em texto, isto é, ele deve fornecer as alternativas para todo o conteúdo não textual de modo que possa ser apresentado de outras formas, segundo as necessidades dos utilizadores. Alguns exemplos são caracteres ampliados, braille, fala, símbolos ou uma linguagem mais simples. A segunda é o site ter uma mídia dinâmica ou contínua, remetendo que ele deve fornecer alternativas para conteúdo em multimídia dinâmica ou temporal. A terceira diretriz é o adaptável, que diz que deve ser criado um conteúdo que possa ser apresentado de diferentes formas, por exemplo, um esquema de página mais simples, sem perder a informação ou a estrutura. Por fim, a diretriz distinguível expressa que deve haver uma facilitação dos utilizadores à audição e à visão dos conteúdos nomeadamente através da separação do primeiro plano do plano de fundo. Todas as diretrizes do princípio perceptível estão especificadas e descritas no quadro 1.
+O primeiro princípio da WCAG é o perceptível, no qual a informação e os componentes da interface de utilizador precisam ser apresentados de forma para que os usuários possam entender. Nesse princípio existem quatro diretrizes.
+
+Na primeira diretriz diz que o site tem que ter alternativas em texto, isto é, ele deve fornecer as alternativas para todo o conteúdo não textual de modo que possa ser apresentado de outras formas, segundo as necessidades dos utilizadores. Alguns exemplos são caracteres ampliados, braille, fala, símbolos ou uma linguagem mais simples. A segunda é o site ter uma mídia dinâmica ou contínua, remetendo que ele deve fornecer alternativas para conteúdo em multimídia dinâmica ou temporal. A terceira diretriz é o adaptável, que diz que deve ser criado um conteúdo que possa ser apresentado de diferentes formas, por exemplo, um esquema de página mais simples, sem perder a informação ou a estrutura. Por fim, a diretriz distinguível expressa que deve haver uma facilitação dos utilizadores à audição e à visão dos conteúdos nomeadamente através da separação do primeiro plano do plano de fundo. Todas as diretrizes do princípio perceptível estão especificadas e descritas no quadro 1.\\
 
 Quadro 1 - Diretrizes do princípio perceptível\\[-1cm]
 \begin{center}
@@ -141,7 +258,9 @@ Quadro 1 - Diretrizes do princípio perceptível\\[-1cm]
 
 \paragraph{2 - Princípio operável: }
 
-O segundo princípio é o operável, no qual é definido os métodos, que possibilitam, para os usuários, uma interação e uma boa navegação pelo conteúdo de forma confortável. O princípio diz que os sites devem usar interfaces apropriadas para os deficientes, isto é, os componentes da interface de utilizador e a navegação têm de ser operáveis. Nesse princípio existem quatro diretrizes com suas especificações. As diretrizes determinam, primeiramente, que o site deve ser acessível por teclado, isto é, ele deve ter uma funcionalidade que fique disponível a partir do teclado. Além disso, ele deve ter um tempo suficiente, revelando que ele deve proporcionar aos utilizadores um tempo suficiente para lerem e para utilizarem o conteúdo. A terceira determinação é que o site não deve causar convulsões, pressupondo-se que ele não deve criar conteúdos de uma forma que se sabe que pode causar convulsões em alguns usuários. E, por fim, o site deve ser navegável, representando que ele deve fornecer formas de ajudar os utilizadores a navegar, localizar conteúdos e determinar o local onde estão. Todas as diretrizes do princípio operável estão especificadas e descritas no quadro 2.
+O segundo princípio é o operável, no qual é definido os métodos, que possibilitam, para os usuários, uma interação e uma boa navegação pelo conteúdo de forma confortável. O princípio diz que os sites devem usar interfaces apropriadas para os deficientes, isto é, os componentes da interface de utilizador e a navegação têm de ser operáveis. Nesse princípio existem quatro diretrizes com suas especificações.
+
+As diretrizes determinam, primeiramente, que o site deve ser acessível por teclado, isto é, ele deve ter uma funcionalidade que fique disponível a partir do teclado. Além disso, ele deve ter um tempo suficiente, revelando que ele deve proporcionar aos utilizadores um tempo suficiente para lerem e para utilizarem o conteúdo. A terceira determinação é que o site não deve causar convulsões, pressupondo-se que ele não deve criar conteúdos de uma forma que se sabe que pode causar convulsões em alguns usuários. E, por fim, o site deve ser navegável, representando que ele deve fornecer formas de ajudar os utilizadores a navegar, localizar conteúdos e determinar o local onde estão. Todas as diretrizes do princípio operável estão especificadas e descritas no quadro 2.\\
 
 Quadro 2 - Diretrizes do princípio operável\\[-1cm]
 \begin{center}
@@ -181,7 +300,9 @@ Quadro 2 - Diretrizes do princípio operável\\[-1cm]
 
 \paragraph{3 - Princípio compreensível: }
 
-O terceiro princípio é o compreensível, que diz que os usuários devem ser capazes de compreender as informações e o funcionamento da interface, com o objetivo do usuário interpretar corretamente o conteúdo da plataforma digital, isto é, a informação e a utilização da interface de utilizador têm de ser compreensíveis. Nesse princípio existem três diretrizes com suas especificações. As diretrizes determinam que o site deve ser legível, simbolizando que ele é capaz de tornar o conteúdo textual legível e compreensível. Ele deve ser previsível, refletindo a ideia de fazer com que as páginas Web apareçam e funcionem de forma previsível, devendo existir assistência na inserção de dados, retratando que ela deve ajudar os utilizadores a evitar e a corrigir os erros. Todas as diretrizes do princípio compreensível estão especificadas e descritas no quadro 3.
+O terceiro princípio é o compreensível, que diz que os usuários devem ser capazes de compreender as informações e o funcionamento da interface, com o objetivo do usuário interpretar corretamente o conteúdo da plataforma digital, isto é, a informação e a utilização da interface de utilizador têm de ser compreensíveis. Nesse princípio existem três diretrizes com suas especificações.
+
+As diretrizes determinam que o site deve ser legível, simbolizando que ele é capaz de tornar o conteúdo textual legível e compreensível. Ele deve ser previsível, refletindo a ideia de fazer com que as páginas Web apareçam e funcionem de forma previsível, devendo existir assistência na inserção de dados, retratando que ela deve ajudar os utilizadores a evitar e a corrigir os erros. Todas as diretrizes do princípio compreensível estão especificadas e descritas no quadro 3.\\
 
 Quadro 3 - Diretrizes do princípio compreensível\\[-1cm]
 \begin{center}
@@ -215,7 +336,9 @@ Quadro 3 - Diretrizes do princípio compreensível\\[-1cm]
 
 \paragraph{4 - Princípio robusto: }
 
-O quarto princípio é o robusto, que foca na grande variedade dos usuários poderem interpretar o conteúdo da maneira mais confiável possível, além de levar, em consideração, a compatibilidade com as tecnologias atuais e futuras. Isso tem a finalidade de maximizar a harmonização das páginas da web com os seus usuários e com essas tais tecnologias, isto é, o conteúdo deve ser suficientemente robusto para ser interpretado de forma fiável por uma ampla variedade de agentes utilizadores da plataforma em questão, incluindo as tecnologias de apoio. Nesse princípio existe apenas uma diretriz com suas especificações. A diretriz determina que o site deve ser compatível, isto é, ele deve maximizar a compatibilidade com os agentes utilizadores atuais e futuros, incluindo as tecnologias de apoio. Essa única diretriz do princípio compreensível está especificada e descrita no quadro 4.
+O quarto princípio é o robusto, que foca na grande variedade dos usuários poderem interpretar o conteúdo da maneira mais confiável possível, além de levar, em consideração, a compatibilidade com as tecnologias atuais e futuras. Isso tem a finalidade de maximizar a harmonização das páginas da web com os seus usuários e com essas tais tecnologias, isto é, o conteúdo deve ser suficientemente robusto para ser interpretado de forma fiável por uma ampla variedade de agentes utilizadores da plataforma em questão, incluindo as tecnologias de apoio. Nesse princípio existe apenas uma diretriz com suas especificações.
+
+A diretriz determina que o site deve ser compatível, isto é, ele deve maximizar a compatibilidade com os agentes utilizadores atuais e futuros, incluindo as tecnologias de apoio. Essa única diretriz do princípio compreensível está especificada e descrita no quadro 4.\\
 
 Quadro 4 - Diretrizes do princípio robusto\\[-1cm]
 \begin{center}
@@ -283,7 +406,7 @@ Alguns artigos se propõem a avaliar a acessibilidade em sites governamentais. E
 
 Além desses, em [15], em que foi feita uma análise de 63 sites pertencentes a ministérios, departamentos e agências governamentais do Governo de Uganda, e em [17], que foram avaliados 10 sites do governo líbio, seus respectivos autores usaram todas as diretrizes da WCAG e duas ferramentas de avaliação automática, a TAW e a AChecker. Eles chegaram a conclusão de que nem todos os sites atendem as diretrizes, tendo problemas de usabilidade e necessitando de uma grande melhoria na acessibilidade em sites de governos eletrônicos.
 
-A seguir, na tabela 1, vemos a comparação dos artigos citados nessa seção com as características da diretriz WCAG.
+A seguir, na tabela 1, vemos a comparação dos artigos citados nessa seção com as características da diretriz WCAG.\\
 
 Tabela 1 - Análise das diretrizes da WCAG cumpridas pelos artigos\\[-1cm]
 \begin{center}
@@ -335,7 +458,7 @@ Tabela 1 - Análise das diretrizes da WCAG cumpridas pelos artigos\\[-1cm]
 	\end{longtable}
 \end{center}
 
-Portanto, podemos ver que existe uma grande variedade de trabalhos sobre acessibilidade digital em todo o mundo, mostrando que as pesquisas estão bastante avançadas nesse ponto. A seguir, serão descritos as formas de deficiência visual e as formas de deficiência auditiva que prejudicam a usabilidade dos sites de noticias.
+Portanto, podemos ver que existe uma grande variedade de trabalhos sobre acessibilidade digital em todo o mundo, mostrando que as pesquisas estão bastante avançadas nesse ponto. A seguir, serão descritos as formas de deficiência visual e as formas de deficiência auditiva que prejudicam a usabilidade dos sites de notícias.
 
 \section{TIPOS DE DEFICIÊNCIA}
 Nesta seção será detalhado, de forma sucinta, as mais variadas formas de deficiência visual e auditiva.
@@ -373,28 +496,11 @@ Essa pesquisa escolheu os sites de notícia pelo fato deles terem um papel basta
 
 Sendo assim, será primeiro detalhado os princípios e as especificações da WCAG usadas para avaliar as plataformas.
 A seguir, será mostrado a forma usada para quantificar a acessibilidade de cada site, através da atribuição de pesos.
-Depois, será escolhido 10 sites de notícias.
-Assim, apontando cada um dos seus princípios, será feito uma avaliação manual dos 10 sites para averiguar a acessibilidade de cada um deles.
-Após isso, será feito uma coleção dos dados, a partir da analise feita.
+Depois, será escolhido 10 sites de notícias, seguindo um critérios específico.
+Assim, será feito uma avaliação manual dos 10 sites para averiguar a acessibilidade de cada um deles.
+Após isso, será feito uma compilação dos resultados, a partir da análise feita.
 Tudo isso para fazer um comparativo da computação do grau de acessibilidade de cada um dos sites.
-Por fim, será tirado as conclusões da pesquisa e do comparativo feito.
-Então, a metodologia, que será aplicada para que os objetivos sejam alcançados, será:
-
-1 - Escolher os princípios e as especificações da diretriz WCAG que serão usadas nas análises dos sites;
-
-2 - Mostrar a forma de computar os sites;
-
-3 - Escolher 10 sites de notícias do Brasil;
-
-4 - Fazer um levantamento da acessibilidade de cada site de acordo com as especificações;
-
-5 - Coletar dados do levantamento;
-
-6 - Fazer um comparativo do resultado da computação entre os sites;
-
-7 - Apresentar a conclusão tirada dos 10 sites escolhidos.
-
-Todos os passos da metodologia que será aplicada estão descritos na Figura 1.
+Por fim, será tirado as conclusões da pesquisa e do comparativo feito. Então, a metodologia, que será aplicada para que os objetivos sejam alcançados, será mostrado na figura 1.\\
 
 Figura 1 - Fluxograma das etapas da metodologia\\[-0.7cm]
 \begin{figure}[!ht]
@@ -407,62 +513,41 @@ Figura 1 - Fluxograma das etapas da metodologia\\[-0.7cm]
 		\node [block]                         (WCAG) {Escolher princípios da WCAG};
 		\node [block, below of = WCAG] (computar) {Mostrar a forma de computar};
 		\node [block, below of = computar]   (sites) {Escolher 10 sites};
-		\node [block, below of = sites]   (levantamento) {Realizar levantamento};
-		\node [block, below of = levantamento]      (coletar) {Coletar dados};
-		\node [block, below of = coletar]   (comparativo)  {Fazer um comparativo};
-		\node [block, below of = comparativo]     (conclusao) {Apresentar a conclusão};
+		\node [block, below of = sites]   (avaliacao) {Realizar uma avaliação manual dos sites};
+		\node [block, right of = avaliacao, xshift=2cm]      (coletar) {Coletar dados};
+		\node [block, up of = coletar, xshift=3.5cm, yshift=-2cm]   (comparativo)  {Fazer comparativo e análise dos sites};
+		\node [block, up of = comparativo, xshift=3.5cm, yshift=0cm]     (conclusao) {Apresentar a conclusão};
 		% Draw edges
 		\path [line] (WCAG) -- (computar);
 		\path [line] (computar)   -- (sites);
-		\path [line] (sites)   -- (levantamento);
-		\path [line] (levantamento)   -- (coletar);
+		\path [line] (sites)   -- (avaliacao);
+		\path [line] (avaliacao)   -- (coletar);
 		\path [line] (coletar)      -- (comparativo);
 		\path [line] (comparativo)     -- (conclusao);
 	\end{tikzpicture}
-\end{figure}
+\end{figure}\\
 
-Portanto, esse será o caminho percorrido por esse artigo. A seguir, será mostrado todo o cronograma para se cumprir cada ponto listado acima.
+Os passos da metodologia estão descritos logo à baixo.
 
-\section{CRONOGRAMA}
-Sobre o cronograma do artigo, foram propostos os seguintes passos, baseado na metodologia, com suas respectivas datas como visto na tabela 2 logo abaixo.
+1 - Escolher os princípios e as especificações da diretriz WCAG que serão usadas nas análises dos sites;
 
-Tabela 2 - Cronograma da pesquisa\\[-1cm]
-\begin{center}
-	\fontsize{8pt}{8pt}\selectfont
-	\begin{longtable}{|c|c|c|c|c|c|c|}
-		\hline
-		Atividades & 05 à & 08/21 & 09 à & 01 à & 03/22 & 04/22\\
-		& 07/21 & & 11/21 & 02/22 & & \\
-		\hline
-		Mostrar princípios e & X & & & & & \\
-		especificações da WCAG & & & & & & \\
-		\hline
-		Explicar as formas & & X & & & & \\
-		de deficiência & & & & & & \\
-		\hline
-		Escolher os princípios & & X & & & & \\
-		da WCAG & & & & & & \\
-		\hline
-		Mostrar a forma de & & X & & & & \\
-		computar os sites & & & & & & \\
-		\hline
-		Fazer a análise dos sites & & & X & & & \\
-		\hline
-		Realizar levantamento & & & & X & & \\
-		e coletar os dodos & & & & & & \\
-		\hline
-		Fazer comparativo & & & & & X & \\
-		\hline
-		Apresentar conclusões & & & & & & X \\
-		\hline
-	\end{longtable}
-\end{center}
+2 - Mostrar a forma de computar os sites;
 
-Assim, esse será o cronograma estimado para esse artigo. A seguir, será mostrado os pontos da diretriz WCAG que serão usados nas análises dos sites.  
+3 - Escolher 10 sites de notícias do Brasil;
+
+4 - Realizar uma avaliação manual da acessibilidade de cada site de acordo com as especificações;
+
+5 - Coletar dados do levantamento;
+
+6 - Fazer um comparativo e uma análise do resultado da computação entre os sites;
+
+7 - Apresentar a conclusão tirada dos 10 sites escolhidos.
+
+Portanto, esse será o caminho percorrido por esse artigo. A seguir, será mostrado os pontos da diretriz WCAG que serão usados nas análises dos sites.  
 
 \section{ANÁLISE DA DIRETRIZ WCAG}
 
-Nessa seção será mostrado as diretrizes que serão usadas na análise de cada um dos 10 sites de noticias que serão escolhidos no próximo capítulo. Primeiro será falado as especificações relacionadas com as pessoas que tem deficiência visual e depois as especificações ligadas com as pessoas que possuem deficiência auditiva. Por fim, será falado como serão quantificados cada site usando as diretrizes escolhidas.
+Nessa seção será mostrado as diretrizes que serão usadas na análise de cada um dos 10 sites de notícias que serão escolhidos no próximo capítulo. Primeiro será falado as especificações relacionadas com as pessoas que tem deficiência visual e depois as especificações ligadas com as pessoas que possuem deficiência auditiva. Por fim, será falado como serão quantificados cada site usando as diretrizes escolhidas.
 
 \subsection{Especificações da WCAG e a deficiência visual}
 
@@ -643,11 +728,11 @@ Esses são as 8 diretrizes escolhidas relacionadas com a deficiência auditiva q
 
 \subsection{Método para quantificar os sites}
 
-Considerando as 19 diretrizes escolhidas na seção anterior, sendo onze ligadas com a deficiência visual e mais 8 ligadas com a deficiência auditiva, será mostrado agora a forma que esse artigo irá usar para quantificar a acessibilidade dos dez site de notícias que serão detalhados no próximo capítulo.
+Considerando as 19 diretrizes escolhidas na seção anterior, sendo onze ligadas com a deficiência visual e mais 8 ligadas com a deficiência auditiva, será mostrado agora a forma que esse artigo irá usar para quantificar a acessibilidade dos 10 site de notícias que serão detalhados no próximo capítulo.
 
-Como foi visto, no começo do artigo, na seção 4, chamada de trabalho relacionados e, dentro dela, na subseção 4.2, chamada de avaliação de acessibilide de sites, existem algumas formas para quantificá-los. Porém, iremos usar o seguinte método, cada diretriz possui um quantificador de importância que pode ser "A", "AA" ou "AAA", sendo que, o "AAA" é o mais importante que o site tenha em relação a diretriz de valor "AA", que por sua vez é mais importante que a diretriz "A". Desse modo, será definido pesos, em que o "AAA" terá peso 3, o "AA" terá peso 2 e o "A" terá peso dois, como está sendo mostrado na tabela abaixo com as diretrizes, seus quantificadores e seus pesos.
+Como foi visto, no começo do artigo, na seção 4, chamada de trabalho relacionados e, dentro dela, na subseção 4.2, chamada de avaliação de acessibilide de sites, existem algumas formas para quantificá-los. Porém, iremos usar o seguinte método, cada diretriz possui um quantificador de importância que pode ser "A", "AA" ou "AAA", sendo que, o "AAA" é o mais importante que o site tenha em relação a diretriz de valor "AA", que por sua vez é mais importante que a diretriz "A". Desse modo, será definido pesos, em que o "AAA" terá peso 3, o "AA" terá peso 2 e o "A" terá peso dois, como está sendo mostrado na tabela abaixo com as diretrizes, seus quantificadores e seus pesos.\\
 
-Tabela 3 - Diretrizes escolhidas e seus pesos\\[-1cm]
+Tabela 2 - Diretrizes escolhidas e seus pesos\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont
 	\begin{longtable}{|c|c|c|}
@@ -703,15 +788,15 @@ Portanto, no total de 19 diretrizes escolhidas se obtêm um total de 34 pontos. 
 
 \section{ANÁLISE DOS SITES DE NOTÍCIA}
 
-Nessa seção será analisado a acessibilidade de 10 sites de notícias existentes no Brasil para pessoas com deficiência visual e auditiva. Os sites foram escolhidos através do numero de visitas na compilação entre as ferramentas Alexa, SimilarWeb e SemRush [16], e todos os dados dos sites foram tiradas dessa compilação. Os sites a seguir estão listados na ordem crescente: Clicrbs, Yahoo! Notícias, IG, MSN Brasil, Estadão, R7 Noticias, Folha De São Paulo, Terra Notícias, Uol Notícias e G1.
+Nessa seção será analisado a acessibilidade de 10 sites de notícias existentes no Brasil para pessoas com deficiência visual e auditiva. Os sites foram escolhidos através do numero de visitas na compilação entre as ferramentas Alexa, SimilarWeb e SemRush [16], e todos os dados dos sites foram tiradas dessa compilação. Os sites a seguir estão listados na ordem crescente: Clicrbs, Yahoo! Notícias, IG, MSN Brasil, Estadão, R7 Notícias, Folha De São Paulo, Terra Notícias, Uol Notícias e G1.
 
 \subsection{Clicrbs}
 
-Clicrbs é um portal de noticias que atende em especifico a região do Rio Grande do Sul e Santa Catariana. Ele recebe quase 20 milhões de visitas por mês, estando assim na décima posição. O site possui parceria com Globo devido a sua filiação da RBS TV com 18 emissoras de TV e 8 emissoras de rádio cobrindo a região sul do pais. O grupo também é dono do jornal impresso e site Zero hora. Além de mais 300 blogs em sua plataforma [16].
+Clicrbs é um portal de notícias que atende em especifico a região do Rio Grande do Sul e Santa Catariana. Ele recebe quase 20 milhões de visitas por mês, estando assim na décima posição. O site possui parceria com Globo devido a sua filiação da RBS TV com 18 emissoras de TV e 8 emissoras de rádio cobrindo a região sul do país. O grupo também é dono do jornal impresso e site Zero hora. Além de mais 300 blogs em sua plataforma [16].
 
-O clicRBS é um portal do Grupo RBS que oferece conteúdo online para o estado do Rio Grande do Sul. Integram o clicRBS os sites dos veículos de mídia impressa e eletrônica do Grupo RBS e canais próprios de notícias e serviços, conteúdo produzido por jornalistas e webdesigners. É possível acessar o clicRBS através da Globo.com no qual está hospedado. No clicRBS, o usuário recebe notícias atualizadas durante todo o dia, tem acesso aos conteúdos dos jornais da RBS e à programação ao vivo de rádios. O portal concentra também a maior parte das ações de interatividade dos veículos e oferece canais para as manifestações de opinião dos usuários de todas as mídias do grupo [25].
+O clicRBS é um portal do Grupo RBS que oferece conteúdo online para o estado do Rio Grande do Sul. Integram o clicRBS os sites dos veículos de mídia impressa e eletrônica do Grupo RBS e canais próprios de notícias e serviços, conteúdo produzido por jornalistas e webdesigners. É possível acessar o clicRBS através da Globo.com no qual está hospedado. No clicRBS, o usuário recebe notícias atualizadas durante todo o dia, tem acesso aos conteúdos dos jornais da RBS e à programação ao vivo de rádios. O portal concentra também a maior parte das ações de interatividade dos veículos e oferece canais para as manifestações de opinião dos usuários de todas as mídias do grupo [25]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site Clicrbs, segundo mostrado na tabela 3.\\
 
-Tabela 4 - Diretrizes cumpridas no site Clicrbs\\[-1cm]
+Tabela 3 - Diretrizes cumpridas no site Clicrbs\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -769,13 +854,15 @@ Tabela 4 - Diretrizes cumpridas no site Clicrbs\\[-1cm]
 	\end{longtable}
 \end{center}
 
+Portanto, de acordo com a análise manual feita, foram cumpridas 6 diretrizes das 19 escolhidas, dessas 6 diretrizes, 3 foram com peso 1, 2 foram com peso 2 e 1 com peso 3. As diretrizes de peso 1 foram a 1.1.1 conteúdo não textual, a 1.3.2 sequência com significado e a 1.4.1 utilização da cor. Já as diretrizes de peso 2 foram a 1.4.3 contraste e a 1.4.5 imagens de texto. Por fim, a única diretriz de peso 3 cumprida foi a 1.4.6 contraste (melhorado). Sendo assim, o site Clicrbs cumpriu ao todo 10 pontos de todas as diretrizes escolhidas, tendo, assim, 29.41\% de acessibilidade para os usuários com deficiência visual e auditiva.
+
 \subsection{Yahoo! Notícias}
 
-Em nono lugar está o Yahoo! Notícias Brasil. Ele é um site informativo que mantem o seu corpo jornalísticos de noticias em dia, principalmente em relação a noticias do mundo, pois ele é alimentado pela rede internacional do Yahoo [16].
+Em nono lugar está o Yahoo! Notícias Brasil. Ele é um site informativo que mantem o seu corpo jornalísticos de notícias em dia, principalmente em relação a notícias do mundo, pois ele é alimentado pela rede internacional do Yahoo [16].
 
-O Yahoo! foi criado por Jerry Yang e David Filo em 1994, nos Estados Unidos. Estudantes da Universidade Stanford, os fundadores da companhia desenvolveram a plataforma para catalogar sites interessantes na internet. Apesar de ter nascido apenas para uso próprio, rapidamente o Yahoo! ganhou popularidade dentro e fora da universidade. Atualmente, o Yahoo! é mundialmente conhecido por seus produtos e serviços de internet para consumidores e empresas. O portal de comunicação conta com motor de busca, e-mail, messenger, grupos, notícias, entre outros. Além disso, a companhia atua com hospedagem de sites, serviços de gestão e publicidade online [26].
+O Yahoo! foi criado por Jerry Yang e David Filo em 1994, nos Estados Unidos. Estudantes da Universidade Stanford, os fundadores da companhia desenvolveram a plataforma para catalogar sites interessantes na internet. Apesar de ter nascido apenas para uso próprio, rapidamente o Yahoo! ganhou popularidade dentro e fora da universidade. Atualmente, o Yahoo! é mundialmente conhecido por seus produtos e serviços de internet para consumidores e empresas. O portal de comunicação conta com motor de busca, e-mail, messenger, grupos, notícias, entre outros. Além disso, a companhia atua com hospedagem de sites, serviços de gestão e publicidade online [26]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site Yahoo! Notícias, segundo mostrado na tabela 4.\\
 
-Tabela 5 - Diretrizes cumpridas no site Yahoo! Notícias\\[-1cm]
+Tabela 4 - Diretrizes cumpridas no site Yahoo! Notícias\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -833,13 +920,15 @@ Tabela 5 - Diretrizes cumpridas no site Yahoo! Notícias\\[-1cm]
 	\end{longtable}
 \end{center}
 
+Portanto, de acordo com a análise manual feita, foram cumpridas 4 diretrizes das 19 escolhidas, dessas 4 diretrizes, 2 foram com peso 1, 1 foram com peso 2 e 1 com peso 3. As diretrizes de peso 1 foram a 1.3.2 sequência com significado e a 1.4.1 utilização da cor. Já a diretriz de peso 2 foi apenas a 1.4.3 contraste. Por fim, a única diretriz de peso 3 cumprida foi a 1.4.6 Contraste (melhorado). Sendo assim, o site Yahoo! Notícias cumpriu ao todo 7 pontos de todas as diretrizes escolhidas, tendo, assim, 20.58\% de acessibilidade para os usuários com deficiência visual e auditiva.
+
 \subsection{IG}
 
 Já em oitavo lugar está o IG, que é um dos portais que mais se reinventa na internet brasileira. Mudanças constantes e parcerias de peso tem reerguido esse grande portal que antes provia acesso internet na era discada. Atualmente, eles esperam crescer muito mais, apostando no agregador de blogs “iGlr“. O Site receberá visitas de todos os blogs parceiros [16].
 
-Internet Group é um provedor de acesso à Internet brasileiro de banda larga e de acesso discado à Internet adquirido em 2004  pelos grupos GP Investimentos (Telemar) e Brasil Telecom e fundido aos portais iBest e BrTurbo, que já eram de propriedade da empresa de telefonia. Em 2010, o iG é adquirido pela Oi após a venda da Brasil Telecom. Em 18 de abril de 2012 a empresa portuguesa Ongoing anunciou a compra do portal. O abalo no mercado foi imediato, apesar de não ter sido o primeiro provedor gratuito brasileiro, atingindo grande popularidade num tempo em que a banda larga era pouco comum. O portal também estava bem posicionado, reunia um número crescente de sites competentes e criativos, liderados pelo Último Segundo, formando um conjunto de destaque quando a política de portais ainda buscava amadurecimento no Brasil [27].
+Internet Group é um provedor de acesso à Internet brasileiro de banda larga e de acesso discado à Internet adquirido em 2004  pelos grupos GP Investimentos (Telemar) e Brasil Telecom e fundido aos portais iBest e BrTurbo, que já eram de propriedade da empresa de telefonia. Em 2010, o iG é adquirido pela Oi após a venda da Brasil Telecom. Em 18 de abril de 2012 a empresa portuguesa Ongoing anunciou a compra do portal. O abalo no mercado foi imediato, apesar de não ter sido o primeiro provedor gratuito brasileiro, atingindo grande popularidade num tempo em que a banda larga era pouco comum. O portal também estava bem posicionado, reunia um número crescente de sites competentes e criativos, liderados pelo Último Segundo, formando um conjunto de destaque quando a política de portais ainda buscava amadurecimento no Brasil [27]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site IG, segundo mostrado na tabela 5.\\
 
-Tabela 6 - Diretrizes cumpridas no site IG\\[-1cm]
+Tabela 5 - Diretrizes cumpridas no site IG\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -899,11 +988,11 @@ Tabela 6 - Diretrizes cumpridas no site IG\\[-1cm]
 
 \subsection{MSN Brasil}
 
-Em sétimo lugar temos o MSN Brasil, que é o site de noticias após fechar o hotmail. Isso foi o que impulsionou esse portal que mostra ser umas das fontes mais relevantes em noticias de última hora na internet [10].
+Em sétimo lugar temos o MSN Brasil, que é o site de notícias após fechar o hotmail. Isso foi o que impulsionou esse portal que mostra ser umas das fontes mais relevantes em notícias de última hora na internet [10].
 
-O portal MSN, originalmente conhecido como The Microsoft Network, foi fundado em 1995 pela Microsoft. Criado para os usuários do Windows 95, o site surgiu como uma rede de serviços online. A partir de 1997, os conteúdos do portal passaram a ser distribuídos para todos os assinantes. Por vários anos, o MSN foi conhecido pelo seu serviço de mensagens instantâneas, o MSN Messenger. Nascido em 1999, o programa foi fundido com o Windows Messenger, dando origem ao Windows Live Messenger. O serviço foi descontinuado em 2013, depois de ter marcado a vida dos usuários da internet dos anos 2000. Atualmente, o MSN oferece e-mail, pesquisa, grupos, fóruns de discussão, entre outros, inclusive notícias. A plataforma conta com cerca de 330 milhões de usuários e está presente em, aproximadamente, 100 países. Os principais mercados do portal são os Estados Unidos, México, Japão e  Brasil, onde está inserido o MSN Brasil [28].
+O portal MSN, originalmente conhecido como The Microsoft Network, foi fundado em 1995 pela Microsoft. Criado para os usuários do Windows 95, o site surgiu como uma rede de serviços online. A partir de 1997, os conteúdos do portal passaram a ser distribuídos para todos os assinantes. Por vários anos, o MSN foi conhecido pelo seu serviço de mensagens instantâneas, o MSN Messenger. Nascido em 1999, o programa foi fundido com o Windows Messenger, dando origem ao Windows Live Messenger. O serviço foi descontinuado em 2013, depois de ter marcado a vida dos usuários da internet dos anos 2000. Atualmente, o MSN oferece e-mail, pesquisa, grupos, fóruns de discussão, entre outros, inclusive notícias. A plataforma conta com cerca de 330 milhões de usuários e está presente em, aproximadamente, 100 países. Os principais mercados do portal são os Estados Unidos, México, Japão e  Brasil, onde está inserido o MSN Brasil [28].  Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site MSN Brasil, segundo mostrado na tabela 6.\\
 
-Tabela 7 - Diretrizes cumpridas no site MSN Brasil\\[-1cm]
+Tabela 6 - Diretrizes cumpridas no site MSN Brasil\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -963,13 +1052,13 @@ Tabela 7 - Diretrizes cumpridas no site MSN Brasil\\[-1cm]
 
 \subsection{Estadão}
 
-Na sexta posição está o portal de noticias do jornal O Estado de S. Paulo, que oferece noticias com imparcialidade e seriedade. Grandes colunistas renomados emitem sua opinião nas colunas e nos blogs do portal. É o lugar perfeito para quem esta habituado a ler jornais impressos, pois com advento da web e da leitura online, nascem todos os dias jornalistas preparados exclusivamente para esse meio. O portal recebe mais de 10 milhões de visitas por mês [10].
+Na sexta posição está o portal de notícias do jornal O Estado de S. Paulo, que oferece notícias com imparcialidade e seriedade. Grandes colunistas renomados emitem sua opinião nas colunas e nos blogs do portal. É o lugar perfeito para quem esta habituado a ler jornais impressos, pois com advento da web e da leitura online, nascem todos os dias jornalistas preparados exclusivamente para esse meio. O portal recebe mais de 10 milhões de visitas por mês [10].
 
-No dia 20 de fevereiro de 1995, o Grupo Estado entrava na Internet. Até então, as BBSs, redes localizadas, eram o que mais próximo se tinha de internet no País. Por isso, junto com a notícia, um texto suplementar explicava o que era a internet e a sua história, de modo que os leitores pudessem entender do que se tratava. O serviço noticioso foi inicialmente hospedado no site WordNews, nos Estados Unidos, porque naqueles primeiros dias de 1995 ainda não havia como registrar os domínios, os endereços do site que são digitados nos navegadores, de sites brasileiros. No NetEstado os leitores passaram a ter os conteúdos da edição impressa do jornal acrescidos de conteúdos especiais que o novo formato comportava. No JTWeb ficava os conteúdos do outro periódico impresso do grupo. Em 1996, com a evolução das tecnologias, a Agência Estado implantaria um pioneiro sistema editorial que permitia a publicação de notícias com rapidez até então desconhecida. A estreia do publicador aconteceu na Olimpíada de Atlanta, permitindo a transmissão online inovadora dos acontecimentos esportivos [29].
+No dia 20 de fevereiro de 1995, o Grupo Estado entrava na Internet. Até então, as BBSs, redes localizadas, eram o que mais próximo se tinha de internet no país. Por isso, junto com a notícia, um texto suplementar explicava o que era a internet e a sua história, de modo que os leitores pudessem entender do que se tratava. O serviço noticioso foi inicialmente hospedado no site WordNews, nos Estados Unidos, porque naqueles primeiros dias de 1995 ainda não havia como registrar os domínios, os endereços do site que são digitados nos navegadores, de sites brasileiros. No NetEstado os leitores passaram a ter os conteúdos da edição impressa do jornal acrescidos de conteúdos especiais que o novo formato comportava. No JTWeb ficava os conteúdos do outro periódico impresso do grupo. Em 1996, com a evolução das tecnologias, a Agência Estado implantaria um pioneiro sistema editorial que permitia a publicação de notícias com rapidez até então desconhecida. A estreia do publicador aconteceu na Olimpíada de Atlanta, permitindo a transmissão online inovadora dos acontecimentos esportivos [29].
 
-Em 1998, com a Copa do Mundo da França, pela primeira vez seria adotado o endereço estadao.com.br, que seria o embrião do modelo de portal de notícias que seria implementado somente dois anos depois. Assim, toda a cobertura do principal torneio de futebol do mundo estaria concentrado numa única página. No mesmo ano, as eleições presidenciais também contariam com o novo modelo de cobertura digital. No ano 2000, o portal Estadão.com.br estrearia o novo modelo que seria aprimorado até os dias atuais, com a incorporações das novas tecnologias, linguagem, ferramentas e outras inovações [29].
+Em 1998, com a Copa do Mundo da França, pela primeira vez seria adotado o endereço estadao.com.br, que seria o embrião do modelo de portal de notícias que seria implementado somente dois anos depois. Assim, toda a cobertura do principal torneio de futebol do mundo estaria concentrado numa única página. No mesmo ano, as eleições presidenciais também contariam com o novo modelo de cobertura digital. No ano 2000, o portal Estadão.com.br estrearia o novo modelo que seria aprimorado até os dias atuais, com a incorporações das novas tecnologias, linguagem, ferramentas e outras inovações [29].  Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site Estadão, segundo mostrado na tabela 7.\\
 
-Tabela 8 - Diretrizes cumpridas no site Estadão\\[-1cm]
+Tabela 7 - Diretrizes cumpridas no site Estadão\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -1027,15 +1116,15 @@ Tabela 8 - Diretrizes cumpridas no site Estadão\\[-1cm]
 	\end{longtable}
 \end{center}
 
-\subsection{R7 Noticias}
+\subsection{R7 Notícias}
 
 Em quinto lugar temos 0 R7.com, que segue o padrão do estabelecido pelo G1. Ele teve sua estreia em 27 de setembro de 2009 com grande quantidade de jornalistas vindo do UOL, G1, Folha do Estado de SP, Terra, Abril, Reuters. Hoje, ele já é o 5° portal mais acessado do Brasil, porém esse numero só foi alcançado graças as ultimas parcerias feitas com outros sites e blogs, ao qual suas audiência são somadas. O R7 fechou parceria com 5 dos 10 blogs mais acessados do Brasil e ele pertence a Central Record de Comunicação [10].
 
-R7 ou R7.com é um portal de internet brasileiro criado em 2009 que atualmente pertence ao Grupo Record. Em 2017, o R7 anunciou que tornou-se o quinto maior da América Latina. Seu conteúdo é produzido com o apoio das estruturas da RecordTV, da Record News e também de suas filiadas e afiliadas, que produzem matérias através de páginas regionais. No R7 foi feito com investimento estimado em 300 milhões de reais, e na data de estreia contava com uma equipe de 300 profissionais [30].
+R7 ou R7.com é um portal de internet brasileiro criado em 2009 que atualmente pertence ao Grupo Record. Em 2017, o R7 anunciou que tornou-se o quinto maior da América Latina. Seu conteúdo é produzido com o apoio das estruturas da RecordTV, da Record News e também de suas filiadas e afiliadas, que produzem matérias através de páginas regionais. No R7 foi feito com investimento estimado em 300 milhões de reais, e na data de estreia contava com uma equipe de 300 profissionais [30]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site R7 Notícias, segundo mostrado na tabela 8.\\
 
 Redimensionar texto em algumas páginas
 
-Tabela 9 - Diretrizes cumpridas no site R7 Noticias\\[-1cm]
+Tabela 8 - Diretrizes cumpridas no site R7 Notícias\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -1095,11 +1184,11 @@ Tabela 9 - Diretrizes cumpridas no site R7 Noticias\\[-1cm]
 
 \subsection{Folha De São Paulo}
 
-Já na quarta colocação está a Folha de São Paulo, que é uma versão online do jornal impresso de maior credibilidade do Brasil. Ela está entre as melhores fontes de noticias da atualidade. Com furos jornalísticos, entrevistas e noticias bombásticas, ele se mantem na liderança impressa das principais cidades do Brasil, talvez por isso o grande market share conquistado no mundo online. Se você deseja noticia de verdade, sem ligações com o entretenimento empregada por outros portais, esse é o lugar certo [10].
+Já na quarta colocação está a Folha de São Paulo, que é uma versão online do jornal impresso de maior credibilidade do Brasil. Ela está entre as melhores fontes de notícias da atualidade. Com furos jornalísticos, entrevistas e notícias bombásticas, ele se mantem na liderança impressa das principais cidades do Brasil, talvez por isso o grande market share conquistado no mundo online. Se você deseja notícia de verdade, sem ligações com o entretenimento empregada por outros portais, esse é o lugar certo [10].
 
-A história da Folha começa em 1921, com a criação do jornal "Folha da Noite". Em julho de 1925, é criado o jornal "Folha da Manhã", edição matutina da "Folha da Noite". A "Folha da Tarde" é fundada após 24 anos. Em 1º de janeiro de 1960, os três títulos da empresa se fundem e surge o jornal Folha de S.Paulo [31]. E em 1995 começa a funcionar o Centro Tecnológico Gráfico-Folha, em Tamboré. O jornal passa a circular com a maioria das páginas coloridas. Também nesse ano, a empresa lança a FolhaWeb, primeiro site de notícias em tempo real [32].
+A história da Folha começa em 1921, com a criação do jornal "Folha da Noite". Em julho de 1925, é criado o jornal "Folha da Manhã", edição matutina da "Folha da Noite". A "Folha da Tarde" é fundada após 24 anos. Em 1º de janeiro de 1960, os três títulos da empresa se fundem e surge o jornal Folha de S.Paulo [31]. E em 1995 começa a funcionar o Centro Tecnológico Gráfico-Folha, em Tamboré. O jornal passa a circular com a maioria das páginas coloridas. Também nesse ano, a empresa lança a FolhaWeb, primeiro site de notícias em tempo real [32]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site Folha De São Paulo, segundo mostrado na tabela 9.\\
 
-Tabela 10 - Diretrizes cumpridas no site Folha De São Paulo\\[-1cm]
+Tabela 9 - Diretrizes cumpridas no site Folha De São Paulo\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -1159,11 +1248,11 @@ Tabela 10 - Diretrizes cumpridas no site Folha De São Paulo\\[-1cm]
 
 \subsection{Terra Notícias}
 
-O terceiro site jornalístico mais acessado no Brasil é o portal Terra, criado em 1999, caiu muito em audiência nos últimos anos no Brasil, mas com a nova repaginação no layout espera crescer novamente oferecendo o melhor das noticiais, entretenimento e esportes, o tri-pé mais cobiçado da internet brasileira [10].
+O terceiro site jornalístico mais acessado no Brasil é o portal Terra, criado em 1999, caiu muito em audiência nos últimos anos no Brasil, mas com a nova repaginação no layout espera crescer novamente oferecendo o melhor das notícias, entretenimento e esportes, o tri-pé mais cobiçado da internet brasileira [10].
 
-Terra é uma empresa brasileira de internet pertencente ao grupo espanhol Telefónica, um dos maiores conglomerados de telecomunicações fixas e móveis do mundo. Lançado no Brasil após aquisição do até então portal gaúcho de conteúdo Zaz (ex-Nutecnet). Além de atuar como portal de notícias, atualmente a companhia também trabalha com aplicativos de celular, publicidade e outros serviços digitais. Em agosto de 2017, o portal Terra passou a funcionar somente no Brasil, encerrando suas atividades em parte da América Latina, Espanha e EUA [33].
+Terra é uma empresa brasileira de internet pertencente ao grupo espanhol Telefónica, um dos maiores conglomerados de telecomunicações fixas e móveis do mundo. Lançado no Brasil após aquisição do até então portal gaúcho de conteúdo Zaz (ex-Nutecnet). Além de atuar como portal de notícias, atualmente a companhia também trabalha com aplicativos de celular, publicidade e outros serviços digitais. Em agosto de 2017, o portal Terra passou a funcionar somente no Brasil, encerrando suas atividades em parte da América Latina, Espanha e EUA [33]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site Terra Notícias, segundo mostrado na tabela 10.\\
 
-Tabela 11 - Diretrizes cumpridas no site Terra Notícias\\[-1cm]
+Tabela 10 - Diretrizes cumpridas no site Terra Notícias\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -1223,11 +1312,11 @@ Tabela 11 - Diretrizes cumpridas no site Terra Notícias\\[-1cm]
 
 \subsection{Uol Notícias}
 
-Na vice colocação está o Uol Notícias. Ele é um portal conhecido por ter experiência e tamanho para oferecer noticias de qualidade e com credibilidade. Presume-se que o portal em conjunto com seus parceiros receba em torno de 57 milhões de visitas por mês. A Folha e a Band que estão nesse ranking também possui parcerias com eles [10].
+Na vice colocação está o Uol Notícias. Ele é um portal conhecido por ter experiência e tamanho para oferecer notícias de qualidade e com credibilidade. Presume-se que o portal em conjunto com seus parceiros receba em torno de 57 milhões de visitas por mês. A Folha e a Band que estão nesse ranking também possui parcerias com eles [10].
 
-Universo Online vai ao ar em 1996, como o primeiro portal de notícias do Brasil, com serviço de Bate-papo, edição diária da Folha de S. Paulo, arquivos da Folha com cerca de 250 mil textos, reportagens do The New York Times, traduzidas para o português, folha da tarde e notícias populares, classificados, roteiros, saúde e a revista IstoÉ [34].
+Universo Online vai ao ar em 1996, como o primeiro portal de notícias do Brasil, com serviço de Bate-papo, edição diária da Folha de S. Paulo, arquivos da Folha com cerca de 250 mil textos, reportagens do The New York Times, traduzidas para o português, folha da tarde e notícias populares, classificados, roteiros, saúde e a revista IstoÉ [34]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site Uol Notícias, segundo mostrado na tabela 11.\\
 
-Tabela 12 - Diretrizes cumpridas no site Uol Notícias\\[-1cm]
+Tabela 11 - Diretrizes cumpridas no site Uol Notícias\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -1287,9 +1376,9 @@ Tabela 12 - Diretrizes cumpridas no site Uol Notícias\\[-1cm]
 
 \subsection{G1}
 
-E em primeiro lugar está o G1, que é disparado o maior site de notícias do Brasil, e vê de longe os concorrentes. Desde 2006 mantem o padrão Globo de jornalismo e com conteúdos multimídia vem tirando proveito da internet sobre os tradicionais meios de comunicação. Ele é um dos únicos portais que não necessita dos “números adicionais”, ou seja, aqueles sites parceiros que juntam sua audiência ao portal se tornando um só perante ao ibope e ao Comscore. Segundo dados do final de 2013, o portal da Globo recebe cerca de 49 milhões de acessos por mês [10].
+E em primeiro lugar está o G1, que é disparado o maior site de notícias do Brasil, e vê de longe os concorrentes. Desde 2006 mantem o padrão Globo de jornalismo e com conteúdos multimídia vem tirando proveito da internet sobre os tradicionais meios de comunicação. Ele é um dos únicos portais que não necessita dos “números adicionais”, ou seja, aqueles sites parceiros que juntam sua audiência ao portal se tornando um só perante ao ibope e ao Comscore. Segundo dados do final de 2013, o portal da Globo recebe cerca de 49 milhões de acessos por mês [16]. Levando, em consideração, as diretrizes escolhidas para a análise dos sites, foi feita um levantamento da acessibilidade do site G1, segundo mostrado na tabela 12.\\
 
-Tabela 13 - Diretrizes cumpridas no site G1\\[-1cm]
+Tabela 12 - Diretrizes cumpridas no site G1\\[-1cm]
 \begin{center}
 	\fontsize{8pt}{8pt}\selectfont	
 	\begin{longtable}{|c|c|c|c|c|}
@@ -1355,6 +1444,6 @@ Tabela 13 - Diretrizes cumpridas no site G1\\[-1cm]
 \begin{minipage}{1\textwidth}
 [1] M. Campoverde-Molina, S. Lujan-Mora e L. Valverde Gracia, "Empirical Studies on Web Accessibility of Educational Websites: A Systematic Literature Review" em IEEEAcess, Abril de 2020.
 \end{minipage}\\[0.5cm] [2] D. Luís Arenhardt, T. Stefanel Franchi e S. Medianeira Flores Costa, M. Zampieri Grohmann, "Acessibilidade digital: Uma análise em portais de Instituições Federais de Educação do Brasil" em Education Policy Analysis Archives, Abril de 2017.\\[0.5cm] [3] P. Acosta-Vargas, T. Acosta e S. Luján-Mora, "Challenges to Assess Accessibility in Higher A Comparative Study of Latin America Universities" em IEEEAcess, Março de 2018.\\[0.5cm] [4] E. M. Molanes-López, A. Rodriguez-Ascaso, E. Letón e J. Pérez-Martín, "Assessment of Video Accessibility by Students of a MOOC on Digital Materials for All a MOOC on Digital Materials for All" em IEEEAcess, Maio de 2021.\\[0.5cm] [5] A. Ismail e K. S. Kuppusamy, "Web accessibility investigation and identification of major issues of higher education websites with statistical measures - A case study of college websites" em Journal of King Saud University – Computer and Information Sciences, Março de 2019.\\[0.5cm] [6] A. Ismail e K. S. Kuppusamy, "Accessibility of Indian universities homepages An exploratory study" em Journal of King Saud University – Computer and Information Sciences, Junho de 2016.\\[0.5cm] [7] H. S. Al-Khalifa, I. Baazeem e R. Alamer1, "Revisiting the accessibility of Saudi Arabia government websites" em Universal Access in the Information Society, Setembro de 2016.\\[0.5cm] [8] P. Acosta-Vargas, T. Acosta e S. Luján-Mora, "A Heuristic Method to Evaluate Web Accessibility for Users With Low Vision" em IEEEAcess, Março de 2018.\\[0.5cm] [9] H. O. Al-Sakran e M. A, Alsudairi "Usability and Accessibility Assessment of Saudi Arabia Mobile E-Government Websites" em IEEEAcess, Março de 2021.\\[0.5cm] [10] B. Caldwell, M. Cooper, L. Guarino Reid, G. Vanderheiden, W. Chisholm, J. Slatin e J. White, Consórcio W3C(2008), "Diretrizes de Acessibilidade para Conteúdo Web (WCAG)2.0", Acesso em: 11 jun. 2021. [Online]. Disponível: https://www.w3.org/Translations/WCAG20-pt-PT/WCAG20-pt-PT-20141024/\\[0.5cm] [11] T. Acosta, P. Acosta Vargas, J. Zambrano Miranda e S. Luján Mora, "Web Accessibility Evaluation of Videos Published on YouTube by Worldwide Top-Ranking Universities" em IEEEAcess, Junho de 2020.\\[0.5cm] [12] C. Batanero-Ochaíta1, L. De-Marcos, L. Felipe Rivera, J. Holvikivi, J. Ramón Hilera e S. Otón, "Improving Accessibility in Online Education Comparative Analysis of Attitudes of Blind and Deaf Students Towards an Adapted Learning Platform" em IEEEAcess, 2017.\\[0.5cm] [13] B. Poletto Salton, J. Poletto Almeida, A. Rocha Façanha, A. Luiz Rezende, A. Poletto Sonza, Â. Guimarães, F. Zap, G. Samuel do Nascimento, J. Fiore de Oliveira Junior, J. Marques Carvalho da Silva, M. Antônio de Queiroz, M. Vinícius Bennett Ferreira, M. Covolan Rosito, R. Ferraz, R. Busatto, R. Moro, U. Paterno e W. Fernandes, A. Luís Porto Costa, E. Carniel, L. Nervis, J. Pilotti e L. Siqueira Lima, A. Pimenta Freire, C. Scarton, D. Roger Ramos Freitas, E. Marques Bento, J. Fernandes, L. Dell Anhol Almeida, M. Cecília Calani Baranauskas, T. Prado de Campos, V. Figueredo de Santana, A. E. Dourado Salina Gabriel, C. Gonçalves do Bomfim, E. Santos Martins Leite, F. Hoffmann Lobato e H. Gomes Mesquita, "eMAG - Modelo de Acessibilidade em Governo Eletrônico", Acesso em: 29 jul. 2021. [Online]. Disponível: http://emag.governoeletronico.gov.br/\\[0.5cm] [14] Y. Akgül1n, "Accessibility, usability, quality performance, and readability evaluation of university websites of Turkey: a comparative study of state and private universities" em Springer, Abril de 2020.\\[0.5cm] [15] J. Nakatumba Nabende, B. Kanagwa, F. Nameere Kivunike e M. Tuape, "Evaluation of accessibility standards on Ugandan e-government websites" em Electronic Government an International Journal, Junho de 2019.\\[0.5cm] [16] A. S. Lucas, Top 10 maiores sites de notícias do Brasil", Acesso em: 03 ago. 2021. [Online]. Disponível: https://top10mais.org/sites-de-noticias/\\[0.5cm] [17] N. A. Karaim e Y. Inal, "Usability and accessibility evaluation of Libyan government websites" em Department of Information Systems Engineering, Graduate
-School of Natural and Applied Science, Atilim University, Ankara, Turkey e em Department of Information Systems Engineering, Faculty of Engineering, Atilim University, Ankara, Turkey, Outubro de 2017.\\[0.5cm] [18] S. Naipal1, N. Rampersad, " A review of visual impairment" em University of KwaZulu-Natal, South Africa, Jan de 2018.\\[0.5cm] [19] A. de Castro Roma, "Breve histórico do processo cultural e educativo dos deficientes visuais no Brasil" em Revista Ciência Contemporânea, Dez de 2018.\\[0.5cm] [20] Mundo Educação, "Cegueira", Acesso em: 03 ago, 2021. [Online]. Disponível: https://mundoeducacao.uol.com.br/doencas/cegueira.htm\\[0.5cm] [21] S. Tamires Almeida e V. Filipe Araújo, "Diferenças experienciais entre pessoas com cegueira congênita e adquirida: uma breve apreciação", em Revista Interfaces: Saúde, Humanas e Tecnologia, Ano 1, v. 1, n.3 e em Faculdade Leão Sampaio, Jun de 2013.\\[0.5cm] [22] Fio Cruz, "Deficiência Auditiva", Acesso em: 13 ago, 2021. [Online]. Disponível: http://www.fiocruz.br/biosseguranca/Bis/infantil/deficiencia-auditiva.htm\\[0.5cm] [23] A. L. Campos Barbosa, J. J. Ferreira Reis Sampaio e N. Alves Marques, "A educação do deficiente auditivo: um olhar sobre a diferença" em UNIT-SE, Maio de 2019\\[0.5cm] [24] F. V. Braga Junior e S. Andrade de Paula Bedaque, "Deficiência auditiva e o atendimento educacional especializado" em SECADI e em Universidade Federal Rural do Semi-ÁridoReitor, em 2015\\[0.5cm] [25] Wikipédia - A enciclopédia livre, "clicRBS", Acesso em: 19 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/ClicRBS\\[0.5cm] [26] Canaltech, "Yahoo", Acesso em: 19 ago, 2021. [Online]. Disponível: https://canaltech.com.br/empresa/yahoo/\\[0.5cm] [27] Canaltech, "Internet Group", Acesso em: 19 ago, 2021. [Online]. Disponível: https://canaltech.com.br/empresa/yahoo/\\[0.5cm] [28] Canaltech, "MSN", Acesso em: 19 ago, 2021. [Online]. Disponível: https:// canaltech.com.br/empresa/msn/\\[0.5cm] [29] Estadão, "Ha 20 anos grupo estado entrava na internet", Acesso em: 19 ago, 2021. [Online]. Disponível: http://m.acervo.estadao.com.br/noticias/acervo,ha-20-anos--grupo-estado-entrava-na-internet,10781,0.htm\\[0.5cm] [30] Wikipédia - A enciclopédia livre, "R7", Acesso em: 19 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/R7\\[0.5cm] [31] UOL, "História da Folha", Acesso em: 19 ago, 2021. [Online]. Disponível: https://www1.folha.uol.com.br/folha/circulo/historia\textunderscore folha.htm\\[0.5cm] [32] UOL, "História da Folha", Acesso em: 19 ago, 2021. [Online]. Disponível: https://www1.folha.uol.com.br/institucional/historia\textunderscore da\textunderscore folha.shtml?fill=4\\[0.5cm] [33] Wikipédia - A enciclopédia livre, "Terra (empresa)", Acesso em: 20 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/Terra\textunderscore (empresa)\\[0.5cm] [34] UOL, "História - Sobre UOL", Acesso em: 20 ago, 2021.[Online]. Disponível: https://sobreuol.noticias.uol.com.br/historia/
+School of Natural and Applied Science, Atilim University, Ankara, Turkey e em Department of Information Systems Engineering, Faculty of Engineering, Atilim University, Ankara, Turkey, Outubro de 2017.\\[0.5cm] [18] S. Naipal1, N. Rampersad, " A review of visual impairment" em University of KwaZulu-Natal, South Africa, Jan de 2018.\\[0.5cm] [19] A. de Castro Roma, "Breve histórico do processo cultural e educativo dos deficientes visuais no Brasil" em Revista Ciência Contemporânea, Dez de 2018.\\[0.5cm] [20] Mundo Educação, "Cegueira", Acesso em: 03 ago, 2021. [Online]. Disponível: https://mund oeducacao.uol.com.br/doencas/cegueira.htm\\[0.5cm] [21] S. Tamires Almeida e V. Filipe Araújo, "Diferenças experienciais entre pessoas com cegueira congênita e adquirida: uma breve apreciação", em Revista Interfaces: Saúde, Humanas e Tecnologia, Ano 1, v. 1, n.3 e em Faculdade Leão Sampaio, Jun de 2013.\\[0.5cm] [22] Fio Cruz, "Deficiência Auditiva", Acesso em: 13 ago, 2021. [Online]. Disponível: http://www .fiocruz.br/biosseguranca/Bis/infantil/deficiencia-auditiva.htm\\[0.5cm] [23] A. L. Campos Barbosa, J. J. Ferreira Reis Sampaio e N. Alves Marques, "A educação do deficiente auditivo: um olhar sobre a diferença" em UNIT-SE, Maio de 2019\\[0.5cm] [24] F. V. Braga Junior e S. Andrade de Paula Bedaque, "Deficiência auditiva e o atendimento educacional especializado" em SECADI e em Universidade Federal Rural do Semi-ÁridoReitor, em 2015\\[0.5cm] [25] Wikipédia - A enciclopédia livre, "clicRBS", Acesso em: 19 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/ClicRBS\\[0.5cm] [26] Canaltech, "Yahoo", Acesso em: 19 ago, 2021. [Online]. Disponível: https://canaltech.com. br/empresa/yahoo/\\[0.5cm] [27] Canaltech, "Internet Group", Acesso em: 19 ago, 2021. [Online]. Disponível: https://canalte ch.com.br/empresa/yahoo/\\[0.5cm] [28] Canaltech, "MSN", Acesso em: 19 ago, 2021. [Online]. Disponível: https:// canaltech.com. br/empresa/msn/\\[0.5cm] [29] Estadão, "Ha 20 anos grupo estado entrava na internet", Acesso em: 19 ago, 2021. [Online]. Disponível: http://m.acervo.estadao.com.br/noticias/acervo,ha-20-anos--grupo-estado-entrava-n a-internet,10781,0.htm\\[0.5cm] [30] Wikipédia - A enciclopédia livre, "R7", Acesso em: 19 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/R7\\[0.5cm] [31] UOL, "História da Folha", Acesso em: 19 ago, 2021. [Online]. Disponível: https://www1.fol ha.uol.com.br/folha/circulo/historia\textunderscore folha.htm\\[0.5cm] [32] UOL, "História da Folha", Acesso em: 19 ago, 2021. [Online]. Disponível: https://www1.fol ha.uol.com.br/institucional/historia\textunderscore da\textunderscore folha.shtml?fill=4\\[0.5cm] [33] Wikipédia - A enciclopédia livre, "Terra (empresa)", Acesso em: 20 ago, 2021. [Online]. Disponível: https://pt.wikipedia.org/wiki/Terra\textunderscore (empresa)\\[0.5cm] [34] UOL, "História - Sobre UOL", Acesso em: 20 ago, 2021. [Online]. Disponível: https://sobreu ol.noticias.uol.com.br/historia/
 \end{titlepage}
 \end{document}
