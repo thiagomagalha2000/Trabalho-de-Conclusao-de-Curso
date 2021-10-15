@@ -50,10 +50,10 @@
 \contentsline {subsection}{\numberline {6.3}IG}{22}{}%
 \contentsline {subsection}{\numberline {6.4}MSN Brasil}{23}{}%
 \contentsline {subsection}{\numberline {6.5}Estadão}{24}{}%
-\contentsline {subsection}{\numberline {6.6}R7 Notícias}{25}{}%
-\contentsline {subsection}{\numberline {6.7}Folha De São Paulo}{26}{}%
-\contentsline {subsection}{\numberline {6.8}Terra Notícias}{27}{}%
-\contentsline {subsection}{\numberline {6.9}Uol Notícias}{28}{}%
-\contentsline {subsection}{\numberline {6.10}G1}{29}{}%
-\contentsline {section}{\numberline {7}CONCLUSÃO}{30}{}%
-\contentsline {section}{Referências}{30}{}%
+\contentsline {subsection}{\numberline {6.6}R7 Notícias}{26}{}%
+\contentsline {subsection}{\numberline {6.7}Folha De São Paulo}{27}{}%
+\contentsline {subsection}{\numberline {6.8}Terra Notícias}{28}{}%
+\contentsline {subsection}{\numberline {6.9}Uol Notícias}{29}{}%
+\contentsline {subsection}{\numberline {6.10}G1}{30}{}%
+\contentsline {section}{\numberline {7}CONCLUSÃO}{31}{}%
+\contentsline {section}{Referências}{32}{}%

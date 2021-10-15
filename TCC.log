@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  28 SEP 2021 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  11 OCT 2021 15:55
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -1073,114 +1073,114 @@ Underfull \vbox (badness 10000) detected at line 967
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 993--994
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 995--996
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1031
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1033
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1097
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1127--1128
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1163
+Underfull \vbox (badness 10000) detected at line 1101
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1132
 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1167
  []
 
 [26]
-Underfull \vbox (badness 10000) detected at line 1227
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1253--1254
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1256
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1291
+Underfull \vbox (badness 10000) detected at line 1233
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1319--1320
+Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1355
+Underfull \vbox (badness 10000) detected at line 1299
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
+Underfull \hbox (badness 10000) in paragraph at lines 1327--1328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1382
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1417
+Underfull \vbox (badness 10000) detected at line 1365
  []
 
 [29]
-Overfull \hbox (1.72865pt too wide) in paragraph at lines 1443--1448
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1393--1394
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1429
+ []
+
+[30] [31]
+Overfull \hbox (1.72865pt too wide) in paragraph at lines 1463--1468
 \OT1/cmr/m/n/10 [22] Fio Cruz, "De-fici^encia Au-di-tiva", Acesso em: 13 ago, 2
 021. [On-line]. Dis-ponvel: http://www
  []
 
-[30] [31] [32] [33] (TCC.aux) ) 
+[32] [33] [34] [35] (TCC.aux) ) 
 Here is how much of TeX's memory you used:
  16416 strings out of 479334
- 339573 string characters out of 2857559
- 696168 words of memory out of 3000000
+ 339548 string characters out of 2857559
+ 691168 words of memory out of 3000000
  33532 multiletter control sequences out of 15000+200000
  412954 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1192,9 +1192,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DEL
 L/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on TCC.pdf (44 pages, 260252 bytes).
+Output written on TCC.pdf (46 pages, 266384 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
