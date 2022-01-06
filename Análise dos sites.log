@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  20 DEC 2021 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  6 JAN 2022 10:35
 entering extended mode
-**./TCC.tex
-(TCC.tex
+**"./Análise dos sites.tex"
+(Análise dos sites.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03>
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -634,8 +634,8 @@ ex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box86
-) (TCC.aux)
-\openout1 = `TCC.aux'.
+) (Análise dos sites.aux)
+\openout1 = `"Análise dos sites.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -707,428 +707,114 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=4, 770.88pt x 767.86874pt>
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 22.
-(pdftex.def)             Requested size: 154.17326pt x 153.57103pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
 
 
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 22
-.
+Underfull \vbox (badness 10000) detected at line 56
+ []
 
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22
-.
-
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
 [1
 
-{C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./logo.png>]
-[1]
-Underfull \hbox (badness 1205) in paragraph at lines 75--76
-\OT1/cmr/m/n/12 sen-tado ao curso de Ba-cha-re-lado em
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 75--76
-\OT1/cmr/m/n/12 como re-qui-sito par-cial para ob-tenc~ao
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+{C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
+Underfull \vbox (badness 10000) detected at line 121
  []
 
 [1]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(625.96062pt, 117.67958pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=117.67958pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=516.69063pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
- [1
+ []
 
-] [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-
+Underfull \vbox (badness 10000) detected at line 186
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 251
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 154--161
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 316
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
-
- []
-
-[1] (TCC.toc [1])
-\tf@toc=\write4
-\openout4 = `TCC.toc'.
-
- [2] [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 264
+Underfull \vbox (badness 10000) detected at line 381
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 309
+Underfull \vbox (badness 10000) detected at line 446
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 348
+Underfull \vbox (badness 10000) detected at line 511
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 366
+Underfull \vbox (badness 10000) detected at line 576
  []
 
-
-Overfull \hbox (5.42581pt too wide) in paragraph at lines 381--382
- \OT1/cmr/bx/n/10 2 - Com-por-ta-mento: [] \OT1/cmr/m/n/10 O se-gundo ponto, ch
-a-mado de com-por-ta-mento, tem sete re-co-mendac~oes,
- []
-
-[7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
-
+Underfull \vbox (badness 10000) detected at line 641
  []
 
-
-Underfull \vbox (badness 10000) detected at line 460
- []
-
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
-
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 521
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 550
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 563--568
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--591
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 634
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 645--646
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 665--666
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 675--676
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 719--720
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 724--725
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 737--738
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 758--759
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 763--764
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 808
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 835--836
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 837--838
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 878
- []
-
-[23] [24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 956--957
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 958--959
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 993
- []
-
-[28] [29]
-Overfull \hbox (1.72865pt too wide) in paragraph at lines 1023--1028
-\OT1/cmr/m/n/10 [22] Fio Cruz, ``De-fici^encia Au-di-tiva", Acesso em: 13 ago, 
-2021. [On-line]. Dis-ponvel: http://www
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1028
-
- []
-
-[1] [2] [3] (TCC.aux) ) 
+[1] (Análise dos sites.aux) ) 
 Here is how much of TeX's memory you used:
- 16378 strings out of 479334
- 338861 string characters out of 2857559
- 676563 words of memory out of 3000000
- 33493 multiletter control sequences out of 15000+200000
- 413300 words of font info for 71 fonts, out of 3000000 for 9000
+ 16140 strings out of 479334
+ 334684 string characters out of 2857559
+ 677943 words of memory out of 3000000
+ 33298 multiletter control sequences out of 15000+200000
+ 404037 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,9n,89p,4205b,854s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\tcrm1000.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DELL/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TCC.pdf (43 pages, 228894 bytes).
+ 87i,5n,89p,682b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on "Análise dos sites.pdf" (10 pages, 91736 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
