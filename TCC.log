@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  20 DEC 2021 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.10)  16 MAY 2022 09:53
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -811,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--161
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
+Underfull \hbox (badness 10000) in paragraph at lines 167--183
 
  []
 
@@ -819,316 +819,477 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--172
 \tf@toc=\write4
 \openout4 = `TCC.toc'.
 
- [2] [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+ [2] [1]
+Underfull \hbox (badness 10000) in paragraph at lines 237--242
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 264
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 309
+Underfull \vbox (badness 10000) detected at line 289
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 348
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
-
+Underfull \vbox (badness 10000) detected at line 334
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 366
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
  []
 
 
-Overfull \hbox (5.42581pt too wide) in paragraph at lines 381--382
+Underfull \vbox (badness 10000) detected at line 373
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 391
+ []
+
+
+Overfull \hbox (5.42581pt too wide) in paragraph at lines 406--407
  \OT1/cmr/bx/n/10 2 - Com-por-ta-mento: [] \OT1/cmr/m/n/10 O se-gundo ponto, ch
 a-mado de com-por-ta-mento, tem sete re-co-mendac~oes,
  []
 
-[7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+[8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 460
+Underfull \vbox (badness 10000) detected at line 485
  []
 
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
-
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 521
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+Underfull \vbox (badness 10000) detected at line 546
+ []
+
+[13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 550
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 563--568
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--591
+Underfull \vbox (badness 10000) detected at line 575
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+
+ []
+
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 588--595
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
+Underfull \hbox (badness 10000) in paragraph at lines 596--618
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 634
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--646
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \vbox (badness 10000) detected at line 661
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--666
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 675--676
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--683
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--720
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 724--725
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 737--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
+Underfull \hbox (badness 10000) in paragraph at lines 741--742
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--759
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 763--764
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 808
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 785--786
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
+
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 835--836
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 835
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 837--838
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 878
+Underfull \hbox (badness 10000) in paragraph at lines 864--865
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 905
  []
 
 [23] [24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
 
  []
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 956--957
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 958--959
+[27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 985--986
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 993
+Underfull \hbox (badness 10000) in paragraph at lines 987--988
+
  []
 
-[28] [29]
-Overfull \hbox (1.72865pt too wide) in paragraph at lines 1023--1028
+
+Underfull \vbox (badness 10000) detected at line 1023
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1087
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1115--1116
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1151
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1180
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1215
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 1241--1242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1243--1244
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1279
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1308
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1343
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1407
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1435--1436
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1471
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1499--1500
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1535
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1564
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1599
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1629--1630
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1668
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1688--1689
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1690--1691
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1719
+ []
+
+[39]
+Overfull \hbox (1.72865pt too wide) in paragraph at lines 1738--1743
 \OT1/cmr/m/n/10 [22] Fio Cruz, ``De-fici^encia Au-di-tiva", Acesso em: 13 ago, 
 2021. [On-line]. Dis-ponvel: http://www
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1028
+Underfull \hbox (badness 10000) in paragraph at lines 1738--1743
 
  []
 
-[1] [2] [3] (TCC.aux) ) 
+[40] [41] [42] [43] [44] (TCC.aux) ) 
 Here is how much of TeX's memory you used:
- 16378 strings out of 479334
- 338861 string characters out of 2857559
- 676563 words of memory out of 3000000
- 33493 multiletter control sequences out of 15000+200000
+ 16392 strings out of 479334
+ 338978 string characters out of 2857559
+ 700409 words of memory out of 3000000
+ 33507 multiletter control sequences out of 15000+200000
  413300 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,9n,89p,4205b,854s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\tcrm1000.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DELL/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TCC.pdf (43 pages, 228894 bytes).
+ <C:\Users\DELL\AppData\Local\MiKTeX\fonts/
+pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/DELL/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/User
+s/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on TCC.pdf (55 pages, 292480 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
+ 216 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
